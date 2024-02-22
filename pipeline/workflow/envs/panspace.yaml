@@ -1,0 +1,9 @@
+name: panspace
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - python >= 3.9, < 3.10
+  - pip
+  - pip:
+    - git+https://github.com/pg-space/panspace.git # install panspace package from setup.cfg
