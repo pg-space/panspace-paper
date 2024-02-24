@@ -1,4 +1,4 @@
-.PHONY: all conda download_gold_standard download_bacteria fcgr_bacteria fcgr_gold_standard config report
+.PHONY: all conda test download_gold_standard download_bacteria fcgr_bacteria fcgr_gold_standard config report
 
 SHELL=/usr/bin/env bash -eo pipefail
 DATETIME=$(shell date -u +"%Y_%m_%dT%H_%M_%S")
@@ -12,7 +12,6 @@ MAX_DOWNLOAD_THREADS=$(shell grep "^max_download_threads"  pipeline/config/param
 # DOWNLOAD_RETRIES=$(shell grep "^download_retries" config.yaml | awk '{print $$2}')
 MAX_IO_HEAVY_THREADS=$(shell grep "^max_io_heavy_threads" pipeline/config/params.yaml | awk '{print $$2}')
 MAX_RAM_MB=$(shell grep "^max_ram_gb:" pipeline/config/params.yaml | awk '{print $$2*1024}')
-# THREADS=int(1)
 
 
 ifeq ($(SMK_CLUSTER_ARGS),)
@@ -37,8 +36,10 @@ all: ## Run everything (the default rule)
 	# make query
 
 clean:
-	rm -r data/*
-
+	rm -rf data/bacteria-test
+	rm -rf data/bacteria-all
+	rm -rf data/gold_standard
+	rm -rf data/*flag
 
 ####################
 ## Download data ##
@@ -47,10 +48,11 @@ clean:
 download_gold_standard: ## Download assemblies from NCBI: GEBA, FDA-ARGOS, NCTC3000
 	snakemake -s pipeline/Snakefile --until download_gold_standard $(SMK_PARAMS) $(DOWNLOAD_PARAMS)
 
-download: ## Download only the assemblies
+download_bacteria: ## Download 661k bacterial assembly dataset
 	snakemake -s pipeline/Snakefile --until download_bacteria $(SMK_PARAMS) $(DOWNLOAD_PARAMS)
 
-
+test:
+	snakemake -s pipeline/Snakefile --until download_bacteria_test $(SMK_PARAMS) $(DOWNLOAD_PARAMS)
 ####################
 ## Pipeline steps ##
 ####################

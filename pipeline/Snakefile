@@ -11,7 +11,7 @@ from os.path import join as pjoin
 # configfile: "config/config.yaml"
 
 ##### include rules #####
-# include: "workflow/rules/create_fcgr.smk"
+include: "workflow/rules/create_fcgr.smk"
 # include: "workflow/rules/create_index.smk"
 include: "workflow/rules/download_gold_standard.smk"
 # include: "workflow/rules/query_index.smk"
@@ -23,7 +23,12 @@ include: "workflow/rules/download_bacteria.smk"
 ### 661k bacterial dataset
 rule download_bacteria:
     input:
-        "data/batches_661k_bacteria.flag"
+        "data/batches_661k_bacteria_all.flag"
+
+rule download_bacteria_test:
+    input:
+        "data/batches_661k_bacteria_test.flag"
+
 
 
 ### Gold standar datasets
