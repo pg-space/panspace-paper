@@ -1,4 +1,4 @@
-configfile: "pipeline/config/params-fcgr.yaml"
+configfile: "pipeline/config/params.yaml"
 import json
 import tarfile
 from os.path import join as pjoin
@@ -8,15 +8,16 @@ from pathlib import Path
 
 # params
 KMER_SIZE=config["kmer_size"]
-OUTDIR=Path(config["outdir"]).joinpath(f"{KMER_SIZE}mer")
+OUTDIR=Path(config["outdir"])#.joinpath(f"{KMER_SIZE}mer")
+SUBSET=config["subset"]
 
 # # --- check all tarfiles ---
-DIR_TARFILES=config["fcgr"]["dir_tarfiles"]
+DIR_TARFILES=OUTDIR.joinpath(f"bacteria_{SUBSET}")
 # TARFILES = ["vibrio_shilonii__01", "vibrio_vulnificus__01"]
 TARFILES,= glob_wildcards(pjoin(DIR_TARFILES,"{tarfile}"+".tar.xz"))
 # TARFILES = [tarfile for tarfile in TARFILES if "__01" not in tarfile]
 print(TARFILES)
-
+print(DIR_TARFILES)
 
 rule all:
     input:

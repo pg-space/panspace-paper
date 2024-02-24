@@ -8,9 +8,11 @@ Define all rules (to define commands):
 """
 from os.path import join as pjoin
 
-# configfile: "config/config.yaml"
+configfile: "pipeline/config/params.yaml"
 
-##### include rules #####
+KMER = config["kmer_size"]
+SUBSET = config["subset"]
+
 include: "workflow/rules/create_fcgr.smk"
 # include: "workflow/rules/create_index.smk"
 include: "workflow/rules/download_gold_standard.smk"
@@ -20,7 +22,9 @@ include: "workflow/rules/download_bacteria.smk"
 
 ##### target rules #####
 
-### 661k bacterial dataset
+### ---- Download data ----
+
+# 661k bacterial dataset
 rule download_bacteria:
     input:
         "data/batches_661k_bacteria_all.flag"
@@ -29,9 +33,7 @@ rule download_bacteria_test:
     input:
         "data/batches_661k_bacteria_test.flag"
 
-
-
-### Gold standar datasets
+# Gold standar datasets
 PATH_DATASET_GOLD_STANDARD = Path("data/gold_standard")
 
 ACCESSIONS_NCBI={
@@ -45,3 +47,10 @@ rule download_gold_standard:
     input: 
         expand(PATH_DATASET_GOLD_STANDARD.joinpath("{dataset}/ncbi_dataset.zip"), dataset=datasets),
         expand(PATH_DATASET_GOLD_STANDARD.joinpath("{dataset}/list_paths.txt"), dataset=datasets)
+
+
+# rule fcgr_all:
+#     input:
+
+# rule fcgr:
+#     input:

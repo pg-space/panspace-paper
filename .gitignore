@@ -1,5 +1,14 @@
 .vscode/
 .snakemake/
+data/bacteria*
+data/*flag
+data/list*txt
+data/fcgr 
+data/kmer-count 
+data/logs 
+data/assembly 
+data/gold_standard
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
