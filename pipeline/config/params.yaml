@@ -1,6 +1,6 @@
 ##### Global ####
 kmer_size: 6
-
+threads: all
 # Inside the <outdir> folder will be created the "{kmer_size}mer/kmer-count/" 
 # and "{kmer_size}mer/fcgr/" directories. 
 # The first one with .txt files containing tuples of (k-mer, count)
@@ -62,3 +62,21 @@ outliers:
 #   # dir_fasta: /data/bacteria/ena-nctc3000
 #   # dir_fcgr: /data/bacteria/ena-nctc3000-panspace/fcgr
 #   # outdir: /data/bacteria/ena-nctc3000-panspace-mse
+
+
+# download
+
+# maximum number of download threads at a time (note: too many might slow down download speed and make Zenodo block your requests)
+# WARNING: this parameter is ignored when running on a cluster
+max_download_threads: 8
+
+# how many times to retry a download if it fails
+download_retries: 3
+
+# how many seconds to wait between retries
+download_retry_wait: 10
+
+# WARNING: this parameter is ignored when running on a cluster
+max_io_heavy_threads: 8
+
+max_ram_gb: 12

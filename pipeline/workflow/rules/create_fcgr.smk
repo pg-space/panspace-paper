@@ -1,4 +1,4 @@
-configfile: "params-fcgr.yaml"
+configfile: "pipeline/config/params-fcgr.yaml"
 import json
 import tarfile
 from os.path import join as pjoin

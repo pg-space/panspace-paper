@@ -1,0 +1,6 @@
+==> 2024-02-24 16:57:25 <==
+# cmd: /home/avila/micromamba/bin/mamba create --quiet --file /home/avila/github/panspace-paper/.snakemake/conda/854572bd1e954d4840797fda781ccf21_.yaml --prefix /home/avila/github/panspace-paper/.snakemake/conda/854572bd1e954d4840797fda781ccf21_
+# conda version: 23.11.0
++conda-forge/linux-64::ca-certificates-2024.2.2-hbcca054_0
++conda-forge/linux-64::ncbi-datasets-cli-16.5.0-ha770c72_0
+# update specs: ['ncbi-datasets-cli']

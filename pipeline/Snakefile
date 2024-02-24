@@ -1,0 +1,42 @@
+"""
+Define all rules (to define commands):
+
+- download data
+- download trained models and index
+- query index
+- train index
+"""
+from os.path import join as pjoin
+
+# configfile: "config/config.yaml"
+
+##### include rules #####
+# include: "workflow/rules/create_fcgr.smk"
+# include: "workflow/rules/create_index.smk"
+include: "workflow/rules/download_gold_standard.smk"
+# include: "workflow/rules/query_index.smk"
+# include: "workflow/rules/stats_assembly.smk"
+include: "workflow/rules/download_bacteria.smk"
+
+##### target rules #####
+
+### 661k bacterial dataset
+rule download_bacteria:
+    input:
+        "data/batches_661k_bacteria.flag"
+
+
+### Gold standar datasets
+PATH_DATASET_GOLD_STANDARD = Path("data/gold_standard")
+
+ACCESSIONS_NCBI={
+    # "NCTC3000": "PRJEB6403",
+    "GEBA": "PRJNA30815",
+    # "FDA-ARGOS": "PRJNA231221",
+}
+datasets = list(ACCESSIONS_NCBI.keys())
+
+rule download_gold_standard:
+    input: 
+        expand(PATH_DATASET_GOLD_STANDARD.joinpath("{dataset}/ncbi_dataset.zip"), dataset=datasets),
+        expand(PATH_DATASET_GOLD_STANDARD.joinpath("{dataset}/list_paths.txt"), dataset=datasets)
