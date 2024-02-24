@@ -21,7 +21,7 @@ print(DIR_TARFILES)
 
 rule all:
     input:
-        expand( pjoin(OUTDIR, "{tarfile}_aggregate.flag"), tarfile=TARFILES)
+        expand( pjoin(OUTDIR, "fcgr","{tarfile}_fcgr.flag"), tarfile=TARFILES)
 
 # outut fasta files in assembly/ directory
 checkpoint decompress_tarxz:
@@ -125,14 +125,14 @@ def aggregate_numpy_fcgr(wildcards,):
     return expand( pjoin(OUTDIR, "fcgr",f"{wildcards.tarfile}","{fasta}.npy"), fasta=list_fasta)    
 
 
-rule fake_aggregate:
+rule fcgr_aggregate:
     input: 
         aggregate_numpy_fcgr
     output: 
-        touch( pjoin(OUTDIR, "{tarfile}_aggregate.flag"))
+        touch( pjoin(OUTDIR, "fcgr","{tarfile}_fcgr.flag"))
     priority:
         200
     params:     
         kmerdir=lambda w: pjoin(OUTDIR,"kmer-count",f"{w.tarfile}"),
     shell:
-        "rm -r {params.kmerdir}"
+        "rm -rf {params.kmerdir}"

@@ -48,9 +48,20 @@ rule download_gold_standard:
         expand(PATH_DATASET_GOLD_STANDARD.joinpath("{dataset}/ncbi_dataset.zip"), dataset=datasets),
         expand(PATH_DATASET_GOLD_STANDARD.joinpath("{dataset}/list_paths.txt"), dataset=datasets)
 
+### ---- FCGR ----
+def load_batches(subset):
+    list_files=[]
+    with open(f"data/batches_661k_bacteria_{subset}.txt") as fp:
+        
+        for line in fp.readlines():
+            tarxz = line.replace("\n","").strip().split(" ")[-1]
+            name = tarxz.replace(".tar.xz","")
+            list_files.append(name)
+    return list_files
 
-# rule fcgr_all:
-#     input:
+list_files=load_batches(SUBSET)
+print(list_files)
+rule fcgr_all:
+    input:
+        expand( pjoin("data", "fcgr","{tarfile}_fcgr.flag"), tarfile=list_files)
 
-# rule fcgr:
-#     input:

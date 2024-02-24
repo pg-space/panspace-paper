@@ -1,4 +1,4 @@
-.PHONY: all conda test download_gold_standard download_bacteria fcgr_bacteria fcgr_gold_standard config report
+.PHONY: all conda test fcgr download_gold_standard download_bacteria fcgr_bacteria fcgr_gold_standard config report
 
 SHELL=/usr/bin/env bash -eo pipefail
 DATETIME=$(shell date -u +"%Y_%m_%dT%H_%M_%S")
@@ -36,9 +36,14 @@ all: ## Run everything (the default rule)
 	# make query
 
 clean:
-	rm -rf data/bacteria-test
-	rm -rf data/bacteria-all
+	rm -rf data/bacteria_test
+	rm -rf data/bacteria_all
 	rm -rf data/gold_standard
+	rm -rf data/kmer-count 
+	rm -rf data/fcgr
+	rm -rf data/assembly
+	rm -rf data/logs
+	rm -rf data/list*txt
 	rm -rf data/*flag
 
 ####################
@@ -53,6 +58,9 @@ download_bacteria: ## Download 661k bacterial assembly dataset
 
 test:
 	snakemake -s pipeline/Snakefile --until download_bacteria_test $(SMK_PARAMS) $(DOWNLOAD_PARAMS)
+
+fcgr:
+	snakemake -s pipeline/Snakefile --until fcgr_all $(SMK_PARAMS) $(DOWNLOAD_PARAMS)
 ####################
 ## Pipeline steps ##
 ####################
