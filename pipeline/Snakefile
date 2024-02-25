@@ -27,11 +27,7 @@ include: "workflow/rules/download_bacteria.smk"
 # 661k bacterial dataset
 rule download_bacteria:
     input:
-        "data/batches_661k_bacteria_all.flag"
-
-rule download_bacteria_test:
-    input:
-        "data/batches_661k_bacteria_test.flag"
+        f"data/batches_661k_bacteria_{SUBSET}.flag"
 
 # Gold standar datasets
 PATH_DATASET_GOLD_STANDARD = Path("data/gold_standard")
@@ -61,7 +57,7 @@ def load_batches(subset):
 
 list_files=load_batches(SUBSET)
 print(list_files)
-rule fcgr_all:
+rule fcgr:
     input:
         expand( pjoin("data", "fcgr","{tarfile}_fcgr.flag"), tarfile=list_files)
 

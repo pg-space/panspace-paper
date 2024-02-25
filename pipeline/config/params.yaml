@@ -2,9 +2,11 @@
 kmer_size: 6
 subset: test
 outdir: data
-threads: all
+threads: 8
 bin_fcgr: /home/avila/github/fcgr/fcgr
- 
+nvidia_gu: 1
+
+
 # Inside the <outdir> folder will be created the "{kmer_size}mer/kmer-count/" 
 # and "{kmer_size}mer/fcgr/" directories. 
 # The first one with .txt files containing tuples of (k-mer, count)

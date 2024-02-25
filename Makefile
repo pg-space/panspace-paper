@@ -8,19 +8,24 @@ DATETIME=$(shell date -u +"%Y_%m_%dT%H_%M_%S")
 .SUFFIXES:
 
 THREADS=$(shell grep "^threads:" pipeline/config/params.yaml | awk '{print $$2}')
-MAX_DOWNLOAD_THREADS=$(shell grep "^max_download_threads"  pipeline/config/params.yaml | awk '{print $$2}')
-# DOWNLOAD_RETRIES=$(shell grep "^download_retries" config.yaml | awk '{print $$2}')
-MAX_IO_HEAVY_THREADS=$(shell grep "^max_io_heavy_threads" pipeline/config/params.yaml | awk '{print $$2}')
-MAX_RAM_MB=$(shell grep "^max_ram_gb:" pipeline/config/params.yaml | awk '{print $$2*1024}')
+# MAX_DOWNLOAD_THREADS=$(shell grep "^max_download_threads"  pipeline/config/params.yaml | awk '{print $$2}')
+# # DOWNLOAD_RETRIES=$(shell grep "^download_retries" config.yaml | awk '{print $$2}')
+# MAX_IO_HEAVY_THREADS=$(shell grep "^max_io_heavy_threads" pipeline/config/params.yaml | awk '{print $$2}')
+# MAX_RAM_MB=$(shell grep "^max_ram_gb:" pipeline/config/params.yaml | awk '{print $$2*1024}')
 
+# resources
+NVIDIA_GPU=$(shell grep "^nvidia_gpu:" pipeline/config/params.yaml | awk '{print $$2}')
 
-ifeq ($(SMK_CLUSTER_ARGS),)
-    # configure local runSHELL
-    SMK_PARAMS=--cores ${THREADS} --rerun-incomplete --printshellcmds --keep-going --use-conda --resources max_download_threads=$(MAX_DOWNLOAD_THREADS) max_io_heavy_threads=$(MAX_IO_HEAVY_THREADS) max_ram_mb=$(MAX_RAM_MB)
-else
-    # configure cluster run
-    SMK_PARAMS=--cores all --rerun-incomplete --printshellcmds --keep-going --use-conda --resources max_download_threads=10000000 max_io_heavy_threads=10000000 max_ram_mb=1000000000 $(SMK_CLUSTER_ARGS)
-endif
+SMK_PARAMS=--cores ${THREADS} --rerun-incomplete --printshellcmds --keep-going --use-conda
+SMK_PARAMS_GPU=--cores ${THREADS} --rerun-incomplete --printshellcmds --keep-going --use-conda --resources nvidia_gpu=$(NVIDIA_GPU)
+
+# ifeq ($(SMK_CLUSTER_ARGS),)
+#     # configure local runSHELL
+#     SMK_PARAMS=--cores ${THREADS} --rerun-incomplete --printshellcmds --keep-going --use-conda --resources max_download_threads=$(MAX_DOWNLOAD_THREADS) max_io_heavy_threads=$(MAX_IO_HEAVY_THREADS) max_ram_mb=$(MAX_RAM_MB)
+# else
+#     # configure cluster run
+#     SMK_PARAMS=--cores all --rerun-incomplete --printshellcmds --keep-going --use-conda --resources max_download_threads=10000000 max_io_heavy_threads=10000000 max_ram_mb=1000000000 $(SMK_CLUSTER_ARGS)
+# endif
 
 # DOWNLOAD_PARAMS=--cores $(MAX_DOWNLOAD_THREADS) -j $(MAX_DOWNLOAD_THREADS) --restart-times $(DOWNLOAD_RETRIES)
 
@@ -51,19 +56,38 @@ clean:
 ####################
 
 download_gold_standard: ## Download assemblies from NCBI: GEBA, FDA-ARGOS, NCTC3000
-	snakemake -s pipeline/Snakefile --until download_gold_standard $(SMK_PARAMS) $(DOWNLOAD_PARAMS)
+	snakemake -s pipeline/Snakefile --until download_gold_standard $(SMK_PARAMS)
 
 download_bacteria: ## Download 661k bacterial assembly dataset
-	snakemake -s pipeline/Snakefile --until download_bacteria $(SMK_PARAMS) $(DOWNLOAD_PARAMS)
+	snakemake -s pipeline/Snakefile --until download_bacteria $(SMK_PARAMS) 
 
-test:
-	snakemake -s pipeline/Snakefile --until download_bacteria_test $(SMK_PARAMS) $(DOWNLOAD_PARAMS)
-
-fcgr:
-	snakemake -s pipeline/Snakefile --until fcgr_all $(SMK_PARAMS) $(DOWNLOAD_PARAMS)
 ####################
 ## Pipeline steps ##
 ####################
+
+fcgr:
+	snakemake -s pipeline/Snakefile --until download_bacteria $(SMK_PARAMS) 
+	snakemake -s pipeline/Snakefile --until fcgr $(SMK_PARAMS)
+
+create:
+	echo "TODO"
+
+query:
+	echo "TODO"
+
+####################
+##     Tests      ##
+####################
+
+test_download_bacteria:
+	snakemake -s pipeline/Snakefile --until download_bacteria $(SMK_PARAMS) --config subset=test
+
+test_fcgr:
+	snakemake -s pipeline/Snakefile --until download_bacteria $(SMK_PARAMS) --config subset=test
+	snakemake -s pipeline/Snakefile --until fcgr $(SMK_PARAMS) --config subset=test
+
+# test:
+
 
 # conda: ## Create the conda environments
 # 	snakemake -s pipeline/Snakefile $(SMK_PARAMS) --conda-create-envs-only

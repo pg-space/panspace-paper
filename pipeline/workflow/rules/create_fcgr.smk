@@ -8,38 +8,50 @@ from pathlib import Path
 
 # params
 KMER_SIZE=config["kmer_size"]
-OUTDIR=Path(config["outdir"])#.joinpath(f"{KMER_SIZE}mer")
+OUTDIR=Path(config["outdir"])
 SUBSET=config["subset"]
 
 # # --- check all tarfiles ---
 DIR_TARFILES=OUTDIR.joinpath(f"bacteria_{SUBSET}")
-# TARFILES = ["vibrio_shilonii__01", "vibrio_vulnificus__01"]
-TARFILES,= glob_wildcards(pjoin(DIR_TARFILES,"{tarfile}"+".tar.xz"))
-# TARFILES = [tarfile for tarfile in TARFILES if "__01" not in tarfile]
-print(TARFILES)
-print(DIR_TARFILES)
+# TARFILES,= glob_wildcards(pjoin(DIR_TARFILES,"{tarfile}"+".tar.xz"))
+# print(TARFILES)
+# print(DIR_TARFILES)
+# with open(OUTDIR.joinpath(f"batches_661k_bacteria_{SUBSET}.txt")) as fp:
+### ---- FCGR ----
+def load_batches(subset):
+    list_files=[]
+    with open(f"data/batches_661k_bacteria_{subset}.txt") as fp:
+        
+        for line in fp.readlines():
+            tarxz = line.replace("\n","").strip().split(" ")[-1]
+            name = tarxz.replace(".tar.xz","")
+            list_files.append(name)
+    return list_files
 
-rule all:
+TARFILES=load_batches(SUBSET)
+
+rule fcgr_verification:
     input:
         expand( pjoin(OUTDIR, "fcgr","{tarfile}_fcgr.flag"), tarfile=TARFILES)
 
 # outut fasta files in assembly/ directory
 checkpoint decompress_tarxz:
     input: 
-        pjoin(DIR_TARFILES, "{tarfile}" + ".tar.xz")
+        tarfile=pjoin(OUTDIR,f"bacteria_{SUBSET}", "{tarfile}" + ".tar.xz"),
+        flag_downloaded=pjoin(OUTDIR,f"batches_661k_bacteria_{SUBSET}.flag"),
     output:
-        directory(pjoin(OUTDIR, "assembly" ,"{tarfile}"))
+        directory(pjoin(OUTDIR, "assembly" ,"{tarfile}")),
     log:
-        pjoin(OUTDIR, "logs", "decompress_tarxz-{tarfile}.log")
+        pjoin(OUTDIR, "logs", "decompress_tarxz-{tarfile}.log"),
     params:
-        outdir=pjoin(OUTDIR,"assembly")
+        outdir=pjoin(OUTDIR,"assembly"),
     resources:
         limit_space=5,
     #     disk_mb=20_000_000
     shell:
         """
         mkdir -p {params.outdir}
-        /usr/bin/time -v tar -xvf {input} -C {params.outdir} 2> {log}
+        /usr/bin/time -v tar -xvf {input.tarfile} -C {params.outdir} 2> {log}
         """
 
 # store KMC output (.kmc_pre and .kmc_suf) in fcgr/ directory
@@ -93,7 +105,7 @@ rule list_path_fasta:
         """
 
 
-checkpoint fcgr:
+checkpoint save_fcgr_as_numpy:
     input:
         pjoin(OUTDIR, "list_path_kmc_{tarfile}.txt")
     output:
@@ -120,7 +132,7 @@ checkpoint fcgr:
 def aggregate_numpy_fcgr(wildcards,):
     "Helper function to collect all FCGR .npy files generated for a set of assemblies of a tarfile"
     
-    output_tarfile = checkpoints.fcgr.get(**wildcards).output[0]
+    output_tarfile = checkpoints.save_fcgr_as_numpy.get(**wildcards).output[0]
     list_fasta = glob_wildcards( pjoin(output_tarfile, "{fasta}.fa") ).fasta
     return expand( pjoin(OUTDIR, "fcgr",f"{wildcards.tarfile}","{fasta}.npy"), fasta=list_fasta)    
 
