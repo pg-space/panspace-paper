@@ -8,7 +8,7 @@ data/kmer-count
 data/logs 
 data/assembly 
 data/gold_standard
-
+output/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

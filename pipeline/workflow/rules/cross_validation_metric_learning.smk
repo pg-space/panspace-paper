@@ -11,7 +11,7 @@ For each k-fold, train and test sets (list of paths) are created,
 
 # wildcards: kfold
 
-configfile: "params-metric-learning.yaml"
+configfile: "pipeline/config/params.yaml"
 import json
 from pathlib import Path
 import datetime
@@ -19,7 +19,8 @@ import copy
 
 KMER = config["kmer_size"]
 OUTDIR=Path(config["outdir"])
-PATH_FCGR = Path(config["path_fcgr"]) #Path(OUTDIR).joinpath(f"{KMER}mer/fcgr")
+DATADIR=Path(config["datadir"])
+PATH_FCGR = DATADIR.joinpath("fcgr") #Path(config["path_fcgr"]) #Path(OUTDIR).joinpath(f"{KMER}mer/fcgr")
 NAME_EXPERIMENT=config["train"]["name_experiment"]
 PATH_TRAIN=Path(OUTDIR).joinpath(f"{KMER}mer/{NAME_EXPERIMENT}/cross-validation")
 ARCHITECTURE = config["train"]["architecture"]
@@ -49,14 +50,14 @@ def get_outputs(wildcards):
     outputs = []
     for kfold in KFOLDS: 
         
-        outputs.extend(
-            Path(PATH_TRAIN).joinpath(f"{loss}-{hidden_activation}-{kfold}-fold/data-curation/outliers_avg_dist_percentile.csv")
-            for loss, hidden_activation in zip(LOSS, HIDDEN_ACTIVATION)
-        )
-        outputs.extend(
-            Path(PATH_TRAIN).joinpath(f"{loss}-{hidden_activation}-{kfold}-fold/data-curation/percentile_threshold.json")
-            for loss, hidden_activation in zip(LOSS, HIDDEN_ACTIVATION)
-        )
+        # outputs.extend(
+        #     Path(PATH_TRAIN).joinpath(f"{loss}-{hidden_activation}-{kfold}-fold/data-curation/outliers_avg_dist_percentile.csv")
+        #     for loss, hidden_activation in zip(LOSS, HIDDEN_ACTIVATION)
+        # )
+        # outputs.extend(
+        #     Path(PATH_TRAIN).joinpath(f"{loss}-{hidden_activation}-{kfold}-fold/data-curation/percentile_threshold.json")
+        #     for loss, hidden_activation in zip(LOSS, HIDDEN_ACTIVATION)
+        # )
         # outputs.extend(
         #     PATH_TRAIN.joinpath(f"{loss}-{hidden_activation}-{kfold}-fold/checkpoints/weights-{ARCHITECTURE}.keras")
         #     for loss, hidden_activation in zip(LOSS, HIDDEN_ACTIVATION)
@@ -65,6 +66,14 @@ def get_outputs(wildcards):
         #     Path(PATH_TRAIN).joinpath(f"{loss}-{hidden_activation}-{kfold}-fold/faiss-embeddings/panspace.index")
         #     for loss, hidden_activation in zip(LOSS, HIDDEN_ACTIVATION)
         # )
+        # outputs.extend(
+        #     Path(PATH_TRAIN).joinpath(f"{loss}-{hidden_activation}-{kfold}-fold/faiss-embeddings/panspace.index")
+        #     for loss, hidden_activation in zip(LOSS, HIDDEN_ACTIVATION)
+        # )
+        outputs.extend(
+            Path(PATH_TRAIN).joinpath(f"{loss}-{hidden_activation}-{kfold}-fold/test/query_results.csv")
+            for loss, hidden_activation in zip(LOSS, HIDDEN_ACTIVATION)
+        )
         
     return outputs
 
@@ -93,7 +102,7 @@ rule kfold_split:
     conda: 
         "../envs/panspace.yaml"
     shell:
-        """/usr/bin/time -v panspace trainer split-data \
+        """/usr/bin/time -v panspace trainer split-data-cross-validation \
         --datadir {params.datadir} \
         --outdir {params.outdir} \
         --kfold {params.kfold} \

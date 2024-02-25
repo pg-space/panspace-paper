@@ -11,7 +11,7 @@ For each k-fold, train and test sets (list of paths) are created,
 
 # wildcards: kfold
 
-configfile: "params.yaml"
+configfile: "pipeline/config/params.yaml"
 import json
 from pathlib import Path
 import datetime
@@ -19,7 +19,8 @@ import copy
 
 KMER = config["kmer_size"]
 OUTDIR=Path(config["outdir"])
-PATH_FCGR = Path(OUTDIR).joinpath(f"{KMER}mer/fcgr")
+DATADIR=Path(config["datadir"])
+PATH_FCGR = Path(DATADIR).joinpath(f"fcgr")
 NAME_EXPERIMENT=config["train"]["name_experiment"]
 PATH_TRAIN=Path(OUTDIR).joinpath(f"{KMER}mer/{NAME_EXPERIMENT}/cross-validation")
 ARCHITECTURE = config["train"]["architecture"]
@@ -53,14 +54,14 @@ def get_outputs(wildcards):
     for kfold in KFOLDS: 
 
         outputs.extend(
-            Path(PATH_TRAIN).joinpath(f"{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/data-curation/outliers_avg_dist_percentile.csv")
-            # Path(PATH_TRAIN).joinpath(f"{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/test/query_results.csv")
+            # Path(PATH_TRAIN).joinpath(f"{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/data-curation/outliers_avg_dist_percentile.csv")
+            Path(PATH_TRAIN).joinpath(f"{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/test/query_results.csv")
             for loss, hidden_activation, output_activation in zip(LOSS, HIDDEN_ACTIVATION, OUTPUT_ACTIVATION)
         ),
-        outputs.extend(
-            Path(PATH_TRAIN).joinpath(f"{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/data-curation/percentile_threshold.json")
-            for loss, hidden_activation, output_activation in zip(LOSS, HIDDEN_ACTIVATION, OUTPUT_ACTIVATION)
-        )
+        # outputs.extend(
+        #     Path(PATH_TRAIN).joinpath(f"{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/data-curation/percentile_threshold.json")
+        #     for loss, hidden_activation, output_activation in zip(LOSS, HIDDEN_ACTIVATION, OUTPUT_ACTIVATION)
+        # )
     
     return outputs
 
@@ -89,7 +90,7 @@ rule kfold_split:
     conda: 
         "../envs/panspace.yaml"
     shell:
-        """/usr/bin/time -v panspace trainer split-data \
+        """/usr/bin/time -v panspace trainer split-data-cross-validation \
         --datadir {params.datadir} \
         --outdir {params.outdir} \
         --kfold {params.kfold} \

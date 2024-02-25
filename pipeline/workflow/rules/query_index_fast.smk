@@ -3,12 +3,12 @@ This script query the index with fasta files in a folder
 The output is a numpy file with the embeddings and a CSV with the top-10 predictions and distances
 """
 
-configfile: "panspace-query.yaml"
+configfile: "pipeline/config/panspace-query.yaml"
 from pathlib import Path
 from os.path import join as pjoin
 import json
 
-KMER_SIZE=6#config["kmer_size"]
+# KMER_SIZE=config["kmer_size"] # from params experiment
 # PATH_EXP=Path(config["outdir"]).joinpath(f"{KMER_SIZE}mer").joinpath(config["train"]["name_experiment"])#.joinpath("cross-validation/mean_squared_error-relu-relu-1-fold")
 PATH_EXP=Path(config["path_panspace"])
 OUTDIR = Path(config["outdir"])

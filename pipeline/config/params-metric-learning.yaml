@@ -30,7 +30,7 @@ train:
     # - triplet_hard_loss
     - triplet_semihard_loss
   margin: 1.0
-  hidden_activation: # sigmoid relu softmax 
+  hidden_activation: # sigmoid relu softmax leaky_relu
     # - leaky_relu 
     - leaky_relu
   preprocessing: scale_zero_one # distribution scale_zero_one 
