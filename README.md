@@ -26,12 +26,19 @@ make download_index_bacteria            # download index for 661k bacterial data
 # Query Index
 make query                              # query 661k bacterial index
 
-# Create Index
+# Create Index   download->fcgr->cross-validation->index
 make fcgr                               # create FCGR (it will download the data if needed)
-make create                             # create a new index: train a new encoder, create faiss-index 
+make create_ae                          # create a new index: train a new encoder, create faiss-index
+make create_ml                          # create a new index: train a new encoder, create faiss-index
 
 # Utilities
 make clean                              # delete all info in data/ directory
+
+# Test
+make test_download_bacteria
+make test_fcgr
+make test_create_ae
+make test_create_ml
 ```
 
 ___

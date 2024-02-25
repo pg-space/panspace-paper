@@ -49,12 +49,12 @@ fcgr:
 # metric learning
 create_ml:
 	make fcgr 
-	snakemake -s pipeline/workflow/rules/cross_validation_metric_learning.smk $(SMK_PARAMS_GPU) --config subset=test
+	snakemake -s pipeline/workflow/rules/cross_validation_metric_learning.smk $(SMK_PARAMS_GPU)
 
 # autoencoder
 create_ae:
 	make fcgr 
-	snakemake -s pipeline/workflow/rules/cross_validation_autoencoder.smk $(SMK_PARAMS_GPU) --config subset=test
+	snakemake -s pipeline/workflow/rules/cross_validation_autoencoder.smk $(SMK_PARAMS_GPU)
 
 query:
 	echo "TODO"
@@ -81,6 +81,9 @@ clean:
 	rm -rf data/list*txt
 	rm -rf data/*flag
 
+clean_output:
+	rm -rf output/*
+	
 ####################
 ##     Tests      ##
 ## test_<command> ##
@@ -95,11 +98,11 @@ test_fcgr:
 
 test_create_ml:
 	make test_fcgr
-	snakemake -s pipeline/workflow/rules/cross_validation_metric_learning.smk $(SMK_PARAMS_GPU) --config subset=test
+	snakemake -s pipeline/workflow/rules/cross_validation_metric_learning.smk $(SMK_PARAMS_GPU) --config subset=test architecture=CNNFCGR outdir=output/test-metric-learning hidden_activation=[relu] loss=[triplet_semihard_loss] 
 
 test_create_ae:
 	make test_fcgr 
-	snakemake -s pipeline/workflow/rules/cross_validation_autoencoder.smk $(SMK_PARAMS_GPU) --config subset=test
+	snakemake -s pipeline/workflow/rules/cross_validation_autoencoder.smk $(SMK_PARAMS_GPU) --config subset=test architecture=AutoencoderFCGR outdir=output/test-autoencoder hidden_activation=[relu] output_activation=[sigmoid] loss=[binary_crossentropy]
 	
 test_query:
 	echo "TODO"

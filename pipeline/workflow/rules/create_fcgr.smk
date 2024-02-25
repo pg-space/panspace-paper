@@ -7,16 +7,11 @@ from collections import defaultdict
 from pathlib import Path
 
 # params
-KMER_SIZE=config["kmer_size"]
-OUTDIR=Path(config["outdir"])
+KMER=config["kmer_size"]
+DATADIR=Path(config["datadir"])
+DIRFCGR=DATADIR.joinpath(f"fcgr/{KMER}mer")
 SUBSET=config["subset"]
 
-# # --- check all tarfiles ---
-DIR_TARFILES=OUTDIR.joinpath(f"bacteria_{SUBSET}")
-# TARFILES,= glob_wildcards(pjoin(DIR_TARFILES,"{tarfile}"+".tar.xz"))
-# print(TARFILES)
-# print(DIR_TARFILES)
-# with open(OUTDIR.joinpath(f"batches_661k_bacteria_{SUBSET}.txt")) as fp:
 ### ---- FCGR ----
 def load_batches(subset):
     list_files=[]
@@ -29,22 +24,23 @@ def load_batches(subset):
     return list_files
 
 TARFILES=load_batches(SUBSET)
+# print(TARFILES)
 
 rule fcgr_verification:
     input:
-        expand( pjoin(OUTDIR, "fcgr","{tarfile}_fcgr.flag"), tarfile=TARFILES)
+        expand( pjoin(DIRFCGR,"{tarfile}_fcgr.flag"), tarfile=TARFILES)
 
 # outut fasta files in assembly/ directory
 checkpoint decompress_tarxz:
     input: 
-        tarfile=pjoin(OUTDIR,f"bacteria_{SUBSET}", "{tarfile}" + ".tar.xz"),
-        flag_downloaded=pjoin(OUTDIR,f"batches_661k_bacteria_{SUBSET}.flag"),
+        tarfile=pjoin(DATADIR, "batches_bacteria", "{tarfile}.tar.xz"),
+        flag_downloaded=pjoin(DATADIR,f"batches_661k_bacteria_{SUBSET}.flag"),
     output:
-        directory(pjoin(OUTDIR, "assembly" ,"{tarfile}")),
+        directory(pjoin(DATADIR, "assembly" ,"{tarfile}")),
     log:
-        pjoin(OUTDIR, "logs", "decompress_tarxz-{tarfile}.log"),
+        pjoin(DATADIR, "logs", "decompress_tarxz-{tarfile}.log"),
     params:
-        outdir=pjoin(OUTDIR,"assembly"),
+        outdir=pjoin(DATADIR,"assembly"),
     resources:
         limit_space=5,
     #     disk_mb=20_000_000
@@ -57,15 +53,15 @@ checkpoint decompress_tarxz:
 # store KMC output (.kmc_pre and .kmc_suf) in fcgr/ directory
 rule count_kmers:
     input:
-        pjoin(OUTDIR, "assembly", "{tarfile}", "{fasta}.fa")
+        pjoin(DATADIR, "assembly", "{tarfile}", "{fasta}.fa")
     output:
-        pjoin(OUTDIR, "kmer-count","{tarfile}","{fasta}.kmc_pre"),
-        pjoin(OUTDIR, "kmer-count","{tarfile}","{fasta}.kmc_suf"),
+        pjoin(DATADIR, "kmer-count","{tarfile}","{fasta}.kmc_pre"),
+        pjoin(DATADIR, "kmer-count","{tarfile}","{fasta}.kmc_suf"),
     log:
-        pjoin(OUTDIR, "logs", "count_kmers-{tarfile}-{fasta}.log")
+        pjoin(DATADIR, "logs", "count_kmers-{tarfile}-{fasta}.log")
     params:
-        kmer=KMER_SIZE,
-        out=lambda w: pjoin(OUTDIR, "kmer-count",f"{w.tarfile}",f"{w.fasta}"),
+        kmer=KMER,
+        out=lambda w: pjoin(DATADIR, "kmer-count",f"{w.tarfile}",f"{w.fasta}"),
     conda:
         "../envs/kmc.yaml"
     # resources:
@@ -85,20 +81,20 @@ def aggregate_fasta_kmc(wildcards,):
     
     output_tarfile = checkpoints.decompress_tarxz.get(**wildcards).output[0]
     list_fasta = glob_wildcards( pjoin(output_tarfile, "{fasta}.fa") ).fasta
-    outdir = pjoin(OUTDIR, "kmer-count",f"{wildcards.tarfile}")
+    outdir = pjoin(DATADIR, "kmer-count",f"{wildcards.tarfile}")
     return expand( pjoin(outdir,"{fasta}.kmc_suf"), fasta=list_fasta)    
 
 rule list_path_fasta:
     input:  
         aggregate_fasta_kmc
     output: 
-        pjoin(OUTDIR, "list_path_kmc_{tarfile}.txt")
+        pjoin(DATADIR, "list_path_kmc_{tarfile}.txt")
     params:
-        kmerdir=lambda w: pjoin(OUTDIR,"kmer-count",f"{w.tarfile}"),
-        fcgrdir=lambda w: pjoin(OUTDIR,"fcgr",f"{w.tarfile}"),
-        parent_fcgrdir = lambda w: pjoin(OUTDIR,"fcgr")
+        kmerdir=lambda w: pjoin(DATADIR,"kmer-count",f"{w.tarfile}"),
+        fcgrdir=lambda w: pjoin(DIRFCGR,f"{w.tarfile}"),
+        parent_fcgrdir = lambda w: DIRFCGR
     log:
-        OUTDIR.joinpath("logs/list_path_fasta-{tarfile}.log")
+        DATADIR.joinpath("logs/list_path_fasta-{tarfile}.log")
     shell:
         """
         /usr/bin/time -v ls {params.kmerdir}/*.kmc_suf | while read f; do echo ${{f::-8}} >> {output} ; done 2> {log}
@@ -107,16 +103,16 @@ rule list_path_fasta:
 
 checkpoint save_fcgr_as_numpy:
     input:
-        pjoin(OUTDIR, "list_path_kmc_{tarfile}.txt")
+        pjoin(DATADIR, "list_path_kmc_{tarfile}.txt")
     output:
-        directory(pjoin(OUTDIR,"fcgr","{tarfile}"))
+        directory(pjoin(DIRFCGR, "{tarfile}"))
     params:
-        kmer=KMER_SIZE,
-        kmerdir=lambda w: pjoin(OUTDIR,"kmer-count",f"{w.tarfile}"),
-        fcgrdir=lambda w: pjoin(OUTDIR,"fcgr",f"{w.tarfile}"),
+        kmer=KMER,
+        kmerdir=lambda w: pjoin(DATADIR,"kmer-count",f"{w.tarfile}"),
+        fcgrdir=lambda w: pjoin(DIRFCGR, f"{w.tarfile}"),
         bin_fcgr=config["bin_fcgr"]
     log:
-        OUTDIR.joinpath("logs/fcgr-{tarfile}.log")
+        DATADIR.joinpath("logs/fcgr-{tarfile}.log")
     priority:
         100
     conda: 
@@ -134,17 +130,24 @@ def aggregate_numpy_fcgr(wildcards,):
     
     output_tarfile = checkpoints.save_fcgr_as_numpy.get(**wildcards).output[0]
     list_fasta = glob_wildcards( pjoin(output_tarfile, "{fasta}.fa") ).fasta
-    return expand( pjoin(OUTDIR, "fcgr",f"{wildcards.tarfile}","{fasta}.npy"), fasta=list_fasta)    
+    return expand( pjoin(DIRFCGR, f"{wildcards.tarfile}", "{fasta}.npy"), fasta=list_fasta)    
 
 
 rule fcgr_aggregate:
     input: 
         aggregate_numpy_fcgr
     output: 
-        touch( pjoin(OUTDIR, "fcgr","{tarfile}_fcgr.flag"))
+        touch( pjoin(DIRFCGR, "{tarfile}_fcgr.flag"))
     priority:
         200
     params:     
-        kmerdir=lambda w: pjoin(OUTDIR,"kmer-count",f"{w.tarfile}"),
+        kmerdir=lambda w: pjoin(DATADIR,"kmer-count",f"{w.tarfile}"),
+        dir_assemblies=pjoin(DATADIR,"assembly"),
+        dir_kmer_count=pjoin(DATADIR,"kmer-count"),
     shell:
-        "rm -rf {params.kmerdir}"
+        """
+        rm -rf {params.kmerdir}
+        rm -rf {params.dir_assemblies}
+        """
+        # rm -rf {params.dir_kmer_count}
+        # """

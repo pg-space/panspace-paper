@@ -59,7 +59,7 @@ list_files=load_batches(SUBSET)
 print(list_files)
 rule fcgr:
     input:
-        expand( pjoin("data", "fcgr","{tarfile}_fcgr.flag"), tarfile=list_files)
+        expand( pjoin(DIRFCGR,"{tarfile}_fcgr.flag"), tarfile=list_files)
 
 ### ---- Cross Validation ---- 
 

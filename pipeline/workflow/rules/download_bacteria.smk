@@ -18,7 +18,7 @@ rule download_verification:
     
 checkpoint download_batches:
     output:
-        dirsave=directory(f"data/bacteria_{subset}")
+        dirsave=directory(f"data/batches_bacteria")
     input: 
         txt=f"data/batches_661k_bacteria_{subset}.txt"
     params:

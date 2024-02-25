@@ -1,6 +1,6 @@
 .vscode/
 .snakemake/
-data/bacteria*
+data/batches_bacteria*
 data/*flag
 data/list*txt
 data/fcgr 

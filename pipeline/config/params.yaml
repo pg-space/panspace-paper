@@ -24,39 +24,38 @@ labels: data/labels_krakenbracken_by_sampleid.txt
 #   dir_tarfiles: /data/bacteria/datasets/661k-bacteria #/data/bacteria/subsample-dataset/small #""
 
 ##### create_index.smk ######
-train:
-  name_experiment: test-autoencoder #<mm_dd_aaaa-nexperiment>
-  latent_dim: 100
-  epochs: 2  
-  batch_size: 256 # best trade off 
-  architecture: 'AutoencoderFCGR' # Options:  'AutoencoderFCGR', 'CNNFCGR' (metric learning)
-  patiente_early_stopping: 30
-  patiente_learning_rate: 15
-  train_size: 0.8
-  optimizer: ranger
-  # choose combinations of loss and activation functions
-  # (loss, output_activation, hidden_activation) triplets will be run as zip() (not all combinations)
-  loss: # categorical_crossentropy binary_crossentropy mean_squared_error 
-    # - mean_squared_error 
-    - binary_crossentropy
-    # - triplet_hard_loss
-    # - triplet_semihard_loss
-  hidden_activation: # sigmoid relu softmax leaky_relu
-    # - relu 
-    # - leaky_relu
-    # - leaky_relu
-    - leaky_relu
-  
-  # ---- only autoencoder ----
-  output_activation: # sigmoid relu  
-    # - relu 
-    - sigmoid
-  # ---- only metric learning --- #
-  margin: 1.0
-  # ------------------------------#
-  preprocessing: scale_zero_one # distribution scale_zero_one 
-  seed: 42
-  kfold: 5
+
+name_experiment: test-autoencoder #<mm_dd_aaaa-nexperiment>
+latent_dim: 100
+epochs: 2  
+batch_size: 256 # best trade off 
+architecture: 'AutoencoderFCGR' # Options:  'AutoencoderFCGR', 'CNNFCGR' (metric learning)
+patiente_early_stopping: 30
+patiente_learning_rate: 15
+train_size: 0.8
+optimizer: ranger
+# choose combinations of loss and activation functions
+# (loss, output_activation, hidden_activation) triplets will be run as zip() (not all combinations)
+loss: # categorical_crossentropy binary_crossentropy mean_squared_error 
+  # - mean_squared_error 
+  - binary_crossentropy
+  - triplet_hard_loss
+  # - triplet_semihard_loss
+hidden_activation: # sigmoid relu softmax leaky_relu
+  # - relu 
+  # - leaky_relu
+  # - leaky_relu
+  - leaky_relu
+# ---- only autoencoder ----
+output_activation: # sigmoid relu  
+  # - relu 
+  - sigmoid
+# ---- only metric learning --- #
+margin: 1.0
+# ------------------------------#
+preprocessing: scale_zero_one # distribution scale_zero_one 
+seed: 42
+kfold: 5
 
 outliers:
   percentil_avg_distance: 99 # [0,100]% 

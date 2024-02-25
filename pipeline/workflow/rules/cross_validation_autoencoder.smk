@@ -20,23 +20,23 @@ import copy
 KMER = config["kmer_size"]
 OUTDIR=Path(config["outdir"])
 DATADIR=Path(config["datadir"])
-PATH_FCGR = Path(DATADIR).joinpath(f"fcgr")
-NAME_EXPERIMENT=config["train"]["name_experiment"]
+PATH_FCGR = Path(DATADIR).joinpath(f"fcgr/{KMER}mer")
+NAME_EXPERIMENT=config["name_experiment"]
 PATH_TRAIN=Path(OUTDIR).joinpath(f"{KMER}mer/{NAME_EXPERIMENT}/cross-validation")
-ARCHITECTURE = config["train"]["architecture"]
-LATENT_DIM = config["train"]["latent_dim"]
-KFOLD = config["train"]["kfold"]
+ARCHITECTURE = config["architecture"]
+LATENT_DIM = config["latent_dim"]
+KFOLD = config["kfold"]
 KFOLDS = [x+1 for x in range(KFOLD)]
 LABELS = config["labels"]
 PERCENTIL = config["outliers"]["percentil_avg_distance"] #0.99
 
-LOSS = config["train"]["loss"]
-HIDDEN_ACTIVATION = config["train"]["hidden_activation"]
-OUTPUT_ACTIVATION = config["train"]["output_activation"]
+LOSS = config["loss"]
+HIDDEN_ACTIVATION = config["hidden_activation"]
+OUTPUT_ACTIVATION = config["output_activation"]
 
 # save params used to run these pipeline
 
-_params = config["train"]
+_params = config
 # _params["datetime"] =  datetime.datetime.now()
 _params["kmer_size"] = KMER
 
@@ -110,20 +110,20 @@ rule train:
         nvidia_gpu=1
     params:
         outdir=lambda w: PATH_TRAIN.joinpath(f"{w.loss}-{w.hidden_activation}-{w.output_activation}-{w.kfold}-fold"),
-        autoencoder=config["train"]["architecture"],
-        latent_dim=config["train"]["latent_dim"],
+        autoencoder=config["architecture"],
+        latent_dim=config["latent_dim"],
         kmer=config["kmer_size"],
-        epochs=config["train"]["epochs"],
-        batch_size=config["train"]["batch_size"],
-        optimizer=config["train"]["optimizer"],
-        patiente_early_stopping=config["train"]["patiente_early_stopping"],
-        patiente_learning_rate=config["train"]["patiente_learning_rate"],
-        train_size=config["train"]["train_size"],
-        seed=config["train"]["seed"],
+        epochs=config["epochs"],
+        batch_size=config["batch_size"],
+        optimizer=config["optimizer"],
+        patiente_early_stopping=config["patiente_early_stopping"],
+        patiente_learning_rate=config["patiente_learning_rate"],
+        train_size=config["train_size"],
+        seed=config["seed"],
         loss=lambda wildcards: wildcards.loss,
         hidden_activation=lambda wildcards: wildcards.hidden_activation,
         output_activation=lambda wildcards: wildcards.output_activation,
-        preprocessing=config["train"]["preprocessing"]
+        preprocessing=config["preprocessing"]
     shell:
         """/usr/bin/time -v panspace trainer train-autoencoder \
         --training-list {input} \
