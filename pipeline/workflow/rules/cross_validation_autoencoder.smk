@@ -141,8 +141,7 @@ rule train:
         --hidden-activation {params.hidden_activation} \
         --output-activation {params.output_activation} \
         --train-size {params.train_size} \
-        --loss {params.loss} \
-        --seed {params.seed} 2> {log}
+        --loss {params.loss} 2> {log}
         """
 
 rule extract_encoder:
@@ -168,7 +167,8 @@ rule create_index:
         encoder=Path(PATH_TRAIN).joinpath("{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/models/encoder.keras"),
         files_to_index=Path(PATH_TRAIN).joinpath("train_{kfold}-fold.txt"),
     params:
-        latent_dim=LATENT_DIM
+        latent_dim=LATENT_DIM,
+        kmer_size=KMER,
     resources:
         nvidia_gpu=1
     log:
@@ -181,7 +181,8 @@ rule create_index:
         --col-labels 1 \
         --path-encoder {input.encoder} \
         --path-index {output.index}\
-        --latent-dim {params.latent_dim} 2> {log}"""
+        --latent-dim {params.latent_dim} \
+        --kmer-size {params.kmer_size} 2> {log}"""
 
 rule test_index:
     output:
@@ -192,7 +193,8 @@ rule test_index:
         path_encoder=Path(PATH_TRAIN).joinpath("{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/models/encoder.keras"),
         files_to_query=Path(PATH_TRAIN).joinpath("test_{kfold}-fold.txt")
     params:
-        outdir=lambda w: Path(PATH_TRAIN).joinpath(f"{w.loss}-{w.hidden_activation}-{w.output_activation}-{w.kfold}-fold/test")
+        outdir=lambda w: Path(PATH_TRAIN).joinpath(f"{w.loss}-{w.hidden_activation}-{w.output_activation}-{w.kfold}-fold/test"),
+        kmer_size=KMER,
     resources:
         nvidia_gpu=1
     log:
@@ -206,7 +208,8 @@ rule test_index:
         --path-encoder {input.path_encoder} \
         --path-index {input.path_index} \
         --col-labels 1 \
-        --outdir {params.outdir} 2> {log}
+        --outdir {params.outdir} \
+        --kmer-size {params.kmer_size} 2> {log}
         """
 
 

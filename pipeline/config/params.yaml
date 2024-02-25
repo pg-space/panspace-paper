@@ -1,5 +1,5 @@
 ##### Global ####
-kmer_size: 6
+kmer_size: 7
 subset: test
 datadir: data               # download data, create fcgr
 outdir: output              # trained models, index
