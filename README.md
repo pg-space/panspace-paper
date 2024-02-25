@@ -15,8 +15,7 @@ you can use `conda` / `miniconda` / `micromamba` instead of `mamba`.
 
 ___
 
-## 2. Query the index
-or create a new one.
+## 2. Commands
 
 ```{bash}
 # Data
@@ -28,7 +27,7 @@ make download_index_bacteria            # download index for 661k bacterial data
 make query                              # query 661k bacterial index
 
 # Create Index
-make fcgr                               # create FCGR for 661k bacterial dataset
+make fcgr                               # create FCGR (it will download the data if needed)
 make create                             # create a new index: train a new encoder, create faiss-index 
 
 # Utilities
@@ -36,6 +35,14 @@ make clean                              # delete all info in data/ directory
 ```
 
 ___
+
+### 2.1 Query the index
+We provide 2 indexes, one based in `autoencoder`, and the other one based on `metric-learning`. 
+Choose between one of the following in the main configuration file `pipeline/config/params.yaml`
+```yaml
+index_model: metric-learning # Options: autoencoder, metric-learning 
+```
+default is `metric-learning`
 
 
 *EXTENSIONS ACCEPTED*: `.fa` , `.fna`, `.fasta`
@@ -57,4 +64,5 @@ assemblies of the same species are retrieved.
 
 - The $k$-mer distribution of each assembly is represented by its FCGR. 
 - FCGRs are used to train an encoder (current implementations allow the use of autoencoders, or metric learning architectures)
-- The goal is to m
+- the encoder maps an FCGR to an n-dimensional vector, where each assembly is represented by another vector.
+- a query consists on an (draft) assembly, and it returns a ranked list of indexed assemblies with the smaller euclidean distance between their vector representations.

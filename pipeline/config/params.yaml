@@ -6,6 +6,8 @@ threads: 8
 bin_fcgr: /home/avila/github/fcgr/fcgr
 nvidia_gu: 1
 
+# query index
+labels: /data/bacteria/labels_krakenbracken_by_sampleid.txt
 
 # Inside the <outdir> folder will be created the "{kmer_size}mer/kmer-count/" 
 # and "{kmer_size}mer/fcgr/" directories. 
@@ -15,19 +17,18 @@ nvidia_gu: 1
 # If they are needed, remove temp() in 'rule count_kmers' in rules/create_fcgr.smk 
 
 # outdir: /data/bacteria/experiments/autoencoders
-labels: /data/bacteria/labels_krakenbracken_by_sampleid.txt
 
 ##### create_fcgr.smk ######
-fcgr:
-  dir_tarfiles: /data/bacteria/datasets/661k-bacteria #/data/bacteria/subsample-dataset/small #""
+# fcgr:
+#   dir_tarfiles: /data/bacteria/datasets/661k-bacteria #/data/bacteria/subsample-dataset/small #""
 
 # kmer counter
-kmc:
-  max_ram: 4
-  tmp: "tmp-kmc"
-  threads: 4
-  min_threshold: 1
-  max_threshold: 1000000
+# kmc:
+#   max_ram: 4
+#   tmp: "tmp-kmc"
+#   threads: 4
+#   min_threshold: 1
+#   max_threshold: 1000000
 
 ##### create_index.smk ######  
 train:
