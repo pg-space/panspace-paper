@@ -12,7 +12,6 @@ rule download_verification:
     input:
         f"data/batches_661k_bacteria_{subset}.flag"
 
-    
 checkpoint download_batches:
     output:
         dirsave=directory(f"data/batches_bacteria")
@@ -24,7 +23,7 @@ checkpoint download_batches:
     shell:
         """
         mkdir -p {output.dirsave}
-        cut {input.txt} -d" " -f3 \
+        cut {input.txt} -d" " -f3 | \
         while read f; 
             do wget {params.link_zenodo}/$f -O {output.dirsave}/$f;
         done
