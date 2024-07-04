@@ -12,9 +12,6 @@ rule download_verification:
     input:
         f"data/batches_661k_bacteria_{subset}.flag"
 
-# rule download_verification_test:
-#     input:
-#         f"data/batches_661k_bacteria_test.flag"
     
 checkpoint download_batches:
     output:
@@ -27,7 +24,7 @@ checkpoint download_batches:
     shell:
         """
         mkdir -p {output.dirsave}
-        cut {input.txt} -d" " -f3 | head -n 3 | \
+        cut {input.txt} -d" " -f3 \
         while read f; 
             do wget {params.link_zenodo}/$f -O {output.dirsave}/$f;
         done
