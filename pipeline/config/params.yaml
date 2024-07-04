@@ -39,7 +39,7 @@ optimizer: ranger
 loss: # categorical_crossentropy binary_crossentropy mean_squared_error 
   # - mean_squared_error 
   - binary_crossentropy
-  - triplet_hard_loss
+  # - triplet_hard_loss
   # - triplet_semihard_loss
 hidden_activation: # sigmoid relu softmax leaky_relu
   - relu 
