@@ -33,13 +33,14 @@ def get_outputs(wildcards):
 
 rule all:
     input:
-        get_outputs
+        get_outputs,
+        Path(PATH_TRAIN).joinpath(f"outliers/outliers.csv")
+
 
 
 rule outlier_detection:
     output:
-        path_outliers = Path(PATH_TRAIN).joinpath(f"{{loss}}-{{hidden_activation}}-{{output_activation}}-{{kfold}}-fold/ood/outliers_avg_dist_percentile.csv"),
-        # path_threshold = Path(PATH_TRAIN).joinpath(f"{{loss}}-{{hidden_activation}}-{{output_activation}}-{{kfold}}-fold/data-curation/percentile_threshold.json"),
+        path_outliers = Path(PATH_TRAIN).joinpath("{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/ood/outliers_avg_dist_percentile.csv"),
     input:
         path_index=Path(PATH_TRAIN).joinpath("{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/faiss-embeddings/panspace.index"),
         train_embeddings=Path(PATH_TRAIN).joinpath("{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/faiss-embeddings/embeddings.npy"),
@@ -64,4 +65,19 @@ rule outlier_detection:
         --outdir {params.outdir} \
         --neighbors {params.neighbors} \
         --percentile {params.percentile} 2> {log} 
+        """
+
+rule merge_outliers:
+    output:
+        path_outliers = Path(PATH_TRAIN).joinpath(f"outliers/outliers.csv"),
+    input:
+        get_outputs
+    conda: 
+        "../envs/panspace.yaml"
+    log:
+        log=Path(PATH_TRAIN).joinpath("logs/merge_outliers.log")
+    shell:
+        """
+        /usr/bin/time -v panspace data-curation utils-join-df \
+        {input} -o {output} 2> {log}
         """

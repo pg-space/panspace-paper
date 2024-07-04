@@ -2,7 +2,7 @@
 kmer_size: 6
 subset: test
 datadir: data               # download data, create fcgr
-outdir: output              # trained models, index
+outdir: output-test              # trained models, index
 threads: 8
 bin_fcgr: /home/avila/github/fcgr/fcgr
 nvidia_gpu: 1
@@ -26,12 +26,12 @@ labels: data/labels_krakenbracken_by_sampleid.txt
 ##### create_index.smk ######
 
 name_experiment: test-autoencoder #<mm_dd_aaaa-nexperiment>
-latent_dim: 100
-epochs: 2  
+latent_dim: 50
+epochs: 30  
 batch_size: 256 # best trade off 
 architecture: 'AutoencoderFCGR' # Options:  'AutoencoderFCGR', 'CNNFCGR' (metric learning)
-patiente_early_stopping: 30
-patiente_learning_rate: 15
+patiente_early_stopping: 10
+patiente_learning_rate: 7
 train_size: 0.8
 optimizer: ranger
 # choose combinations of loss and activation functions

@@ -56,6 +56,18 @@ create_ae:
 	make fcgr 
 	snakemake -s pipeline/workflow/rules/cross_validation_autoencoder.smk $(SMK_PARAMS_GPU)
 
+# outliers
+find_outliers:
+	snakemake -s pipeline/workflow/rules/outlier_detection.smk $(SMK_PARAMS)
+
+# confident-learning
+find_mislabeled_assemblies:
+	snakemake -s pipeline/workflow/rules/confident_learning.smk $(SMK_PARAMS)
+
+confident_learning:
+	make find_outliers
+	make find_mislabeled_assemblies
+
 query:
 	echo "TODO"
 
@@ -96,14 +108,49 @@ test_fcgr:
 	make test_download_bacteria
 	snakemake -s pipeline/Snakefile --until fcgr $(SMK_PARAMS) --config subset=test
 
+
+###--------------------###
+##   Test Autoencoder   ##
+###--------------------###
+
+
+# Test Autoencoders
+test_create_ae:
+	make test_fcgr 
+	snakemake -s pipeline/workflow/rules/cross_validation_autoencoder.smk $(SMK_PARAMS_GPU) --config subset=test architecture=AutoencoderFCGR outdir=output hidden_activation=[relu] output_activation=[sigmoid] loss=[binary_crossentropy] name_experiment=test-autoencoder
+
+# outliers
+test_find_outliers_ae:
+	snakemake -s pipeline/workflow/rules/outlier_detection.smk $(SMK_PARAMS) --config subset=test architecture=AutoencoderFCGR outdir=output hidden_activation=[relu] output_activation=[sigmoid] loss=[binary_crossentropy] name_experiment=test-autoencoder
+
+# confident-learning
+test_find_mislabeled_assemblies_ae:
+	snakemake -s pipeline/workflow/rules/confident_learning.smk $(SMK_PARAMS) --config subset=test architecture=AutoencoderFCGR outdir=output hidden_activation=[relu] output_activation=[sigmoid] loss=[binary_crossentropy] name_experiment=test-autoencoder
+
+test_confident_learning_ae:
+	make test_find_outliers_ae
+	make test_find_mislabeled_assemblies_ae
+
+
+###--------------------###
+## Test Metric learning ##
+###--------------------###
 test_create_ml:
 	make test_fcgr
 	snakemake -s pipeline/workflow/rules/cross_validation_metric_learning.smk $(SMK_PARAMS_GPU) --config subset=test architecture=CNNFCGR outdir=output hidden_activation=[relu] loss=[triplet_semihard_loss] name_experiment=test-metric-learning
 
-test_create_ae:
-	make test_fcgr 
-	snakemake -s pipeline/workflow/rules/cross_validation_autoencoder.smk $(SMK_PARAMS_GPU) --config subset=test architecture=AutoencoderFCGR outdir=output hidden_activation=[relu] output_activation=[sigmoid] loss=[binary_crossentropy] name_experiment=test-autoencoder
-	
+# outliers
+test_find_outliers_ml:
+	snakemake -s pipeline/workflow/rules/outlier_detection.smk $(SMK_PARAMS) --config subset=test architecture=CNNFCGR outdir=output hidden_activation=[relu] loss=[triplet_semihard_loss] name_experiment=test-metric-learning
+
+# confident-learning
+test_find_mislabeled_assemblies_ml:
+	snakemake -s pipeline/workflow/rules/confident_learning.smk $(SMK_PARAMS) --config subset=test architecture=CNNFCGR outdir=output hidden_activation=[relu] loss=[triplet_semihard_loss] name_experiment=test-metric-learning
+
+test_confident_learning_ml:
+	make test_find_outliers_ml
+	make test_find_mislabeled_assemblies_ml
+
 test_query:
 	echo "TODO"
 

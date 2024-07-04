@@ -48,19 +48,17 @@ def get_outputs_labels(wildcards):
 rule all:
     input:
         # get_outputs,
+        Path(PATH_TRAIN).joinpath(f"confident-learning/label_issues.npy"),
         path_pred_probs = Path(PATH_TRAIN).joinpath(f"confident-learning/pred_probs.npy"),
         path_labels = Path(PATH_TRAIN).joinpath(f"confident-learning/labels.npy"),
-
+        
 rule pred_probs:
     output:
-        path_pred_probs = Path(PATH_TRAIN).joinpath(f"{{loss}}-{{hidden_activation}}-{{output_activation}}-{{kfold}}-fold/confident-learning/pred_probs.npy"),
-        path_label_gt = Path(PATH_TRAIN).joinpath(f"{{loss}}-{{hidden_activation}}-{{output_activation}}-{{kfold}}-fold/confident-learning/labels.npy"),
-        # path_pred_labels = Path(PATH_TRAIN).joinpath(f"{{loss}}-{{hidden_activation}}-{{output_activation}}-{{kfold}}-fold/confident_learning/pred_labels.csv"),
+        path_pred_probs = Path(PATH_TRAIN).joinpath("{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/confident-learning/pred_probs.npy"),
+        path_label_gt = Path(PATH_TRAIN).joinpath("{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/confident-learning/labels.npy"),
     input:
         train_embeddings=Path(PATH_TRAIN).joinpath("{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/faiss-embeddings/embeddings.npy"),
         test_embeddings=Path(PATH_TRAIN).joinpath("{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/test/embeddings.npy"),
-        # train_labels=Path(PATH_TRAIN).joinpath("{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/faiss-embeddings/labels.json"),
-        # test_labels=Path(PATH_TRAIN).joinpath("{loss}-{hidden_activation}-{output_activation}-{kfold}-fold/test/labels.json"),
     params:
         train_labels=lambda w: Path(PATH_TRAIN).joinpath(f"train_{w.kfold}-fold.txt"),
         test_labels=lambda w: Path(PATH_TRAIN).joinpath(f"test_{w.kfold}-fold.txt"),
@@ -90,7 +88,7 @@ rule merge_pred_probs:
     conda: 
         "../envs/panspace.yaml"
     log:
-        log=Path(PATH_TRAIN).joinpath("logs/confident_learning.log")
+        log=Path(PATH_TRAIN).joinpath("logs/merge_pred_probs.log")
     shell:
         """
         /usr/bin/time -v panspace data-curation utils-join-npy \
@@ -103,14 +101,32 @@ rule merge_labels:
         path_labels = Path(PATH_TRAIN).joinpath(f"confident-learning/labels.npy"),
     input:
         get_outputs_labels
+    conda: 
+        "../envs/panspace.yaml"
+    log:
+        log=Path(PATH_TRAIN).joinpath("logs/merge_labels.log")
+    shell:
+        """
+        /usr/bin/time -v panspace data-curation utils-join-npy \
+        {input} -o {output} 2> {log}
+        """
+
+rule confident_learning:
+    output:
+        path_label_issues = Path(PATH_TRAIN).joinpath(f"confident-learning/label_issues.npy"),
+    input:
+        path_labels=Path(PATH_TRAIN).joinpath(f"confident-learning/labels.npy"),
+        path_pred_probs = Path(PATH_TRAIN).joinpath(f"confident-learning/pred_probs.npy"),
     params:
-        path_save=lambda w: Path(PATH_TRAIN).joinpath("confident-learning/labels.npy"),
+        outdir = Path(PATH_TRAIN).joinpath("confident-learning")
     conda: 
         "../envs/panspace.yaml"
     log:
         log=Path(PATH_TRAIN).joinpath("logs/confident_learning.log")
     shell:
         """
-        /usr/bin/time -v panspace data-curation utils-join-npy \
-        {input} -o {params.path_save} 2> {log}
+        /usr/bin/time -v panspace data-curation confident-learning \
+        --path-pred-scores {input.path_pred_probs} \
+        --path-labels {input.path_labels} \
+        --outdir {params.outdir} 2> {log}
         """
