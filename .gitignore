@@ -9,6 +9,8 @@ data/logs
 data/assembly 
 data/gold_standard
 output/
+experiments-paper/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

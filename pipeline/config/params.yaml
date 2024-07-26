@@ -25,7 +25,7 @@ labels: data/labels_krakenbracken_by_sampleid.txt
 
 ##### create_index.smk ######
 
-name_experiment: test-autoencoder #<mm_dd_aaaa-nexperiment>
+name_experiment: 07_25_2024-autoencoder #<mm_dd_aaaa-nexperiment>
 latent_dim: 128
 epochs: 30  
 batch_size: 256 # best trade off 
@@ -37,8 +37,8 @@ optimizer: ranger
 # choose combinations of loss and activation functions
 # (loss, output_activation, hidden_activation) triplets will be run as zip() (not all combinations)
 loss: # categorical_crossentropy binary_crossentropy mean_squared_error 
-  # - mean_squared_error 
-  - binary_crossentropy
+  - mean_squared_error 
+  # - binary_crossentropy
   # - triplet_hard_loss
   # - triplet_semihard_loss
 hidden_activation: # sigmoid relu softmax leaky_relu
@@ -48,8 +48,8 @@ hidden_activation: # sigmoid relu softmax leaky_relu
   # - leaky_relu
 # ---- only autoencoder ----
 output_activation: # sigmoid relu  
-  # - relu 
-  - sigmoid
+  - relu 
+  # - sigmoid
 # ---- only metric learning --- #
 margin: 1.0
 # ------------------------------#

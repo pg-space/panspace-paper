@@ -64,7 +64,9 @@ rule pred_probs:
         test_labels=lambda w: Path(PATH_TRAIN).joinpath(f"test_{w.kfold}-fold.txt"),
         outdir=lambda w: Path(PATH_TRAIN).joinpath(f"{w.loss}-{w.hidden_activation}-{w.output_activation}-{w.kfold}-fold/confident-learning"),
     conda: 
-        "../envs/panspace.yaml"
+        "panspace-cli" #"../envs/panspace.yaml"
+    resources:
+        nvidia_gpu=1
     log:
         log=Path(PATH_TRAIN).joinpath("logs/confident_learning_{loss}-{hidden_activation}-{output_activation}-{kfold}-fold.log")
     shell:

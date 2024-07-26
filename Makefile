@@ -48,12 +48,12 @@ fcgr:
 
 # metric learning
 create_ml:
-	make fcgr 
+# make fcgr 
 	snakemake -s pipeline/workflow/rules/cross_validation_metric_learning.smk $(SMK_PARAMS_GPU)
 
 # autoencoder
 create_ae:
-	make fcgr 
+# make fcgr 
 	snakemake -s pipeline/workflow/rules/cross_validation_autoencoder.smk $(SMK_PARAMS_GPU)
 
 # outliers
@@ -62,7 +62,7 @@ find_outliers:
 
 # confident-learning
 find_mislabeled_assemblies:
-	snakemake -s pipeline/workflow/rules/confident_learning.smk $(SMK_PARAMS)
+	snakemake -s pipeline/workflow/rules/confident_learning.smk $(SMK_PARAMS_GPU)
 
 confident_learning:
 	make find_outliers

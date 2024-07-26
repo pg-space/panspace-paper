@@ -60,28 +60,28 @@ rule all:
     input:
         get_outputs
     
-rule kfold_split:
-    output:
-        expand( Path(PATH_TRAIN).joinpath("train_{kfold}-fold.txt") , kfold=KFOLDS),
-        expand( Path(PATH_TRAIN).joinpath("test_{kfold}-fold.txt") , kfold=KFOLDS),
-    input:
-        list(PATH_FCGR.rglob("*.npy"))
-    params: 
-        datadir=PATH_FCGR, 
-        outdir=PATH_TRAIN,
-        kfold=KFOLD,
-        labels=LABELS
-    log:
-        Path(PATH_TRAIN).joinpath("logs/kfold_split.log")
-    conda: 
-        "../envs/panspace.yaml"
-    shell:
-        """/usr/bin/time -v panspace trainer split-data-cross-validation \
-        --datadir {params.datadir} \
-        --outdir {params.outdir} \
-        --kfold {params.kfold} \
-        --labels {params.labels} 2> {log}
-        """
+# rule kfold_split:
+#     output:
+#         expand( Path(PATH_TRAIN).joinpath("train_{kfold}-fold.txt") , kfold=KFOLDS),
+#         expand( Path(PATH_TRAIN).joinpath("test_{kfold}-fold.txt") , kfold=KFOLDS),
+#     input:
+#         list(PATH_FCGR.rglob("*.npy"))
+#     params: 
+#         datadir=PATH_FCGR, 
+#         outdir=PATH_TRAIN,
+#         kfold=KFOLD,
+#         labels=LABELS
+#     log:
+#         Path(PATH_TRAIN).joinpath("logs/kfold_split.log")
+#     conda: 
+#         "../envs/panspace.yaml"
+#     shell:
+#         """/usr/bin/time -v panspace trainer split-data-cross-validation \
+#         --datadir {params.datadir} \
+#         --outdir {params.outdir} \
+#         --kfold {params.kfold} \
+#         --labels {params.labels} 2> {log}
+#         """
 
 rule train:
     output:
@@ -141,14 +141,14 @@ rule create_index:
     params:
         latent_dim=LATENT_DIM,
         kmer_size=KMER,
-    resources:
-        nvidia_gpu=1
     log:
         Path(PATH_TRAIN).joinpath("logs/create_index_{loss}-{hidden_activation}-{output_activation}-{kfold}-fold.log")
     priority:
         100
     conda: 
         "../envs/panspace.yaml"
+    resources:
+        nvidia_gpu=1
     shell:
         """/usr/bin/time -v panspace index create \
         --files-to-index {input.files_to_index} \
@@ -169,12 +169,12 @@ rule test_index:
     params:
         outdir=lambda w: Path(PATH_TRAIN).joinpath(f"{w.loss}-{w.hidden_activation}-{w.output_activation}-{w.kfold}-fold/test"),
         kmer_size=KMER,
-    resources:
-        nvidia_gpu=1
     log:
         Path(PATH_TRAIN).joinpath("logs/test_index_{loss}-{hidden_activation}-{output_activation}-{kfold}-fold.log")
     conda: 
         "../envs/panspace.yaml"
+    resources:
+        nvidia_gpu=1
     priority:
         200
     shell:        
