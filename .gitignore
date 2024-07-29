@@ -7,6 +7,7 @@ data/fcgr
 data/kmer-count 
 data/logs 
 data/assembly 
+data/reference_sequences
 data/gold_standard
 output/
 experiments-paper/
