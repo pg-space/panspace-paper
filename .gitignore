@@ -8,6 +8,7 @@ data/kmer-count
 data/logs 
 data/assembly 
 data/reference_sequences
+data/reference_ncbi
 data/gold_standard
 data/*tsv
 output/
