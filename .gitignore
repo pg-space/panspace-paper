@@ -9,6 +9,7 @@ data/logs
 data/assembly 
 data/reference_sequences
 data/gold_standard
+data/*tsv
 output/
 experiments-paper/
 

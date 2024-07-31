@@ -1,0 +1,1709 @@
+label	Assembly Accession	Organism Name	Assembly Release Date
+xanthomonas_euvesicatoria	GCF_017724035.1	Xanthomonas euvesicatoria pv. alfalfae	2021-04-03
+streptococcus_pyogenes	GCF_900475035.1	Streptococcus pyogenes	2018-06-17
+corynebacterium_glutamicum	GCF_000404185.1	Corynebacterium glutamicum SCgG2	2013-06-03
+vibrio_parahaemolyticus	GCF_000196095.1	Vibrio parahaemolyticus RIMD 2210633	2004-05-11
+mycobacteroides_chelonae	GCF_001632805.1	Mycobacteroides chelonae CCUG 47445	2016-04-27
+cronobacter_sakazakii	GCF_003516125.1	Cronobacter sakazakii	2020-03-18
+serratia_ficaria	GCF_900187015.1	Serratia ficaria	2017-08-15
+pandoraea_oxalativorans	GCF_000972785.3	Pandoraea oxalativorans	2016-06-15
+staphylococcus_epidermidis	GCF_006094375.1	Staphylococcus epidermidis	2019-06-06
+clostridium_perfringens	GCF_020138775.1	Clostridium perfringens	2021-09-24
+staphylococcus_aureus	GCF_000013425.1	Staphylococcus aureus subsp. aureus NCTC 8325	2006-02-13
+bacillus_subtilis	GCF_000009045.1	Bacillus subtilis subsp. subtilis str. 168	2009-03-17
+elizabethkingia_meningoseptica	GCF_002022145.1	Elizabethkingia meningoseptica	2017-03-06
+vibrio_diabolicus	GCF_011801455.1	Vibrio diabolicus	2020-03-31
+pseudomonas_fuscovaginae	GCF_900108595.1	Pseudomonas fuscovaginae	2016-10-27
+pantoea_ananatis	GCF_000233595.1	Pantoea ananatis PA13	2011-11-01
+pseudomonas_parafulva	GCF_000730645.1	Pseudomonas parafulva NBRC 16636 = DSM 17004	2014-07-10
+staphylococcus_schleiferi	GCF_902374935.1	Staphylococcus schleiferi	2019-08-22
+haemophilus_influenzae	GCF_000931575.1	Haemophilus influenzae	2015-02-23
+acinetobacter_radioresistens	GCF_003258335.1	Acinetobacter radioresistens	2018-06-20
+bacillus_anthracis	GCF_000008445.1	Bacillus anthracis str. 'Ames Ancestor'	2004-07-09
+cronobacter_muytjensii	GCF_001277195.1	Cronobacter muytjensii ATCC 51329	2015-09-01
+clostridium_botulinum	GCF_000063585.1	Clostridium botulinum A str. ATCC 3502	2007-05-24
+salmonella_enterica	GCF_000006945.2	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2	2016-01-13
+staphylococcus_capitis	GCF_025272815.1	Staphylococcus capitis subsp. capitis	2022-09-19
+erysipelothrix_rhusiopathiae	GCF_000270085.1	Erysipelothrix rhusiopathiae str. Fujisawa	2011-05-30
+plesiomonas_shigelloides	GCF_020991025.1	Plesiomonas shigelloides	2021-11-28
+raoultella_ornithinolytica	GCF_901421005.1	Raoultella ornithinolytica	2019-06-02
+pandoraea_norimbergensis	GCF_001465545.3	Pandoraea norimbergensis	2016-10-20
+flavobacterium_psychrophilum	GCF_013343195.2	Flavobacterium psychrophilum	2020-07-23
+mycobacterium_avium	GCF_022175585.2	Mycobacterium avium subsp. hominissuis	2024-05-08
+cronobacter_malonaticus	GCF_001277215.2	Cronobacter malonaticus LMG 23826	2016-01-13
+mycobacterium_kansasii	GCF_000157895.3	Mycobacterium kansasii ATCC 12478	2013-11-01
+enterococcus_faecium	GCF_009734005.1	Enterococcus faecium	2020-02-05
+cronobacter_universalis	GCF_001277175.1	Cronobacter universalis NCTC 9529	2015-09-01
+aeromonas_caviae	GCF_014169735.1	Aeromonas caviae	2020-07-21
+enterococcus_hirae	GCF_002278015.2	Enterococcus hirae	2018-02-23
+serratia_rubidaea	GCF_016026735.1	Serratia rubidaea	2020-12-14
+obesumbacterium_proteus	GCF_000980985.1	Obesumbacterium proteus	2015-04-24
+clostridium_chauvoei	GCF_002327205.1	Clostridium chauvoei	2017-09-21
+cutibacterium_granulosum	GCF_030295285.1	Cutibacterium granulosum	2023-02-01
+staphylococcus_agnetis	GCF_011466855.1	Staphylococcus agnetis	2020-03-19
+serratia_marcescens	GCF_003516165.1	Serratia marcescens	2018-09-10
+aerococcus_urinaeequi	GCF_001518795.1	Aerococcus urinaeequi	2016-01-20
+streptococcus_dysgalactiae	GCF_016128095.1	Streptococcus dysgalactiae	2020-12-20
+enterococcus_gilvus	GCF_003343305.1	Enterococcus gilvus	2018-07-26
+achromobacter_denitrificans	GCF_013267375.1	Achromobacter denitrificans	2020-06-04
+proteus_vulgaris	GCF_000754995.1	Proteus vulgaris	2014-09-16
+providencia_rettgeri	GCF_003204135.1	Providencia rettgeri	2018-06-10
+aeromonas_salmonicida	GCF_028355655.1	Aeromonas salmonicida	2023-01-31
+finegoldia_magna	GCF_000010185.1	Finegoldia magna ATCC 29328	2008-02-14
+citrobacter_freundii	GCF_904859905.1	Citrobacter freundii	2020-11-01
+shewanella_amazonensis	GCF_000015245.1	Shewanella amazonensis SB2B	2006-12-21
+brevibacterium_linens	GCF_003999335.1	Brevibacterium linens	2019-01-08
+moraxella_ovis	GCF_001636015.1	Moraxella ovis	2016-05-02
+enterococcus_cecorum	GCF_900474605.1	Enterococcus cecorum	2018-06-18
+burkholderia_gladioli	GCF_016698705.1	Burkholderia gladioli	2021-01-19
+mycolicibacterium_rutilum	GCF_900108565.1	Mycolicibacterium rutilum	2016-10-27
+arcanobacterium_haemolyticum	GCF_900475915.1	Arcanobacterium haemolyticum	2018-06-17
+corynebacterium_diphtheriae	GCF_021560115.1	Corynebacterium diphtheriae	2022-01-24
+shigella_dysenteriae	GCF_022354085.1	Shigella dysenteriae	2022-02-22
+lactococcus_garvieae	GCF_016026695.1	Lactococcus garvieae	2020-12-14
+aeromonas_veronii	GCF_008693705.1	Aeromonas veronii	2019-09-25
+moraxella_bovis	GCF_025985205.1	Moraxella bovis	2022-11-03
+citrobacter_werkmanii	GCF_008693645.1	Citrobacter werkmanii	2019-09-25
+rothia_mucilaginosa	GCF_000175615.1	Rothia mucilaginosa ATCC 25296	2009-08-05
+tannerella_forsythia	GCF_000238215.1	Tannerella forsythia 92A2	2011-12-15
+enterobacter_cloacae	GCF_905331265.2	Enterobacter cloacae	2022-05-24
+vibrio_anguillarum	GCF_003390515.1	Vibrio anguillarum	2018-08-15
+streptococcus_suis	GCF_000026745.1	Streptococcus suis BM407	2009-07-07
+bordetella_bronchiseptica	GCF_900636925.1	Bordetella bronchiseptica	2018-12-20
+mycolicibacterium_fortuitum	GCF_027570695.1	Mycolicibacterium fortuitum	2022-12-23
+escherichia_albertii	GCF_028622335.1	Escherichia albertii	2023-02-15
+vibrio_cholerae	GCF_008369605.1	Vibrio cholerae	2019-09-11
+bradyrhizobium_japonicum	GCF_013752735.1	Bradyrhizobium japonicum	2020-07-27
+bradyrhizobium_diazoefficiens	GCF_004359355.1	Bradyrhizobium diazoefficiens	2019-03-21
+listeria_monocytogenes	GCF_000196035.1	Listeria monocytogenes EGD-e	2003-05-06
+fusobacterium_nucleatum	GCF_003019295.1	Fusobacterium nucleatum subsp. nucleatum ATCC 25586	2018-03-26
+citrobacter_amalonaticus	GCF_001558935.2	Citrobacter amalonaticus	2018-02-12
+aggregatibacter_aphrophilus	GCF_900636915.1	Aggregatibacter aphrophilus ATCC 33389	2018-12-20
+histophilus_somni	GCF_000019405.1	Histophilus somni 2336	2008-02-26
+mycobacteroides_abscessus	GCF_004028015.1	Mycobacteroides abscessus	2019-01-16
+trueperella_pyogenes	GCF_000612055.1	Trueperella pyogenes	2014-04-02
+corynebacterium_ureicelerivorans	GCF_000747315.1	Corynebacterium ureicelerivorans	2014-09-03
+listeria_innocua	GCF_009648575.1	Listeria innocua	2019-11-11
+streptococcus_cristatus	GCF_900475445.1	Streptococcus cristatus ATCC 51100	2018-06-17
+corynebacterium_resistens	GCF_000177535.2	Corynebacterium resistens DSM 45100	2011-06-15
+staphylococcus_cohnii	GCF_900458255.1	Staphylococcus cohnii	2018-08-01
+klebsiella_oxytoca	GCF_003812925.1	Klebsiella oxytoca	2018-11-21
+tetragenococcus_halophilus	GCF_001712815.1	Tetragenococcus halophilus	2016-08-25
+mycobacterium_tuberculosis	GCF_000195955.2	Mycobacterium tuberculosis H37Rv	2013-02-01
+neisseria_subflava	GCF_005221305.1	Neisseria subflava	2019-05-07
+streptococcus_constellatus	GCF_900459125.1	Streptococcus constellatus	2018-07-31
+aeromonas_hydrophila	GCF_020162255.1	Aeromonas hydrophila	2021-09-28
+pseudomonas_putida	GCF_000412675.1	Pseudomonas putida NBRC 14164	2013-06-14
+mycolicibacterium_vaccae	GCF_001655245.1	Mycolicibacterium vaccae 95051	2016-06-03
+vibrio_fluvialis	GCF_001558415.2	Vibrio fluvialis	2018-01-29
+clostridium_saccharoperbutylacetonicum	GCF_000340885.1	Clostridium saccharoperbutylacetonicum N1-4(HMT)	2013-02-19
+providencia_heimbachae	GCF_900475855.1	Providencia heimbachae	2018-06-17
+flavobacterium_johnsoniae	GCF_000016645.1	Flavobacterium johnsoniae UW101	2007-05-01
+klebsiella_aerogenes	GCF_007632255.1	Klebsiella aerogenes	2019-07-30
+aeromonas_media	GCF_020423125.1	Aeromonas media	2021-10-12
+pseudomonas_fluorescens	GCF_900215245.1	Pseudomonas fluorescens	2017-09-06
+elizabethkingia_anophelis	GCF_002023665.2	Elizabethkingia anophelis R26	2017-09-18
+vibrio_alginolyticus	GCF_023650915.1	Vibrio alginolyticus	2022-06-06
+dermabacter_vaginalis	GCF_001678905.1	Dermabacter vaginalis	2016-07-05
+arcanobacterium_phocae	GCF_900105865.1	Arcanobacterium phocae	2016-10-21
+paracoccus_yeei	GCF_002749495.1	Paracoccus yeei	2017-11-03
+mycolicibacterium_neoaurum	GCF_018363015.1	Mycolicibacterium neoaurum	2021-05-16
+acinetobacter_bereziniae	GCF_016576965.1	Acinetobacter bereziniae	2020-12-20
+vibrio_vulnificus	GCF_002204915.1	Vibrio vulnificus	2017-06-22
+paenibacillus_xylanexedens	GCF_001908275.1	Paenibacillus xylanexedens	2016-12-19
+aggregatibacter_segnis	GCF_900476035.1	Aggregatibacter segnis ATCC 33393	2018-06-17
+elizabethkingia_bruuniana	GCF_016599835.1	Elizabethkingia bruuniana	2021-01-11
+pandoraea_faecigallinarum	GCF_001029105.3	Pandoraea faecigallinarum	2016-10-20
+burkholderia_cenocepacia	GCF_001718895.1	Burkholderia cenocepacia	2016-09-02
+brevundimonas_vesicularis	GCF_002208825.2	Brevundimonas vesicularis	2018-03-02
+alicycliphilus_denitrificans	GCF_000179015.2	Alicycliphilus denitrificans BC	2011-01-07
+chryseobacterium_indologenes	GCF_900460995.1	Chryseobacterium indologenes	2018-08-08
+providencia_alcalifaciens	GCF_002393505.1	Providencia alcalifaciens	2017-09-28
+bordetella_pertussis	GCF_004008975.1	Bordetella pertussis	2019-01-09
+kosakonia_cowanii	GCF_025758125.1	Kosakonia cowanii	2022-10-19
+corynebacterium_striatum	GCF_016728105.1	Corynebacterium striatum	2021-01-20
+clostridium_sporogenes	GCF_020450145.1	Clostridium sporogenes	2021-10-13
+capnocytophaga_canimorsus	GCF_002302565.1	Capnocytophaga canimorsus	2017-09-14
+clostridium_tetani	GCF_000007625.1	Clostridium tetani E88	2003-02-05
+pseudomonas_aeruginosa	GCF_000006765.1	Pseudomonas aeruginosa PAO1	2006-07-07
+bacteroides_fragilis	GCF_016889925.1	Bacteroides fragilis	2021-02-15
+bordetella_holmesii	GCF_009627355.1	Bordetella holmesii	2019-11-08
+vibrio_gazogenes	GCF_023920225.1	Vibrio gazogenes	2022-06-27
+orientia_tsutsugamushi	GCF_900327255.1	Orientia tsutsugamushi	2018-05-12
+campylobacter_jejuni	GCF_000009085.1	Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819	2003-05-06
+burkholderia_cepacia	GCF_009586235.1	Burkholderia cepacia	2019-10-29
+acinetobacter_baumannii	GCF_008632635.1	Acinetobacter baumannii	2019-09-23
+corynebacterium_ulcerans	GCF_000215645.1	Corynebacterium ulcerans 809	2011-06-02
+citrobacter_koseri	GCF_000018045.1	Citrobacter koseri ATCC BAA-895	2007-09-11
+eikenella_corrodens	GCF_900187105.1	Eikenella corrodens	2017-08-15
+acinetobacter_pittii	GCF_000191145.1	Acinetobacter pittii PHEA-2	2011-03-03
+morganella_morganii	GCF_902387845.1	Morganella morganii	2019-08-10
+bordetella_parapertussis	GCF_004008295.1	Bordetella parapertussis	2019-01-09
+streptobacillus_moniliformis	GCF_000024565.1	Streptobacillus moniliformis DSM 12112	2009-11-16
+acinetobacter_junii	GCF_018336855.1	Acinetobacter junii	2021-05-11
+helicobacter_pylori	GCF_017821535.1	Helicobacter pylori	2021-04-07
+bordetella_avium	GCF_000070465.1	Bordetella avium 197N	2006-09-29
+ralstonia_insidiosa	GCF_001663855.1	Ralstonia insidiosa	2016-06-14
+cronobacter_turicensis	GCF_030026565.1	Cronobacter turicensis	2023-05-16
+neisseria_mucosa	GCF_900454435.1	Neisseria mucosa	2018-08-01
+achromobacter_xylosoxidans	GCF_016728825.1	Achromobacter xylosoxidans	2021-01-20
+tsukamurella_tyrosinosolvens	GCF_001623895.1	Tsukamurella tyrosinosolvens	2016-04-19
+serratia_liquefaciens	GCF_008364325.2	Serratia liquefaciens	2020-02-26
+staphylococcus_hyicus	GCF_000816085.1	Staphylococcus hyicus	2015-01-07
+enterococcus_faecalis	GCF_000393015.1	Enterococcus faecalis EnGen0336	2013-05-14
+serratia_proteamaculans	GCF_949794035.1	Serratia proteamaculans	2023-04-16
+listeria_ivanovii	GCF_000763515.1	Listeria ivanovii subsp. ivanovii	2014-10-06
+cedecea_neteri	GCF_002393445.1	Cedecea neteri	2017-09-28
+mycobacterium_dioxanotrophicus	GCF_002157835.1	Mycobacterium dioxanotrophicus	2017-05-25
+candidatus_tachikawaea_gelatinosa	GCF_000828815.1	Candidatus Tachikawaea gelatinosa	2014-09-19
+mycobacterium_simiae	GCF_010727605.1	Mycobacterium simiae	2020-02-06
+pasteurella_multocida	GCF_002073255.2	Pasteurella multocida	2018-03-01
+salmonella_bongori	GCF_000439255.1	Salmonella bongori N268-08	2013-07-23
+staphylococcus_kloosii	GCF_003019255.1	Staphylococcus kloosii	2018-03-26
+bacillus_cereus	GCF_002220285.1	Bacillus cereus	2017-07-17
+weissella_cibaria	GCF_001951095.1	Weissella cibaria	2017-01-13
+providencia_stuartii	GCF_029075745.1	Providencia stuartii	2023-03-09
+enterobacter_cancerogenus	GCF_019665745.1	Enterobacter cancerogenus	2021-08-18
+brachyspira_pilosicoli	GCF_000143725.1	Brachyspira pilosicoli 95/1000	2010-07-16
+citrobacter_braakii	GCF_009648935.1	Citrobacter braakii	2019-11-11
+neisseria_sicca	GCF_017753665.1	Neisseria sicca	2021-04-05
+porphyromonas_gingivalis	GCF_000010505.1	Porphyromonas gingivalis ATCC 33277	2008-05-20
+nocardia_seriolae	GCF_002356035.1	Nocardia seriolae	2016-12-01
+komagataeibacter_medellinensis	GCF_000182745.2	Komagataeibacter medellinensis NBRC 3288	2011-09-25
+gluconobacter_oxydans	GCF_000583855.1	Gluconobacter oxydans DSM 3504	2014-03-03
+vibrio_owensii	GCF_002021755.1	Vibrio owensii	2017-03-06
+burkholderia_contaminans	GCF_004723625.1	Burkholderia contaminans	2017-09-08
+pseudomonas_furukawaii	GCF_002355475.1	Pseudomonas furukawaii	2016-04-05
+cupriavidus_basilensis	GCF_008801925.2	Cupriavidus basilensis	2020-10-29
+cupriavidus_metallidurans	GCF_900185755.1	Cupriavidus metallidurans	2017-07-22
+pseudomonas_sihuiensis	GCF_900106015.1	Pseudomonas sihuiensis	2016-10-21
+comamonas_testosteroni	GCF_016599875.1	Comamonas testosteroni	2021-01-11
+synechococcus_elongatus	GCF_000012525.1	Synechococcus elongatus PCC 7942 = FACHB-805	2005-11-08
+mycolicibacterium_gilvum	GCF_000184435.1	Mycolicibacterium gilvum Spyr1	2010-12-21
+streptomyces_lydicus	GCF_001984445.1	Streptomyces lydicus	2017-02-03
+streptomyces_albireticuli	GCF_021228305.1	Streptomyces albireticuli	2021-12-18
+escherichia_marmotae	GCF_029962465.1	Escherichia marmotae	2023-05-10
+streptomyces_atratus	GCF_003330865.1	Streptomyces atratus	2018-07-20
+tistrella_mobilis	GCF_000264455.2	Tistrella mobilis KA081020-065	2012-12-05
+streptomyces_albus	GCF_024752535.1	Streptomyces albus	2022-08-28
+stenotrophomonas_maltophilia	GCF_900475405.1	Stenotrophomonas maltophilia	2018-06-17
+blastochloris_viridis	GCF_001402875.1	Blastochloris viridis	2015-10-22
+oceanobacillus_iheyensis	GCF_000011245.1	Oceanobacillus iheyensis HTE831	2004-02-19
+bacillus_thuringiensis	GCF_000161615.1	Bacillus thuringiensis serovar berliner ATCC 10792	2009-05-29
+paenibacillus_polymyxa	GCF_006274405.1	Paenibacillus polymyxa	2019-06-12
+streptococcus_pneumoniae	GCF_002076835.1	Streptococcus pneumoniae	2017-04-03
+vibrio_campbellii	GCF_002906475.1	Vibrio campbellii	2018-01-30
+streptomyces_scabiei	GCF_000091305.1	Streptomyces scabiei 87.22	2009-10-06
+janthinobacterium_svalbardensis	GCF_002327145.1	Janthinobacterium svalbardensis	2017-09-21
+mycolicibacterium_thermoresistibile	GCF_900187065.1	Mycolicibacterium thermoresistibile	2017-08-15
+nocardia_farcinica	GCF_000009805.1	Nocardia farcinica IFM 10152	2004-10-08
+acinetobacter_venetianus	GCF_000368585.1	Acinetobacter venetianus RAG-1 = CIP 110063	2013-04-19
+streptococcus_agalactiae	GCF_001552035.1	Streptococcus agalactiae	2016-02-08
+acidithiobacillus_ferrivorans	GCF_900174455.1	Acidithiobacillus ferrivorans	2017-04-21
+phaeobacter_inhibens	GCF_002892185.1	Phaeobacter inhibens	2018-01-18
+microbacterium_foliorum	GCF_003367705.1	Microbacterium foliorum	2018-08-09
+sphingobium_cloacae	GCF_002355855.1	Sphingobium cloacae	2016-10-04
+halorhodospira_halochloris	GCF_002356555.2	Halorhodospira halochloris	2018-05-22
+candidatus_rhodoluna_planktonica	GCF_001854225.1	Candidatus Rhodoluna planktonica	2016-10-26
+streptosporangium_roseum	GCF_000024865.1	Streptosporangium roseum DSM 43021	2009-12-10
+klebsiella_pneumoniae	GCF_000240185.1	Klebsiella pneumoniae subsp. pneumoniae HS11286	2011-12-27
+ehrlichia_ruminantium	GCF_013460375.1	Ehrlichia ruminantium	2020-07-22
+enterobacter_hormaechei	GCF_024218835.1	Enterobacter hormaechei subsp. steigerwaltii	2022-07-12
+enterobacter_bugandensis	GCF_020042625.1	Enterobacter bugandensis	2021-09-20
+proteus_mirabilis	GCF_000069965.1	Proteus mirabilis HI4320	2008-04-03
+klebsiella_variicola	GCF_009648975.1	Klebsiella variicola	2019-11-11
+paracoccus_denitrificans	GCF_000203895.1	Paracoccus denitrificans PD1222	2006-12-13
+lactobacillus_amylovorus	GCF_000194115.1	Lactobacillus amylovorus GRL1118	2011-03-29
+lactobacillus_delbrueckii	GCF_001888925.1	Lactobacillus delbrueckii subsp. jakobsenii ZN7a-9 = DSM 26046	2016-12-05
+bifidobacterium_thermophilum	GCF_002846655.1	Bifidobacterium thermophilum	2017-12-21
+lactobacillus_johnsonii	GCF_014058685.1	Lactobacillus johnsonii	2020-08-04
+cupriavidus_oxalaticus	GCF_008807855.1	Cupriavidus oxalaticus	2019-10-03
+alcaligenes_faecalis	GCF_000967305.2	Alcaligenes faecalis	2015-11-17
+acidimicrobium_ferrooxidans	GCF_000023265.1	Acidimicrobium ferrooxidans DSM 10331	2009-08-18
+beutenbergia_cavernae	GCF_000023105.1	Beutenbergia cavernae DSM 12333	2009-05-07
+catenulispora_acidiphila	GCF_000024025.1	Catenulispora acidiphila DSM 44928	2009-08-21
+cellulomonas_fimi	GCF_000212695.1	Cellulomonas fimi ATCC 484	2011-05-09
+corynebacterium_terpenotabidum	GCF_000418365.1	Corynebacterium terpenotabidum Y-11	2013-07-05
+corynebacterium_callunae	GCF_000344785.1	Corynebacterium callunae DSM 20147	2013-03-06
+stackebrandtia_nassauensis	GCF_000024545.1	Stackebrandtia nassauensis DSM 44728	2010-03-05
+intrasporangium_calvum	GCF_000184685.1	Intrasporangium calvum DSM 43043	2010-12-29
+jonesia_denitrificans	GCF_900475835.1	Jonesia denitrificans	2018-06-17
+kineococcus_radiotolerans	GCF_000017305.1	Kineococcus radiotolerans SRS30216 = ATCC BAA-149	2008-08-14
+micromonospora_aurantiaca	GCF_000145235.1	Micromonospora aurantiaca ATCC 27029	2010-08-11
+salinispora_tropica	GCF_000016425.1	Salinispora tropica CNB-440	2007-04-17
+nakamurella_multipartita	GCF_000024365.1	Nakamurella multipartita DSM 44233	2009-09-15
+saccharomonospora_viridis	GCF_000023865.1	Saccharomonospora viridis DSM 43017	2009-08-26
+saccharopolyspora_erythraea	GCF_000062885.1	Saccharopolyspora erythraea NRRL 2338	2007-03-21
+saccharothrix_espanaensis	GCF_000328705.1	Saccharothrix espanaensis DSM 44229	2012-10-02
+xylanimonas_cellulosilytica	GCF_000024965.1	Xylanimonas cellulosilytica DSM 15894	2009-11-20
+microlunatus_phosphovorus	GCF_000270245.1	Microlunatus phosphovorus NM-1	2011-06-01
+sanguibacter_keddieii	GCF_000024925.1	Sanguibacter keddieii DSM 10542	2009-11-19
+kitasatospora_setae	GCF_000269985.1	Kitasatospora setae KM-6054	2010-11-11
+tsukamurella_paurometabola	GCF_000092225.1	Tsukamurella paurometabola DSM 20162	2010-05-13
+rickettsia_japonica	GCF_002356735.1	Rickettsia japonica	2017-01-23
+staphylococcus_argenteus	GCF_000236925.1	Staphylococcus argenteus	2011-11-10
+helicobacter_cinaedi	GCF_000284635.1	Helicobacter cinaedi PAGU611	2012-04-23
+streptomyces_dengpaensis	GCF_002946835.1	Streptomyces dengpaensis	2018-02-22
+vibrio_rumoiensis	GCF_002218045.2	Vibrio rumoiensis	2018-06-06
+vibrio_casei	GCF_003335255.1	Vibrio casei	2018-07-22
+veillonella_parvula	GCF_900186885.1	Veillonella parvula	2017-08-15
+veillonella_rodentium	GCF_900187285.1	Veillonella rodentium	2017-08-15
+brevibacillus_brevis	GCF_900637055.1	Brevibacillus brevis	2018-12-20
+klebsiella_quasipneumoniae	GCF_016415705.1	Klebsiella quasipneumoniae	2020-12-15
+muribaculum_intestinale	GCF_001688845.2	Muribaculum intestinale	2017-04-05
+prevotella_dentalis	GCF_000242335.1	Prevotella dentalis DSM 3688	2012-12-27
+helicobacter_apodemus	GCF_003097575.1	Helicobacter apodemus	2018-05-08
+bacteroides_caecimuris	GCF_001688725.2	Bacteroides caecimuris	2017-04-05
+aerococcus_christensenii	GCF_001543105.1	Aerococcus christensenii	2016-02-01
+clostridioides_difficile	GCF_018885085.1	Clostridioides difficile	2021-06-15
+streptococcus_infantarius	GCF_016127275.1	Streptococcus infantarius	2020-12-20
+prevotella_intermedia	GCF_001953955.1	Prevotella intermedia ATCC 25611 = DSM 20706	2017-01-18
+anaerotignum_propionicum	GCF_001561955.1	Anaerotignum propionicum DSM 1682	2016-02-16
+bacteroides_zoogleoformans	GCF_002998435.1	Bacteroides zoogleoformans	2018-03-14
+desulfovibrio_fairfieldensis	GCF_001553605.1	Desulfovibrio fairfieldensis	2016-02-09
+roseburia_hominis	GCF_902387955.1	Roseburia hominis	2019-08-10
+alkaliphilus_metalliredigens	GCF_000016985.1	Alkaliphilus metalliredigens QYMF	2007-06-28
+legionella_pneumophila	GCF_001753085.1	Legionella pneumophila	2016-10-06
+pseudomonas_fulva	GCF_001186195.1	Pseudomonas fulva	2015-07-22
+neisseria_gonorrhoeae	GCF_013030075.1	Neisseria gonorrhoeae	2020-05-01
+bacillus_licheniformis	GCF_002074095.1	Bacillus licheniformis	2017-03-29
+vibrio_nigripulchritudo	GCF_000723605.1	Vibrio nigripulchritudo Wn13	2014-06-26
+bradyrhizobium_oligotrophicum	GCF_000344805.1	Bradyrhizobium oligotrophicum S58	2013-02-28
+leptospira_alstonii	GCF_001569395.1	Leptospira alstonii	2016-02-24
+leptospira_biflexa	GCF_000017685.1	Leptospira biflexa serovar Patoc strain 'Patoc 1 (Paris)'	2008-02-13
+flavonifractor_plautii	GCF_010508875.1	Flavonifractor plautii	2020-02-13
+oscillibacter_valericigenes	GCF_021531915.1	Oscillibacter valericigenes	2022-01-19
+enterobacter_asburiae	GCF_007035805.1	Enterobacter asburiae	2019-05-14
+hafnia_alvei	GCF_011617105.1	Hafnia alvei	2020-03-23
+lawsonia_intracellularis	GCF_000331715.1	Lawsonia intracellularis N343	2013-01-14
+campylobacter_coli	GCF_009730395.1	Campylobacter coli	2019-12-05
+chlamydia_trachomatis	GCF_000008725.1	Chlamydia trachomatis D/UW-3/CX	2001-01-09
+neisseria_meningitidis	GCF_008330805.1	Neisseria meningitidis	2019-09-09
+leptospira_interrogans	GCF_002073495.2	Leptospira interrogans serovar Copenhageni	2018-03-01
+escherichia_fergusonii	GCF_020097475.1	Escherichia fergusonii	2021-09-23
+burkholderia_pseudomallei	GCF_000756125.1	Burkholderia pseudomallei	2014-09-18
+paenibacillus_glucanolyticus	GCF_001633025.1	Paenibacillus glucanolyticus	2016-04-27
+comamonas_kerstersii	GCF_002056725.1	Comamonas kerstersii	2017-03-21
+streptococcus_mitis	GCF_000960005.1	Streptococcus mitis	2015-03-23
+marinovum_algicola	GCF_900109145.1	Marinovum algicola	2016-10-31
+phaeobacter_gallaeciensis	GCF_000511385.1	Phaeobacter gallaeciensis DSM 26640	2013-12-20
+celeribacter_baekdonensis	GCF_900102315.1	Celeribacter baekdonensis	2016-10-21
+celeribacter_indicus	GCF_000819565.1	Celeribacter indicus	2015-01-16
+streptococcus_pseudopneumoniae	GCF_000221985.1	Streptococcus pseudopneumoniae IS7493	2011-07-29
+streptococcus_oralis	GCF_900637025.1	Streptococcus oralis ATCC 35037	2018-12-20
+roseovarius_mucosus	GCF_000768555.3	Roseovarius mucosus DSM 17069	2014-10-24
+octadecabacter_arcticus	GCF_000155735.2	Octadecabacter arcticus 238	2013-04-08
+neisseria_lactamica	GCF_003351565.1	Neisseria lactamica	2018-08-01
+neisseria_polysaccharea	GCF_963392925.1	Neisseria polysaccharea	2023-08-27
+moraxella_catarrhalis	GCF_002080125.1	Moraxella catarrhalis	2017-04-05
+micrococcus_luteus	GCF_019890915.1	Micrococcus luteus	2021-09-07
+staphylococcus_warneri	GCF_003571725.1	Staphylococcus warneri	2018-09-16
+acetobacter_pasteurianus	GCF_009914215.2	Acetobacter pasteurianus	2023-07-11
+komagataeibacter_xylinus	GCF_004006375.1	Komagataeibacter xylinus	2019-01-09
+komagataeibacter_europaeus	GCF_002173515.1	Komagataeibacter europaeus	2017-06-06
+acetobacter_ascendens	GCF_002173775.1	Acetobacter ascendens	2017-06-06
+butyrivibrio_fibrisolvens	GCF_037113525.1	Butyrivibrio fibrisolvens	2024-04-05
+bifidobacterium_pseudocatenulatum	GCF_020541885.1	Bifidobacterium pseudocatenulatum	2021-10-21
+faecalitalea_cylindroides	GCF_028321995.1	Faecalitalea cylindroides	2023-01-30
+anaerostipes_hadrus	GCF_000210695.1	Anaerostipes hadrus	2010-03-25
+faecalibacterium_prausnitzii	GCF_000154385.1	Faecalibacterium prausnitzii M21/2	2007-09-12
+[eubacterium]_eligens	GCF_000146185.1	[Eubacterium] eligens ATCC 27750	2009-06-04
+lachnoclostridium_phocaeense	GCF_900120345.1	Lachnoclostridium phocaeense	2016-11-22
+planococcus_versutus	GCF_001186155.3	Planococcus versutus	2016-11-01
+ruminococcus_bicirculans	GCF_000723465.1	Ruminococcus bicirculans (ex Wegman et al. 2014)	2014-01-06
+oceanisphaera_avium	GCF_002157875.1	Oceanisphaera avium	2017-05-25
+acetoanaerobium_sticklandii	GCF_000196455.1	Acetoanaerobium sticklandii	2010-10-16
+staphylococcus_lugdunensis	GCF_001558775.1	Staphylococcus lugdunensis	2016-02-11
+burkholderia_stabilis	GCF_900240005.1	Burkholderia stabilis	2018-10-22
+staphylococcus_haemolyticus	GCF_001611955.1	Staphylococcus haemolyticus	2016-04-06
+melissococcus_plutonius	GCF_003966875.1	Melissococcus plutonius	2018-04-24
+chlamydia_suis	GCF_900169125.1	Chlamydia suis	2017-06-06
+ruegeria_pomeroyi	GCF_000011965.2	Ruegeria pomeroyi DSS-3	2013-12-10
+neisseria_elongata	GCF_003351545.1	Neisseria elongata	2018-08-01
+campylobacter_helveticus	GCF_002080395.1	Campylobacter helveticus	2017-04-06
+chlamydia_caviae	GCF_000007605.1	Chlamydia caviae GPIC	2003-04-14
+campylobacter_lari	GCF_000019205.1	Campylobacter lari RM2100	2009-02-05
+burkholderia_dolosa	GCF_000959505.1	Burkholderia dolosa AU0158	2015-03-20
+burkholderia_multivorans	GCF_036352035.1	Burkholderia multivorans	2024-02-04
+pseudomonas_protegens	GCF_900560965.1	Pseudomonas protegens CHA0	2019-03-14
+chlamydia_pneumoniae	GCF_000007205.1	Chlamydia pneumoniae TW-183	2003-07-25
+candidatus_nitrospira_inopinata	GCF_001458695.1	Candidatus Nitrospira inopinata	2015-11-16
+acinetobacter_lwoffii	GCF_019343495.1	Acinetobacter lwoffii	2021-07-26
+acinetobacter_johnsonii	GCF_000368805.1	Acinetobacter johnsonii ANC 3681	2013-04-19
+streptococcus_anginosus	GCF_001412635.1	Streptococcus anginosus	2015-10-26
+streptococcus_parauberis	GCF_002900385.1	Streptococcus parauberis	2018-01-26
+moraxella_osloensis	GCF_001553955.1	Moraxella osloensis	2016-02-09
+streptococcus_marmotae	GCF_001623565.1	Streptococcus marmotae	2016-04-19
+streptococcus_sobrinus	GCF_003172975.1	Streptococcus sobrinus	2018-05-27
+streptococcus_mutans	GCF_009738105.1	Streptococcus mutans	2019-12-10
+streptococcus_ferus	GCF_900475025.1	Streptococcus ferus	2018-06-17
+streptococcus_acidominimus	GCF_900459045.1	Streptococcus acidominimus	2018-08-01
+streptococcus_iniae	GCF_000300915.1	Streptococcus iniae 9117	2012-10-02
+streptococcus_parasanguinis	GCF_900459355.1	Streptococcus parasanguinis	2018-08-01
+streptococcus_merionis	GCF_900187085.1	Streptococcus merionis	2017-08-15
+streptococcus_pluranimalium	GCF_002953735.1	Streptococcus pluranimalium	2018-02-01
+streptococcus_porcinus	GCF_901553735.1	Streptococcus porcinus	2019-05-17
+streptococcus_australis	GCF_900636505.1	Streptococcus australis	2018-12-20
+streptococcus_thermophilus	GCF_903886475.1	Streptococcus thermophilus	2020-07-10
+streptococcus_halotolerans	GCF_001598035.1	Streptococcus halotolerans	2016-03-28
+tropheryma_whipplei	GCF_000196075.1	Tropheryma whipplei TW08/27	2003-05-06
+propionibacterium_freudenreichii	GCF_900087655.1	Propionibacterium freudenreichii	2017-10-09
+paenibacillus_larvae	GCF_002951935.1	Paenibacillus larvae subsp. larvae	2018-02-20
+citrobacter_farmeri	GCF_003938205.1	Citrobacter farmeri	2018-12-11
+klebsiella_michiganensis	GCF_015139575.1	Klebsiella michiganensis	2020-10-08
+kingella_kingae	GCF_000470255.1	Kingella kingae KK12	2013-09-18
+dinoroseobacter_shibae	GCF_000018145.1	Dinoroseobacter shibae DFL 12 = DSM 16493	2007-10-05
+shigella_flexneri	GCF_000006925.2	Shigella flexneri 2a str. 301	2011-08-03
+streptococcus_salivarius	GCF_902858935.1	Streptococcus salivarius	2020-04-25
+cutibacterium_acnes	GCF_000376705.1	Cutibacterium acnes HL096PA1	2013-04-22
+streptococcus_sanguinis	GCF_900475045.1	Streptococcus sanguinis	2018-06-17
+streptococcus_intermedius	GCF_900475975.1	Streptococcus intermedius	2018-06-17
+streptococcus_gallolyticus	GCF_013267695.1	Streptococcus gallolyticus	2020-06-04
+streptococcus_gordonii	GCF_901544385.1	Streptococcus gordonii	2019-05-17
+streptococcus_lutetiensis	GCF_900475675.1	Streptococcus lutetiensis	2018-06-17
+treponema_pallidum	GCF_000246755.1	Treponema pallidum subsp. pertenue str. SamoaD	2012-02-06
+stenotrophomonas_rhizophila	GCF_000661955.1	Stenotrophomonas rhizophila	2014-05-01
+pseudomonas_monteilii	GCF_003671975.1	Pseudomonas monteilii	2018-10-22
+pseudomonas_alcaligenes	GCF_001597285.1	Pseudomonas alcaligenes	2016-03-25
+staphylococcus_pettenkoferi	GCF_002208805.2	Staphylococcus pettenkoferi	2018-03-02
+acinetobacter_nosocomialis	GCF_005281455.1	Acinetobacter nosocomialis M2	2019-05-13
+yersinia_enterocolitica	GCF_025758635.1	Yersinia enterocolitica	2022-10-19
+octadecabacter_temperatus	GCF_001187845.1	Octadecabacter temperatus	2015-07-28
+phaeobacter_piscinae	GCF_000826835.2	Phaeobacter piscinae	2022-07-25
+photobacterium_damselae	GCF_009665375.1	Photobacterium damselae	2019-11-18
+paenibacillus_mucilaginosus	GCF_000258535.2	Paenibacillus mucilaginosus K02	2013-06-10
+staphylococcus_pasteuri	GCF_016599795.1	Staphylococcus pasteuri	2021-01-11
+staphylococcus_simulans	GCF_025561465.1	Staphylococcus simulans	2022-10-04
+staphylococcus_pseudintermedius	GCF_016126715.1	Staphylococcus pseudintermedius	2020-12-20
+staphylococcus_succinus	GCF_001902315.1	Staphylococcus succinus	2016-12-13
+xenorhabdus_nematophila	GCF_014295015.1	Xenorhabdus nematophila	2020-08-25
+streptococcus_equinus	GCF_900102715.1	Streptococcus equinus	2016-10-21
+mycobacterium_intracellulare	GCF_020736005.1	Mycobacterium intracellulare	2021-11-03
+lactococcus_lactis	GCF_003176835.1	Lactococcus lactis subsp. lactis	2018-05-30
+achromobacter_spanius	GCF_900636675.1	Achromobacter spanius	2018-12-20
+corynebacterium_jeikeium	GCF_000006605.1	Corynebacterium jeikeium K411	2005-06-27
+sodalis_glossinidius	GCF_000010085.1	Sodalis glossinidius str. 'morsitans'	2006-01-10
+mycolicibacter_sinensis	GCF_000214155.1	Mycolicibacter sinensis	2011-05-20
+chlamydia_pecorum	GCF_020459125.1	Chlamydia pecorum	2021-10-13
+lactobacillus_crispatus	GCF_009769205.1	Lactobacillus crispatus	2019-12-19
+bifidobacterium_longum	GCF_000196555.1	Bifidobacterium longum subsp. longum JCM 1217	2011-01-28
+staphylococcus_saprophyticus	GCF_007814115.1	Staphylococcus saprophyticus	2019-08-01
+staphylococcus_xylosus	GCF_000709415.1	Staphylococcus xylosus	2014-06-17
+blautia_hansenii	GCF_002222595.2	Blautia hansenii DSM 20583	2017-08-30
+acutalibacter_muris	GCF_002201475.1	Acutalibacter muris	2017-06-20
+adlercreutzia_equolifaciens	GCF_000478885.1	Adlercreutzia equolifaciens DSM 19450	2013-08-16
+acinetobacter_calcoaceticus	GCF_002055515.1	Acinetobacter calcoaceticus	2017-03-21
+serratia_fonticola	GCF_001006005.1	Serratia fonticola	2015-05-11
+brucella_canis	GCF_000018525.1	Brucella canis ATCC 23365	2007-11-29
+bacillus_atrophaeus	GCF_000742675.1	Bacillus atrophaeus subsp. globigii	2014-08-21
+staphylococcus_hominis	GCF_003812505.1	Staphylococcus hominis	2018-11-21
+brucella_melitensis	GCF_000007125.1	Brucella melitensis bv. 1 str. 16M	2001-12-28
+sorangium_cellulosum	GCF_000067165.1	Sorangium cellulosum So ce56	2007-11-27
+brachyspira_hyodysenteriae	GCF_017751225.1	Brachyspira hyodysenteriae	2021-04-05
+pluralibacter_gergoviae	GCF_003019925.1	Pluralibacter gergoviae	2018-03-27
+citrobacter_rodentium	GCF_021278985.1	Citrobacter rodentium NBRC 105723 = DSM 16636	2021-12-23
+mycobacterium_marinum	GCF_000723425.2	Mycobacterium marinum E11	2015-07-02
+yersinia_pestis	GCF_000222975.1	Yersinia pestis A1122	2011-08-05
+leuconostoc_suionicum	GCF_900289205.1	Leuconostoc suionicum	2018-03-17
+leuconostoc_mesenteroides	GCF_009913915.1	Leuconostoc mesenteroides	2020-01-22
+flavobacterium_columnare	GCF_014844295.1	Flavobacterium columnare	2020-10-05
+glaesserella_parasuis	GCF_017352235.1	Glaesserella parasuis	2021-03-14
+rickettsia_typhi	GCF_000277285.1	Rickettsia typhi str. TH1527	2012-03-21
+chlamydia_abortus	GCF_900416725.2	Chlamydia abortus	2021-08-12
+chlamydia_psittaci	GCF_000204255.1	Chlamydia psittaci 6BC	2011-04-14
+cupriavidus_gilardii	GCF_013347325.1	Cupriavidus gilardii	2020-06-16
+enterococcus_durans	GCF_002277935.1	Enterococcus durans	2017-08-30
+candidatus_planktophila_vernalis	GCF_002288185.1	Candidatus Planktophila vernalis	2017-09-08
+rhodopirellula_baltica	GCF_000196115.1	Rhodopirellula baltica SH 1	2003-07-07
+variovorax_boronicumulans	GCF_009811375.1	Variovorax boronicumulans	2019-12-05
+ignavibacterium_album	GCF_000258405.1	Ignavibacterium album JCM 16511	2012-04-10
+gordonia_iterans	GCF_002993285.1	Gordonia iterans	2018-03-11
+acinetobacter_soli	GCF_018139125.1	Acinetobacter soli	2021-04-25
+thermomonospora_curvata	GCF_000024385.1	Thermomonospora curvata DSM 43183	2009-11-16
+leifsonia_xyli	GCF_000470775.1	Leifsonia xyli subsp. cynodontis DSM 46306	2013-09-24
+gardnerella_vaginalis	GCF_002861965.1	Gardnerella vaginalis	2017-12-28
+lactobacillus_jensenii	GCF_001936235.1	Lactobacillus jensenii	2017-01-05
+neisseria_cinerea	GCF_900475315.1	Neisseria cinerea	2018-06-17
+paenibacillus_naphthalenovorans	GCF_001465255.1	Paenibacillus naphthalenovorans	2015-12-11
+zobellella_denitrificans	GCF_002407485.1	Zobellella denitrificans	2017-10-02
+shewanella_marisflavi	GCF_002215585.1	Shewanella marisflavi	2017-07-06
+vibrio_furnissii	GCF_006364355.1	Vibrio furnissii	2019-06-19
+providencia_sneebia	GCF_000314895.2	Providencia sneebia DSM 19967	2013-05-22
+mycoplasma_leachii	GCF_000253095.1	Mycoplasma leachii 99/014/6	2011-07-04
+actinobacillus_pleuropneumoniae	GCF_900638445.1	Actinobacillus pleuropneumoniae	2018-12-20
+actinobacillus_suis	GCF_000739435.1	Actinobacillus suis ATCC 33415	2014-08-14
+actinobacillus_porcitonsillarum	GCF_003101015.1	Actinobacillus porcitonsillarum	2018-05-09
+haemophilus_haemolyticus	GCF_900477945.1	Haemophilus haemolyticus	2018-06-17
+legionella_anisa	GCF_003176875.1	Legionella anisa	2018-05-30
+legionella_lansingensis	GCF_900187355.1	Legionella lansingensis	2017-08-15
+legionella_sainthelensi	GCF_002848365.2	Legionella sainthelensi	2018-10-16
+legionella_waltersii	GCF_900187095.1	Legionella waltersii	2017-08-15
+legionella_clemsonensis	GCF_002240035.1	Legionella clemsonensis	2017-08-02
+legionella_hackeliae	GCF_000953655.1	Legionella hackeliae	2014-12-09
+fluoribacter_dumoffii	GCF_000236145.1	Fluoribacter dumoffii Tex-KL	2011-11-29
+legionella_fallonii	GCF_000953135.1	Legionella fallonii LLAP-10	2014-10-21
+legionella_spiritensis	GCF_900637495.1	Legionella spiritensis	2018-12-20
+legionella_oakridgensis	GCF_001467925.1	Legionella oakridgensis	2015-12-15
+bacteroides_ovatus	GCF_001314995.1	Bacteroides ovatus	2015-10-15
+legionella_longbeachae	GCF_000091785.1	Legionella longbeachae NSW150	2010-02-13
+yersinia_aldovae	GCF_000834395.1	Yersinia aldovae 670-83	2015-02-09
+yersinia_entomophaga	GCF_001656035.1	Yersinia entomophaga	2016-06-03
+helicobacter_bizzozeronii	GCF_900196775.1	Helicobacter bizzozeronii	2018-01-30
+campylobacter_fetus	GCF_011600945.2	Campylobacter fetus	2020-07-31
+wolbachia_endosymbiont_of_drosophila_simulans	GCF_000376605.1	Wolbachia endosymbiont of Drosophila simulans wHa	2013-04-22
+campylobacter_sputorum	GCF_002220755.1	Campylobacter sputorum bv. paraureolyticus LMG 11764	2017-07-18
+mycobacterium_colombiense	GCF_000222105.3	Mycobacterium colombiense CECT 3035	2012-09-11
+bifidobacterium_breve	GCF_024665435.1	Bifidobacterium breve	2022-08-15
+lactobacillus_gasseri	GCF_000439915.2	Lactobacillus gasseri 2016	2022-01-18
+leuconostoc_lactis	GCF_007954605.1	Leuconostoc lactis	2019-08-11
+lactobacillus_acidophilus	GCF_000389675.2	Lactobacillus acidophilus La-14	2013-06-21
+lactobacillus_helveticus	GCF_003053085.1	Lactobacillus helveticus	2018-04-17
+delftia_tsuruhatensis	GCF_029215875.1	Delftia tsuruhatensis	2023-03-15
+lactobacillus_apis	GCF_003150935.1	Lactobacillus apis	2018-05-24
+bifidobacterium_asteroides	GCF_000304215.1	Bifidobacterium asteroides PRL2011	2012-10-09
+mycolicibacterium_rhodesiae	GCF_002086695.1	Mycolicibacterium rhodesiae	2017-04-11
+nocardia_cyriacigeorgica	GCF_002949635.1	Nocardia cyriacigeorgica	2018-02-22
+staphylococcus_equorum	GCF_016127455.1	Staphylococcus equorum	2020-12-20
+collinsella_aerofaciens	GCF_002736145.1	Collinsella aerofaciens	2017-10-30
+clostridium_butyricum	GCF_001886875.1	Clostridium butyricum	2016-11-28
+intestinimonas_butyriciproducens	GCF_001940005.1	Intestinimonas butyriciproducens	2017-01-09
+microbacterium_paludicola	GCF_001887285.1	Microbacterium paludicola	2016-11-29
+yersinia_pseudotuberculosis	GCF_000834295.1	Yersinia pseudotuberculosis IP 32953	2015-02-09
+klebsiella_quasivariicola	GCF_020525665.1	Klebsiella quasivariicola	2021-10-19
+bacillus_infantis	GCF_020172065.1	Bacillus infantis	2021-09-28
+alistipes_finegoldii	GCF_027677115.1	Alistipes finegoldii	2023-01-12
+ralstonia_pickettii	GCF_902374465.1	Ralstonia pickettii	2019-08-22
+mycolicibacterium_smegmatis	GCF_013349145.1	Mycolicibacterium smegmatis	2020-06-18
+burkholderia_thailandensis	GCF_001718635.1	Burkholderia thailandensis	2016-09-02
+raoultella_planticola	GCF_022637595.1	Raoultella planticola	2022-03-21
+staphylococcus_auricularis	GCF_016028295.1	Staphylococcus auricularis	2020-12-14
+moritella_viscosa	GCF_900120065.1	Moritella viscosa	2016-11-27
+mycobacterium_ulcerans	GCF_020616615.1	Mycobacterium ulcerans	2021-10-26
+enterococcus_casseliflavus	GCF_000157355.2	Enterococcus casseliflavus EC20	2013-04-11
+helicobacter_typhlonius	GCF_001460635.1	Helicobacter typhlonius	2015-11-20
+micromonospora_krabiensis	GCF_900091425.1	Micromonospora krabiensis	2016-07-08
+prevotella_melaninogenica	GCF_000144405.1	Prevotella melaninogenica ATCC 25845	2010-08-04
+bordetella_trematum	GCF_900445945.1	Bordetella trematum	2018-08-08
+bordetella_bronchialis	GCF_001676745.1	Bordetella bronchialis	2016-06-27
+bordetella_hinzii	GCF_006770325.1	Bordetella hinzii	2019-07-09
+helicobacter_felis	GCF_000200595.1	Helicobacter felis ATCC 49179	2011-03-15
+nocardia_brasiliensis	GCF_002209125.2	Nocardia brasiliensis	2018-03-08
+lysinibacillus_sphaericus	GCF_020546525.1	Lysinibacillus sphaericus	2021-10-25
+pseudomonas_mendocina	GCF_000733715.2	Pseudomonas mendocina S5.2	2015-11-09
+acinetobacter_schindleri	GCF_010918895.1	Acinetobacter schindleri	2020-02-21
+mycobacterium_canettii	GCF_000253375.1	Mycobacterium canettii CIPT 140010059	2011-07-14
+mycobacteroides_immunogenum	GCF_001605725.1	Mycobacteroides immunogenum	2016-03-31
+chlamydia_muridarum	GCF_000006685.1	Chlamydia muridarum str. Nigg	2003-03-26
+campylobacter_hyointestinalis	GCF_013372165.1	Campylobacter hyointestinalis subsp. lawsonii	2020-06-24
+enterococcus_mundtii	GCF_002813755.1	Enterococcus mundtii	2017-12-07
+endozoicomonas_montiporae	GCF_001583435.1	Endozoicomonas montiporae CL-33	2016-03-08
+carnobacterium_maltaromaticum	GCF_949790605.1	Carnobacterium maltaromaticum	2023-04-16
+weissella_koreensis	GCF_000219805.1	Weissella koreensis KACC 15510	2011-06-30
+lactobacillus_kefiranofaciens	GCF_014656585.1	Lactobacillus kefiranofaciens	2020-09-19
+carnobacterium_divergens	GCF_900446755.1	Carnobacterium divergens	2018-08-07
+lactobacillus_amylolyticus	GCF_003999355.1	Lactobacillus amylolyticus	2019-01-08
+lactobacillus_acetotolerans	GCF_008831485.1	Lactobacillus acetotolerans	2019-10-07
+pediococcus_claussenii	GCF_001702215.1	Pediococcus claussenii	2016-08-10
+weissella_viridescens	GCF_014789145.1	Weissella viridescens	2020-09-29
+pseudomonas_extremaustralis	GCF_900102035.1	Pseudomonas extremaustralis	2016-10-20
+geobacter_sulfurreducens	GCF_000007985.2	Geobacter sulfurreducens PCA	2012-07-31
+ndongobacter_massiliensis	GCF_900120375.1	Ndongobacter massiliensis	2016-11-22
+caulobacter_vibrioides	GCF_000022005.1	Caulobacter vibrioides NA1000	2009-01-16
+olsenella_uli	GCF_000143845.1	Olsenella uli DSM 7084	2010-07-26
+acinetobacter_indicus	GCF_009914475.1	Acinetobacter indicus	2020-01-22
+paenibacillus_ihbetae	GCF_002741055.1	Paenibacillus ihbetae	2016-08-05
+bacillus_pumilus	GCF_003020795.1	Bacillus pumilus	2018-03-27
+brucella_abortus	GCF_000054005.1	Brucella abortus 2308	2005-12-01
+brucella_ceti	GCF_000590795.1	Brucella ceti TE10759-12	2013-11-25
+campylobacter_lanienae	GCF_002139935.1	Campylobacter lanienae NCTC 13004	2017-05-15
+francisella_tularensis	GCF_000833355.1	Francisella tularensis subsp. novicida D9876	2015-02-06
+wolbachia_endosymbiont_of_drosophila_melanogaster	GCF_016584425.1	Wolbachia endosymbiont of Drosophila melanogaster	2021-01-08
+bordetella_pseudohinzii	GCF_001698185.1	Bordetella pseudohinzii	2016-08-02
+chthonomonas_calidirosea	GCF_000427095.1	Chthonomonas calidirosea T49	2013-06-04
+nocardia_nova	GCF_019219615.1	Nocardia nova	2021-07-14
+acinetobacter_haemolyticus	GCF_003323815.1	Acinetobacter haemolyticus	2018-07-16
+bacillus_safensis	GCF_008244765.1	Bacillus safensis	2019-09-03
+corynebacterium_falsenii	GCF_020097615.1	Corynebacterium falsenii	2021-09-23
+coxiella_burnetii	GCF_000007765.2	Coxiella burnetii RSA 493	2016-11-10
+bacteroides_helcogenes	GCF_000186225.1	Bacteroides helcogenes P 36-108	2011-01-18
+tatumella_ptyseos	GCF_000439895.1	Tatumella ptyseos ATCC 33301	2013-07-23
+brachybacterium_saurashtrense	GCF_003355475.1	Brachybacterium saurashtrense	2018-08-06
+streptomyces_venezuelae	GCF_001886595.1	Streptomyces venezuelae	2016-11-28
+cloacibacillus_porcorum	GCF_001701045.1	Cloacibacillus porcorum	2016-08-09
+dichelobacter_nodosus	GCF_000015345.1	Dichelobacter nodosus VCS1703A	2007-05-04
+mycobacterium_marseillense	GCF_002285715.1	Mycobacterium marseillense	2017-09-05
+desulfitobacterium_hafniense	GCF_000021925.1	Desulfitobacterium hafniense DCB-2	2009-01-05
+vibrio_tritonius	GCF_001547935.1	Vibrio tritonius	2015-09-11
+yersinia_ruckeri	GCF_017498685.1	Yersinia ruckeri	2021-03-21
+aeromonas_schubertii	GCF_001481395.1	Aeromonas schubertii	2015-12-22
+lachnoclostridium_phytofermentans	GCF_000018685.1	Lachnoclostridium phytofermentans ISDg	2007-11-19
+brevundimonas_naejangsanensis	GCF_000421705.1	Brevundimonas naejangsanensis DSM 23858	2013-07-09
+brucella_suis	GCF_000007505.1	Brucella suis 1330	2004-10-13
+corynebacterium_epidermidicanis	GCF_001021025.1	Corynebacterium epidermidicanis	2015-06-05
+bacteroides_caccae	GCF_018292205.1	Bacteroides caccae CL03T12C61	2021-05-06
+parabacteroides_distasonis	GCF_012273055.1	Parabacteroides distasonis	2020-04-12
+bifidobacterium_adolescentis	GCF_003030905.1	Bifidobacterium adolescentis	2018-04-03
+bacteroides_thetaiotaomicron	GCF_014131755.1	Bacteroides thetaiotaomicron	2020-08-10
+bacteroides_cellulosilyticus	GCF_018292125.1	Bacteroides cellulosilyticus	2021-05-06
+barnesiella_viscericola	GCF_000512915.1	Barnesiella viscericola DSM 18177	2014-01-03
+eubacterium_limosum	GCF_000807675.2	Eubacterium limosum	2017-04-03
+alistipes_shahii	GCF_015558405.1	Alistipes shahii	2020-11-17
+[haemophilus]_ducreyi	GCF_001647695.1	[Haemophilus] ducreyi	2016-05-19
+mesorhizobium_ciceri	GCF_001618845.1	Mesorhizobium ciceri biovar biserrulae	2016-04-12
+candidatus_protochlamydia_amoebophila	GCF_000011565.2	Candidatus Protochlamydia amoebophila UWE25	2019-06-22
+xenorhabdus_bovienii	GCF_000736675.1	Xenorhabdus bovienii str. feltiae Florida	2014-07-28
+campylobacter_concisus	GCF_001298465.1	Campylobacter concisus	2015-09-24
+meiothermus_ruber	GCF_000376665.1	Meiothermus ruber DSM 1279	2013-04-22
+pedobacter_heparinus	GCF_000023825.1	Pedobacter heparinus DSM 2366	2009-08-05
+pandoraea_apista	GCF_001465595.2	Pandoraea apista	2016-12-05
+pectobacterium_polaris	GCF_002288545.1	Pectobacterium polaris	2017-09-08
+psychrobacter_cryohalolentis	GCF_002208765.2	Psychrobacter cryohalolentis	2018-03-06
+aeromonas_rivipollensis	GCF_037811135.1	Aeromonas rivipollensis	2024-04-05
+streptomyces_collinus	GCF_014204745.1	Streptomyces collinus	2020-08-14
+celeribacter_marinus	GCF_001308265.1	Celeribacter marinus	2015-10-08
+streptomyces_sviceus	GCF_000154965.1	Streptomyces sviceus ATCC 29083	2010-05-28
+actinotignum_schaalii	GCF_000724605.1	Actinotignum schaalii	2014-07-10
+slackia_heliotrinireducens	GCF_900637575.1	Slackia heliotrinireducens	2018-12-20
+gemella_morbillorum	GCF_009730315.1	Gemella morbillorum	2019-12-05
+corynebacterium_atypicum	GCF_000732945.1	Corynebacterium atypicum	2014-07-24
+mobiluncus_curtisii	GCF_000196535.1	Mobiluncus curtisii ATCC 43063	2010-06-14
+actinomyces_oris	GCF_016127955.1	Actinomyces oris	2020-12-20
+haemophilus_parainfluenzae	GCF_000191405.1	Haemophilus parainfluenzae ATCC 33392	2011-03-04
+dialister_pneumosintes	GCF_003570845.1	Dialister pneumosintes	2018-09-14
+actinomyces_radicidentis	GCF_001553565.1	Actinomyces radicidentis	2016-02-09
+oligella_urethralis	GCF_900454325.1	Oligella urethralis	2018-08-01
+rothia_dentocariosa	GCF_000164695.2	Rothia dentocariosa ATCC 17931	2010-11-03
+streptococcus_uberis	GCF_900460135.1	Streptococcus uberis	2018-07-31
+luteipulveratus_mongoliensis	GCF_001190945.1	Luteipulveratus mongoliensis	2015-08-03
+rhizobium_gallicum	GCF_000816845.1	Rhizobium gallicum bv. gallicum R602sp	2015-01-09
+burkholderia_ambifaria	GCF_016127755.1	Burkholderia ambifaria	2020-12-20
+paraburkholderia_caledonica	GCF_000383275.1	Paraburkholderia caledonica	2013-04-26
+paraburkholderia_caribensis	GCF_000522545.2	Paraburkholderia caribensis MBA4	2015-10-30
+burkholderia_plantarii	GCF_001411805.1	Burkholderia plantarii	2015-10-23
+burkholderia_vietnamiensis	GCF_001523705.1	Burkholderia vietnamiensis	2016-01-21
+burkholderia_metallica	GCF_001718555.1	Burkholderia metallica	2016-09-02
+burkholderia_seminalis	GCF_001718535.1	Burkholderia seminalis	2016-09-02
+paraburkholderia_fungorum	GCF_000961515.1	Paraburkholderia fungorum	2015-03-24
+pantoea_agglomerans	GCF_019048385.1	Pantoea agglomerans	2021-06-28
+enterobacter_ludwigii	GCF_001750725.1	Enterobacter ludwigii	2016-10-03
+komagataeibacter_rhaeticus	GCF_011611525.1	Komagataeibacter rhaeticus	2020-03-23
+kocuria_palustris	GCF_001275345.1	Kocuria palustris	2015-08-27
+neisseria_zoodegmatis	GCF_900187305.1	Neisseria zoodegmatis	2017-08-15
+kosakonia_sacchari	GCF_001683395.1	Kosakonia sacchari	2016-07-11
+odoribacter_splanchnicus	GCF_020736405.1	Odoribacter splanchnicus DSM 20712	2021-11-03
+leisingera_methylohalidivorans	GCF_000511355.1	Leisingera methylohalidivorans DSM 14336	2013-12-20
+selenomonas_ruminantium	GCF_000424065.1	Selenomonas ruminantium subsp. ruminantium ATCC 12561	2013-07-11
+monoglobus_pectinilyticus	GCF_002874775.1	Monoglobus pectinilyticus	2018-01-11
+bifidobacterium_bifidum	GCF_000273525.1	Bifidobacterium bifidum NCIMB 41171	2012-06-15
+clostridium_baratii	GCF_001991075.2	Clostridium baratii	2018-05-01
+ruminococcus_champanellensis	GCF_000210095.1	Ruminococcus champanellensis 18P13 = JCM 17042	2010-03-25
+anoxybacillus_flavithermus	GCF_000019045.1	Anoxybacillus flavithermus WK1	2008-11-13
+campylobacter_ureolyticus	GCF_013372225.1	Campylobacter ureolyticus	2020-06-24
+anaerococcus_mediterraneensis	GCF_900128415.1	Anaerococcus mediterraneensis	2016-11-25
+corynebacterium_kroppenstedtii	GCF_000023145.1	Corynebacterium kroppenstedtii DSM 44385	2009-05-19
+kytococcus_sedentarius	GCF_900452405.1	Kytococcus sedentarius	2018-08-01
+corynebacterium_aurimucosum	GCF_000022905.1	Corynebacterium aurimucosum ATCC 700975	2009-04-24
+bacillus_weihaiensis	GCF_001889165.1	Bacillus weihaiensis	2016-12-05
+aerococcus_sanguinicola	GCF_905113025.1	Aerococcus sanguinicola	2020-11-21
+gordonia_terrae	GCF_901542405.1	Gordonia terrae	2019-06-02
+corynebacterium_sphenisci	GCF_001941505.1	Corynebacterium sphenisci DSM 44792	2017-01-10
+plantibacter_flavus	GCF_003755125.1	Plantibacter flavus	2018-11-15
+novosphingobium_resinovorum	GCF_001742225.1	Novosphingobium resinovorum	2016-09-22
+sphingomonas_koreensis	GCF_001922385.1	Sphingomonas koreensis	2016-12-27
+sphingomonas_taxi	GCF_000764535.1	Sphingomonas taxi	2014-10-08
+sphingobium_yanoikuyae	GCF_002504085.1	Sphingobium yanoikuyae	2017-10-10
+rahnella_aquatilis	GCF_000241955.1	Rahnella aquatilis CIP 78.65 = ATCC 33071	2012-01-10
+erwinia_billingiae	GCF_000196615.1	Erwinia billingiae Eb661	2010-06-22
+stenotrophomonas_acidaminiphila	GCF_014109845.1	Stenotrophomonas acidaminiphila	2020-08-07
+methylorubrum_extorquens	GCF_000083545.1	Methylorubrum extorquens DM4	2009-07-17
+methylorubrum_zatmanii	GCF_014845115.1	Methylorubrum zatmanii	2020-10-05
+pseudomonas_rhizosphaerae	GCF_000761155.1	Pseudomonas rhizosphaerae	2014-10-01
+xanthomonas_hortorum	GCF_002285515.1	Xanthomonas hortorum	2017-09-05
+pseudarthrobacter_equi	GCF_900105535.1	Pseudarthrobacter equi	2016-10-21
+pseudarthrobacter_phenanthrenivorans	GCF_006494475.1	Pseudarthrobacter phenanthrenivorans	2019-06-26
+xanthomonas_vesicatoria	GCF_001908725.1	Xanthomonas vesicatoria ATCC 35937	2016-12-19
+chryseobacterium_glaciei	GCF_001648155.1	Chryseobacterium glaciei	2016-05-19
+curtobacterium_pusillum	GCF_027922105.1	Curtobacterium pusillum	2023-01-19
+rathayibacter_tritici	GCF_001641005.1	Rathayibacter tritici	2016-05-09
+dyadobacter_fermentans	GCF_000023125.1	Dyadobacter fermentans DSM 18053	2009-07-31
+microterricola_viridarii	GCF_900104895.1	Microterricola viridarii	2016-10-20
+variovorax_paradoxus	GCF_033807855.1	Variovorax paradoxus	2023-11-20
+agromyces_aureus	GCF_001660485.1	Agromyces aureus	2016-06-09
+neomicrococcus_aestuarii	GCF_001887245.1	Neomicrococcus aestuarii	2016-11-29
+aeromicrobium_erythreum	GCF_001509405.1	Aeromicrobium erythreum	2016-01-08
+rhodoferax_koreense	GCF_001955695.1	Rhodoferax koreense	2017-01-18
+nocardioides_dokdonensis	GCF_001653335.1	Nocardioides dokdonensis FR1436	2016-05-27
+neorhizobium_galegae	GCF_000731315.1	Neorhizobium galegae bv. orientalis str. HAMBI 540	2014-06-25
+deinococcus_gobiensis	GCF_000252445.1	Deinococcus gobiensis I-0	2012-03-12
+modestobacter_marinus	GCF_014645755.1	Modestobacter marinus	2020-09-12
+bradyrhizobium_ottawaense	GCF_009176665.1	Bradyrhizobium ottawaense	2019-10-02
+ramlibacter_tataouinensis	GCF_000215705.1	Ramlibacter tataouinensis TTB310	2011-06-03
+pseudomonas_koreensis	GCF_900101415.1	Pseudomonas koreensis	2016-10-20
+methylorubrum_populi	GCF_000019945.1	Methylorubrum populi BJ001	2008-04-09
+mesorhizobium_opportunistum	GCF_000176035.2	Mesorhizobium opportunistum WSM2075	2011-06-14
+rhizobium_leguminosarum	GCF_004306555.1	Rhizobium leguminosarum	2019-02-26
+rhizobium_favelukesii	GCF_000577275.2	Rhizobium favelukesii	2014-02-11
+rhodopseudomonas_palustris	GCF_016584445.1	Rhodopseudomonas palustris	2021-01-08
+ensifer_adhaerens	GCF_000697965.2	Ensifer adhaerens	2016-06-16
+methylibium_petroleiphilum	GCF_000015725.1	Methylibium petroleiphilum PM1	2007-01-29
+phenylobacterium_zucineum	GCF_000017265.1	Phenylobacterium zucineum HLK1	2008-08-18
+streptomyces_anulatus	GCF_020783455.1	Streptomyces anulatus	2021-11-07
+massilia_putida	GCF_001941825.1	Massilia putida	2017-01-10
+mycolicibacterium_vanbaalenii	GCF_000015305.1	Mycolicibacterium vanbaalenii PYR-1	2006-12-27
+mesorhizobium_australicum	GCF_000230995.2	Mesorhizobium australicum WSM2073	2012-12-28
+sphingopyxis_fribergensis	GCF_000803645.1	Sphingopyxis fribergensis	2014-12-18
+mesorhizobium_loti	GCF_003148495.1	Mesorhizobium loti	2018-05-22
+rhodanobacter_denitrificans	GCF_021545825.1	Rhodanobacter denitrificans	2022-01-21
+pimelobacter_simplex	GCF_000785495.1	Pimelobacter simplex	2014-11-19
+cellulosimicrobium_cellulans	GCF_018128265.1	Cellulosimicrobium cellulans	2021-04-22
+pseudomonas_frederiksbergensis	GCF_001874645.1	Pseudomonas frederiksbergensis	2016-11-10
+microcella_alkaliphila	GCF_004216855.1	Microcella alkaliphila	2019-02-20
+caulobacter_segnis	GCF_003015125.1	Caulobacter segnis	2018-03-26
+bosea_vaviloviae	GCF_001741865.1	Bosea vaviloviae	2016-09-21
+lysobacter_enzymogenes	GCF_002355975.1	Lysobacter enzymogenes	2016-11-25
+lysobacter_capsici	GCF_002355295.1	Lysobacter capsici	2017-09-25
+paenibacillus_peoriae	GCF_000236805.1	Paenibacillus peoriae KCTC 3763	2011-12-05
+acholeplasma_laidlawii	GCF_003385765.1	Acholeplasma laidlawii	2018-08-14
+lelliottia_amnigena	GCF_019355955.1	Lelliottia amnigena	2021-07-27
+weeksella_virosa	GCF_900637795.1	Weeksella virosa	2018-12-20
+clostridium_autoethanogenum	GCF_001484725.1	Clostridium autoethanogenum DSM 10061	2016-01-04
+[clostridium]_ultunense	GCF_000511955.1	[Clostridium] ultunense DSM 10521	2013-12-27
+clostridium_cochlearium	GCF_900187165.1	Clostridium cochlearium	2017-08-15
+eggerthella_lenta	GCF_021378605.1	Eggerthella lenta	2022-01-06
+paraburkholderia_hospita	GCF_002902965.1	Paraburkholderia hospita	2018-01-29
+burkholderia_stagnalis	GCF_001718955.1	Burkholderia stagnalis	2016-09-02
+burkholderia_glumae	GCF_009931375.1	Burkholderia glumae	2020-01-27
+burkholderia_oklahomensis	GCF_000959365.1	Burkholderia oklahomensis C6786	2015-03-20
+paraburkholderia_terricola	GCF_003330825.1	Paraburkholderia terricola	2018-07-20
+burkholderia_pseudomultivorans	GCF_902832925.1	Burkholderia pseudomultivorans	2020-06-09
+paraburkholderia_phymatum	GCF_000020045.1	Paraburkholderia phymatum STM815	2008-04-22
+burkholderia_ubonensis	GCF_002097715.1	Burkholderia ubonensis subsp. mesacidophila	2017-04-18
+burkholderia_lata	GCF_000012945.1	Burkholderia lata	2005-10-20
+burkholderia_pyrrocinia	GCF_001028665.1	Burkholderia pyrrocinia	2015-06-12
+pelosinus_fermentans	GCF_900100555.1	Pelosinus fermentans	2016-10-21
+brevundimonas_diminuta	GCF_900445995.1	Brevundimonas diminuta	2018-08-08
+streptomyces_hygroscopicus	GCF_037126205.1	Streptomyces hygroscopicus subsp. hygroscopicus	2024-04-05
+tumebacillus_algifaecis	GCF_002243515.1	Tumebacillus algifaecis	2017-08-08
+bacillus_velezensis	GCF_000769555.1	Bacillus velezensis	2014-10-28
+yersinia_similis	GCF_000582515.1	Yersinia similis	2014-02-26
+vibrio_splendidus	GCF_022812045.1	Vibrio splendidus	2022-04-04
+marinomonas_mediterranea	GCF_000192865.1	Marinomonas mediterranea MMB-1	2011-03-22
+clostridium_pasteurianum	GCF_001856695.1	Clostridium pasteurianum	2016-10-31
+vibrio_tasmaniensis	GCF_024347635.1	Vibrio tasmaniensis	2022-07-13
+prevotella_jejuni	GCF_002849795.1	Prevotella jejuni	2018-01-03
+faecalibaculum_rodentium	GCF_001564455.1	Faecalibaculum rodentium	2016-02-22
+staphylococcus_nepalensis	GCF_002442935.1	Staphylococcus nepalensis	2017-10-04
+bifidobacterium_animalis	GCF_000224965.2	Bifidobacterium animalis subsp. lactis BLC1	2013-02-05
+paraburkholderia_aromaticivorans	GCF_002278075.1	Paraburkholderia aromaticivorans	2017-08-30
+fusobacterium_periodonticum	GCF_000160475.1	Fusobacterium periodonticum ATCC 33693	2009-04-29
+pantoea_rwandensis	GCF_002095475.1	Pantoea rwandensis	2017-04-18
+bacillus_paralicheniformis	GCF_002993925.1	Bacillus paralicheniformis	2018-03-12
+treponema_succinifaciens	GCF_000195275.1	Treponema succinifaciens DSM 2489	2011-04-07
+cobetia_marina	GCF_005144735.1	Cobetia marina	2019-05-04
+corynebacterium_genitalium	GCF_000143825.1	Corynebacterium genitalium ATCC 33030	2010-09-07
+corynebacterium_imitans	GCF_900187215.1	Corynebacterium imitans	2017-08-15
+cutibacterium_avidum	GCF_000367205.1	Cutibacterium avidum 44067	2013-04-17
+corynebacterium_riegelii	GCF_001263755.1	Corynebacterium riegelii	2015-08-10
+streptococcus_pasteurianus	GCF_004843545.1	Streptococcus pasteurianus	2019-04-24
+pseudomonas_savastanoi	GCF_020917325.1	Pseudomonas savastanoi	2021-11-22
+xanthomonas_fragariae	GCF_900183975.1	Xanthomonas fragariae	2017-05-25
+renibacterium_salmoninarum	GCF_000018885.1	Renibacterium salmoninarum ATCC 33209	2007-12-18
+xanthomonas_arboricola	GCF_905367715.1	Xanthomonas arboricola pv. juglandis	2021-03-24
+xanthomonas_campestris	GCF_013388375.1	Xanthomonas campestris pv. raphani	2020-07-04
+sporosarcina_psychrophila	GCF_001590685.1	Sporosarcina psychrophila	2016-03-14
+pseudarthrobacter_sulfonivorans	GCF_014712225.1	Pseudarthrobacter sulfonivorans	2020-09-23
+moraxella_bovoculi	GCF_000988745.2	Moraxella bovoculi	2018-08-29
+anaerococcus_prevotii	GCF_000024105.1	Anaerococcus prevotii DSM 20548	2009-08-28
+microbacterium_hominis	GCF_014725695.1	Microbacterium hominis	2020-09-24
+kocuria_rhizophila	GCF_004563945.1	Kocuria rhizophila	2019-04-01
+rhodococcus_rhodochrous	GCF_029457455.1	Rhodococcus rhodochrous	2023-03-29
+staphylococcus_condimenti	GCF_001922405.1	Staphylococcus condimenti	2016-12-27
+neisseria_weaveri	GCF_900638685.1	Neisseria weaveri	2018-12-20
+acinetobacter_oleivorans	GCF_000196795.1	Acinetobacter oleivorans DR1	2010-06-21
+enterobacter_kobei	GCF_000534275.1	Enterobacter kobei	2014-02-03
+sinomonas_atrocyanea	GCF_006539205.1	Sinomonas atrocyanea	2019-06-12
+taylorella_equigenitalis	GCF_028868935.1	Taylorella equigenitalis	2023-02-27
+yersinia_aleksiciae	GCF_001319845.1	Yersinia aleksiciae	2015-04-03
+yersinia_rohdei	GCF_000834455.1	Yersinia rohdei	2015-02-09
+yersinia_intermedia	GCF_009730055.1	Yersinia intermedia	2019-12-05
+yersinia_frederiksenii	GCF_000754805.1	Yersinia frederiksenii ATCC 33641	2014-09-16
+yersinia_kristensenii	GCF_900460525.1	Yersinia kristensenii	2018-08-01
+yersinia_massiliensis	GCF_000312485.1	Yersinia massiliensis CCUG 53443	2012-10-03
+leptospira_borgpetersenii	GCF_003516145.1	Leptospira borgpetersenii serovar Ceylonica	2018-09-10
+acinetobacter_defluvii	GCF_001704615.3	Acinetobacter defluvii	2019-08-16
+cupriavidus_taiwanensis	GCF_000069785.1	Cupriavidus taiwanensis LMG 19424	2008-03-27
+clostridium_tyrobutyricum	GCF_001642655.1	Clostridium tyrobutyricum	2016-05-12
+corynebacterium_simulans	GCF_001586235.1	Corynebacterium simulans	2016-03-10
+alicyclobacillus_acidocaldarius	GCF_000024285.1	Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446	2009-09-09
+chitinophaga_pinensis	GCF_000024005.1	Chitinophaga pinensis DSM 2588	2009-08-19
+zymomonas_mobilis	GCF_000498655.1	Zymomonas mobilis subsp. mobilis str. CP4 = NRRL B-14023	2013-11-25
+xanthomonas_vasicola	GCF_000277895.2	Xanthomonas vasicola pv. musacearum NCPPB 4379	2018-12-27
+streptomyces_violaceoruber	GCF_033406955.1	Streptomyces violaceoruber	2023-11-07
+desulfovibrio_piger	GCF_937907355.1	Desulfovibrio piger	2023-01-10
+edwardsiella_tarda	GCF_002504285.1	Edwardsiella tarda	2017-10-10
+jonquetella_anthropi	GCF_000161995.1	Jonquetella anthropi E3_33 E1	2009-07-22
+leptotrichia_buccalis	GCF_000023905.1	Leptotrichia buccalis C-1013-b	2009-09-01
+selenomonas_sputigena	GCF_000208405.1	Selenomonas sputigena ATCC 35185	2011-04-21
+clostridium_cellulovorans	GCF_000145275.1	Clostridium cellulovorans 743B	2010-08-11
+acetomicrobium_mobile	GCF_000266925.1	Acetomicrobium mobile DSM 13181	2012-06-12
+photorhabdus_asymbiotica	GCF_000196475.1	Photorhabdus asymbiotica	2009-07-13
+filifactor_alocis	GCF_000163895.2	Filifactor alocis ATCC 35896	2011-01-27
+prevotella_denticola	GCF_018128205.1	Prevotella denticola	2021-04-22
+granulicella_tundricola	GCF_000178975.2	Granulicella tundricola MP5ACTX9	2011-02-02
+segniliparus_rotundus	GCF_000092825.1	Segniliparus rotundus DSM 44985	2010-05-18
+methylovulum_psychrotolerans	GCF_002209385.1	Methylovulum psychrotolerans	2017-06-27
+granulicella_mallensis	GCF_000178955.2	Granulicella mallensis MP5ACTX8	2011-12-01
+shewanella_baltica	GCF_000178875.2	Shewanella baltica OS678	2010-12-21
+fluviicola_taffensis	GCF_000194605.1	Fluviicola taffensis DSM 16823	2011-03-31
+mesotoga_prima	GCF_000147715.2	Mesotoga prima MesG1.Ag.4.2	2012-05-17
+nitratifractor_salsuginis	GCF_000186245.1	Nitratifractor salsuginis DSM 16511	2011-01-18
+mucilaginibacter_paludis	GCF_000166195.2	Mucilaginibacter paludis DSM 18603	2012-01-24
+pantoea_vagans	GCF_004792415.1	Pantoea vagans	2019-04-14
+sphingobium_chlorophenolicum	GCF_000722875.1	Sphingobium chlorophenolicum	2014-07-07
+acetohalobium_arabaticum	GCF_000144695.1	Acetohalobium arabaticum DSM 5501	2010-08-05
+geobacillus_subterraneus	GCF_012295505.1	Geobacillus subterraneus	2020-04-15
+kyrpidia_tusciae	GCF_000092905.1	Kyrpidia tusciae DSM 2912	2010-04-29
+terriglobus_saanensis	GCF_000179915.2	Terriglobus saanensis SP1PR4	2011-01-24
+calditerrivibrio_nitroreducens	GCF_000183405.1	Calditerrivibrio nitroreducens DSM 19672	2010-11-30
+cellulosilyticum_lentocellum	GCF_000178835.2	Cellulosilyticum lentocellum DSM 5427	2011-03-22
+oxalobacter_formigenes	GCF_002127965.1	Oxalobacter formigenes	2017-05-11
+helicobacter_canadensis	GCF_902381655.1	Helicobacter canadensis	2019-08-10
+myroides_odoratus	GCF_900453865.1	Myroides odoratus	2018-08-01
+fusobacterium_necrophorum	GCF_003732525.1	Fusobacterium necrophorum subsp. funduliforme	2018-11-15
+fusobacterium_ulcerans	GCF_003019675.1	Fusobacterium ulcerans	2018-03-26
+fusobacterium_gonidiaformans	GCF_003019695.1	Fusobacterium gonidiaformans ATCC 25563	2018-03-26
+pediococcus_acidilactici	GCF_013127755.1	Pediococcus acidilactici	2020-05-20
+simonsiella_muelleri	GCF_002951835.1	Simonsiella muelleri ATCC 29453	2018-02-02
+capnocytophaga_gingivalis	GCF_002302415.1	Capnocytophaga gingivalis	2017-09-14
+scardovia_inopinata	GCF_001042695.1	Scardovia inopinata JCM 12537	2015-03-24
+parascardovia_denticolens	GCF_001042675.1	Parascardovia denticolens DSM 10105 = JCM 12538	2015-03-24
+pseudopedobacter_saltans	GCF_000190735.1	Pseudopedobacter saltans DSM 12145	2011-03-01
+rubinisphaera_brasiliensis	GCF_000165715.2	Rubinisphaera brasiliensis DSM 5305	2011-03-01
+alkalitalea_saponilacus	GCF_002201795.1	Alkalitalea saponilacus	2017-06-20
+spirochaeta_thermophila	GCF_000184345.1	Spirochaeta thermophila DSM 6578	2011-07-06
+fibrobacter_succinogenes	GCF_000146505.1	Fibrobacter succinogenes subsp. succinogenes S85	2010-08-06
+marinithermus_hydrothermalis	GCF_000195335.1	Marinithermus hydrothermalis DSM 14884	2011-04-07
+hippea_maritima	GCF_000194135.1	Hippea maritima DSM 10411	2011-03-29
+ornithobacterium_rhinotracheale	GCF_000756505.1	Ornithobacterium rhinotracheale ORT-UMN 88	2014-09-22
+capnocytophaga_sputigena	GCF_002302495.1	Capnocytophaga sputigena	2017-09-14
+serratia_plymuthica	GCF_000214235.1	Serratia plymuthica AS9	2011-05-20
+deinococcus_actinosclerus	GCF_001507665.1	Deinococcus actinosclerus	2016-01-08
+singulisphaera_acidiphila	GCF_000242455.2	Singulisphaera acidiphila DSM 18658	2012-12-17
+halobacteroides_halobius	GCF_000328625.1	Halobacteroides halobius DSM 5150	2012-12-28
+bernardetia_litoralis	GCF_000265505.1	Bernardetia litoralis DSM 6794	2012-06-11
+dermacoccus_nishinomiyaensis	GCF_000725405.1	Dermacoccus nishinomiyaensis	2014-07-14
+bifidobacterium_dentium	GCF_000172135.1	Bifidobacterium dentium ATCC 27678	2008-03-13
+[enterobacter]_lignolyticus	GCF_001461805.1	[Enterobacter] lignolyticus	2015-12-07
+mycolicibacterium_chubuense	GCF_900453455.1	Mycolicibacterium chubuense	2018-06-30
+desulfitobacterium_dehalogenans	GCF_000243155.2	Desulfitobacterium dehalogenans ATCC 51507	2012-06-11
+methylomonas_methanica	GCF_001644045.1	Methylomonas methanica	2016-05-16
+amycolatopsis_methanolica	GCF_000371885.1	Amycolatopsis methanolica 239	2013-04-19
+thermobacillus_composti	GCF_000227705.2	Thermobacillus composti KWC4	2012-12-18
+hyphomicrobium_denitrificans	GCF_000143145.1	Hyphomicrobium denitrificans ATCC 51888	2010-06-25
+pelobacter_propionicus	GCF_000015045.1	Pelobacter propionicus DSM 2379	2006-11-30
+carboxydothermus_hydrogenoformans	GCF_000012865.1	Carboxydothermus hydrogenoformans Z-2901	2005-10-21
+ilyobacter_polytropus	GCF_000165505.1	Ilyobacter polytropus DSM 2926	2010-10-22
+arcobacter_nitrofigilis	GCF_000092245.1	Arcobacter nitrofigilis DSM 7299	2010-05-17
+desulfotomaculum_nigrificans	GCF_000189755.2	Desulfotomaculum nigrificans DSM 574	2014-01-16
+cellulophaga_lytica	GCF_000190595.1	Cellulophaga lytica DSM 7489	2011-02-28
+sphaerochaeta_globosa	GCF_000190435.1	Sphaerochaeta globosa str. Buddy	2011-02-24
+aliivibrio_fischeri	GCF_000020845.1	Aliivibrio fischeri MJ11	2008-08-28
+caldicellulosiruptor_kronotskyensis	GCF_000166775.1	Caldicellulosiruptor kronotskyensis 2002	2010-11-17
+halanaerobium_hydrogeniformans	GCF_000166415.1	Halanaerobium hydrogeniformans	2010-11-12
+oceanithermus_profundus	GCF_000183745.1	Oceanithermus profundus DSM 14977	2010-12-02
+aeromicrobium_marinum	GCF_000160775.2	Aeromicrobium marinum DSM 15272	2010-11-15
+desulfitobacterium_dichloroeliminans	GCF_000243135.2	Desulfitobacterium dichloroeliminans LMG P-21439	2012-12-19
+thermovibrio_ammonificans	GCF_000185805.1	Thermovibrio ammonificans HB-1	2011-01-07
+corynebacterium_ammoniagenes	GCF_902381765.1	Corynebacterium ammoniagenes	2019-08-10
+capnocytophaga_leadbetteri	GCF_002302615.1	Capnocytophaga leadbetteri	2017-09-14
+turneriella_parva	GCF_000266885.1	Turneriella parva DSM 21527	2012-06-12
+candidatus_pelagibacter_ubique	GCF_000384455.1	Candidatus Pelagibacter ubique HTCC1040	2013-04-26
+sediminispirochaeta_smaragdinae	GCF_000143985.1	Sediminispirochaeta smaragdinae DSM 11293	2010-07-29
+leadbetterella_byssophila	GCF_000166395.1	Leadbetterella byssophila DSM 17132	2010-11-12
+saccharomonospora_marina	GCF_000244955.1	Saccharomonospora marina XMU15	2012-02-03
+saccharomonospora_cyanea	GCF_000244975.1	Saccharomonospora cyanea NA-134	2012-02-03
+moorella_thermoacetica	GCF_001267435.1	Moorella thermoacetica	2015-08-13
+actinobacillus_succinogenes	GCF_002591855.1	Actinobacillus succinogenes	2017-10-19
+saccharomonospora_azurea	GCF_000231055.2	Saccharomonospora azurea NA-128	2012-03-06
+pseudoxanthomonas_suwonensis	GCF_010093235.1	Pseudoxanthomonas suwonensis	2020-02-03
+amycolatopsis_mediterranei	GCF_000454025.1	Amycolatopsis mediterranei RB	2013-08-22
+streptomyces_griseus	GCF_000010605.1	Streptomyces griseus subsp. griseus NBRC 13350	2008-04-08
+haemophilus_aegyptius	GCF_900475885.1	Haemophilus aegyptius	2018-06-17
+marinitoga_piezophila	GCF_000255135.1	Marinitoga piezophila KA3	2012-01-13
+thermanaerovibrio_velox	GCF_000237825.1	Thermanaerovibrio velox DSM 12556	2011-12-19
+owenweeksia_hongkongensis	GCF_000236705.1	Owenweeksia hongkongensis DSM 17368	2011-12-05
+terriglobus_roseus	GCF_000265425.1	Terriglobus roseus DSM 18391	2012-06-08
+saccharomonospora_glauca	GCF_000243395.2	Saccharomonospora glauca K62	2012-04-18
+thiocystis_violascens	GCF_000227745.2	Thiocystis violascens DSM 198	2012-06-08
+thermodesulfobacterium_geofontis	GCF_000215975.1	Thermodesulfobacterium geofontis OPF15	2011-06-07
+deinococcus_maricopensis	GCF_000186385.1	Deinococcus maricopensis DSM 21211	2011-01-20
+clostridium_beijerinckii	GCF_018223745.1	Clostridium beijerinckii	2021-05-02
+azospira_oryzae	GCF_000236665.1	Azospira oryzae PS	2011-12-05
+tepidanaerobacter_acetatoxydans	GCF_000213235.1	Tepidanaerobacter acetatoxydans Re1	2011-05-12
+thermoanaerobacterium_thermosaccharolyticum	GCF_000328545.1	Thermoanaerobacterium thermosaccharolyticum M0795	2012-12-27
+xanthomonas_oryzae	GCF_008370835.2	Xanthomonas oryzae pv. oryzicola	2019-09-12
+isoptericola_variabilis	GCF_000215105.1	Isoptericola variabilis 225	2011-05-26
+desulfobacter_postgatei	GCF_000233695.2	Desulfobacter postgatei 2ac9	2012-05-31
+mogibacterium_pumilum	GCF_002243385.1	Mogibacterium pumilum	2017-08-08
+megamonas_hypermegale	GCF_900187035.1	Megamonas hypermegale	2017-08-15
+conexibacter_woesei	GCF_000025265.1	Conexibacter woesei DSM 14684	2010-01-15
+bifidobacterium_angulatum	GCF_001025155.1	Bifidobacterium angulatum DSM 20098 = JCM 7096	2015-03-24
+parvimonas_micra	GCF_003454775.1	Parvimonas micra	2018-09-05
+flavisolibacter_tropicus	GCF_001644645.1	Flavisolibacter tropicus	2016-05-16
+megasphaera_hexanoica	GCF_003315775.1	Megasphaera hexanoica	2018-07-12
+acidaminococcus_fermentans	GCF_000025305.1	Acidaminococcus fermentans DSM 20731	2010-01-15
+snodgrassella_alvi	GCF_000600005.1	Snodgrassella alvi wkB2	2014-03-25
+siansivirga_zeaxanthinifaciens	GCF_000941055.1	Siansivirga zeaxanthinifaciens CC-SAMT-1	2015-03-04
+bacillus_sonorensis	GCF_000342105.1	Bacillus sonorensis L12	2013-02-26
+sinorhizobium_meliloti	GCF_037023865.1	Sinorhizobium meliloti	2024-04-05
+treponema_brennaborense	GCF_000212415.1	Treponema brennaborense DSM 12168	2011-05-05
+marinomonas_posidonica	GCF_000214215.1	Marinomonas posidonica IVIA-Po-181	2011-05-20
+thermus_thermophilus	GCF_000091545.1	Thermus thermophilus HB8	2004-11-15
+pectobacterium_carotovorum	GCF_013488025.1	Pectobacterium carotovorum	2020-07-23
+thermoanaerobacter_brockii	GCF_000175295.2	Thermoanaerobacter brockii subsp. finnii Ako-1	2011-01-24
+caldicellulosiruptor_saccharolyticus	GCF_000016545.1	Caldicellulosiruptor saccharolyticus DSM 8903	2007-04-19
+bartonella_australis	GCF_000341355.1	Bartonella australis AUST/NH1	2013-02-20
+bartonella_bovis	GCF_000384965.1	Bartonella bovis 91-4	2013-04-30
+bartonella_schoenbuchensis	GCF_000385435.1	Bartonella schoenbuchensis m07a	2013-05-01
+bartonella_vinsonii	GCF_900638635.1	Bartonella vinsonii	2018-12-20
+niastella_koreensis	GCF_000246855.1	Niastella koreensis GR20-10	2011-12-14
+leptospira_santarosai	GCF_000313175.2	Leptospira santarosai serovar Shermani str. LT 821	2014-10-08
+xanthomonas_sacchari	GCF_002940085.1	Xanthomonas sacchari	2018-02-23
+corynebacterium_frankenforstense	GCF_001941485.1	Corynebacterium frankenforstense DSM 45800	2017-01-10
+massilia_timonae	GCF_001866515.1	Massilia timonae	2016-11-04
+sinorhizobium_medicae	GCF_007827695.1	Sinorhizobium medicae	2019-08-02
+sinorhizobium_fredii	GCF_003177055.1	Sinorhizobium fredii CCBAU 25509	2018-05-30
+bacillus_mycoides	GCF_018739485.1	Bacillus mycoides	2021-06-07
+francisella_philomiragia	GCF_018135955.1	Francisella philomiragia	2021-04-23
+bartonella_quintana	GCF_009936175.1	Bartonella quintana	2019-12-09
+bartonella_tribocorum	GCF_000196435.1	Bartonella tribocorum CIP 105476	2007-11-25
+bartonella_birtlesii	GCF_000278095.1	Bartonella birtlesii LL-WM9	2012-07-25
+bartonella_apis	GCF_001952065.1	Bartonella apis	2017-01-13
+bartonella_grahamii	GCF_000022725.1	Bartonella grahamii as4aup	2009-06-19
+thioflavicoccus_mobilis	GCF_000327045.1	Thioflavicoccus mobilis 8321	2012-12-20
+acetobacter_aceti	GCF_000379545.1	Acetobacter aceti ATCC 23746	2013-04-23
+halothermothrix_orenii	GCF_000020485.1	Halothermothrix orenii H 168	2009-01-13
+zunongwangia_profunda	GCF_000023465.1	Zunongwangia profunda SM-A87	2010-04-21
+aquiflexum_balticum	GCF_900176595.1	Aquiflexum balticum DSM 16537	2017-04-09
+bartonella_henselae	GCF_000612965.1	Bartonella henselae	2014-04-01
+caldicellulosiruptor_obsidiansis	GCF_000145215.1	Caldicellulosiruptor obsidiansis OB47	2010-08-11
+capnocytophaga_ochracea	GCF_000023285.1	Capnocytophaga ochracea DSM 7271	2009-08-26
+treponema_denticola	GCF_000008185.1	Treponema denticola ATCC 35405	2004-02-03
+spirochaeta_africana	GCF_000242595.2	Spirochaeta africana DSM 8902	2012-04-02
+thermanaeromonas_toyohensis	GCF_900176005.1	Thermanaeromonas toyohensis ToBE	2017-04-06
+enterococcus_wangshanyuanii	GCF_002197645.1	Enterococcus wangshanyuanii	2017-06-19
+verminephrobacter_eiseniae	GCF_000015565.1	Verminephrobacter eiseniae EF01-2	2007-01-09
+streptomyces_chartreusis	GCF_008704715.1	Streptomyces chartreusis	2019-09-26
+rhodococcus_ruber	GCF_016804345.1	Rhodococcus ruber	2021-02-03
+campylobacter_curvus	GCF_013372125.1	Campylobacter curvus	2020-06-24
+pseudomonas_lini	GCF_900104735.1	Pseudomonas lini	2016-10-20
+pseudomonas_chlororaphis	GCF_014524625.1	Pseudomonas chlororaphis	2020-09-11
+pseudomonas_umsongensis	GCF_012647205.1	Pseudomonas umsongensis	2020-04-22
+herbaspirillum_frisingense	GCF_000300975.2	Herbaspirillum frisingense GSF30	2013-04-22
+phyllobacterium_zundukense	GCF_002764115.1	Phyllobacterium zundukense	2017-11-13
+brucella_ovis	GCF_000016845.1	Brucella ovis ATCC 25840	2007-05-30
+bacillus_pseudomycoides	GCF_000161455.1	Bacillus pseudomycoides DSM 12442	2009-05-29
+xanthomonas_phaseoli	GCF_001564415.1	Xanthomonas phaseoli pv. dieffenbachiae LMG 695	2016-02-22
+xanthomonas_citri	GCF_000961215.1	Xanthomonas citri pv. citri	2015-03-24
+brachyspira_murdochii	GCF_000092845.1	Brachyspira murdochii DSM 12563	2010-05-13
+[clostridium]_saccharolyticum	GCF_000144625.1	[Clostridium] saccharolyticum WM1	2010-08-05
+acidovorax_carolinensis	GCF_002157165.1	Acidovorax carolinensis	2017-05-24
+mycoplasma_mycoides	GCF_000023685.1	Mycoplasma mycoides subsp. capri str. GM12	2009-08-21
+helicobacter_bilis	GCF_000364285.1	Helicobacter bilis WiWa	2013-04-12
+acidaminococcus_intestini	GCF_902381715.1	Acidaminococcus intestini	2019-08-10
+cylindrospermum_stagnale	GCF_000317535.1	Cylindrospermum stagnale PCC 7417	2012-12-06
+stanieria_cyanosphaera	GCF_000317575.1	Stanieria cyanosphaera PCC 7437	2012-12-06
+cyanobacterium_aponinum	GCF_000317675.1	Cyanobacterium aponinum PCC 10605	2012-12-07
+chlamydia_avium	GCF_000417735.2	Chlamydia avium	2013-07-02
+acinetobacter_lactucae	GCF_013122135.1	Acinetobacter lactucae	2020-05-19
+acidipropionibacterium_acidipropionici	GCF_001441165.1	Acidipropionibacterium acidipropionici	2015-11-09
+pannonibacter_phragmitetus	GCF_900454465.1	Pannonibacter phragmitetus	2018-08-01
+mycobacterium_haemophilum	GCF_000340435.2	Mycobacterium haemophilum DSM 44634	2015-10-30
+thermotoga_maritima	GCF_000230655.2	Thermotoga maritima MSB8	2013-12-20
+bartonella_bacilliformis	GCF_009498695.1	Bartonella bacilliformis	2019-11-04
+grimontia_hollisae	GCF_001558255.2	Grimontia hollisae	2018-01-31
+mycobacterium_leprae	GCF_003253775.1	Mycobacterium leprae	2018-06-18
+bibersteinia_trehalosi	GCF_000521725.1	Bibersteinia trehalosi USDA-ARS-USMARC-188	2014-01-22
+amycolatopsis_orientalis	GCF_000943515.2	Amycolatopsis orientalis	2016-06-22
+pseudomonas_azotoformans	GCF_900103345.1	Pseudomonas azotoformans	2016-10-20
+rhodothermus_marinus	GCF_000024845.1	Rhodothermus marinus DSM 4252	2009-11-03
+kushneria_konosiri	GCF_002155145.1	Kushneria konosiri	2017-05-22
+yoonia_vestfoldensis	GCF_000382265.1	Yoonia vestfoldensis DSM 16212	2013-04-24
+paenibacillus_stellifer	GCF_000758685.1	Paenibacillus stellifer	2014-09-22
+massilia_violaceinigra	GCF_002752675.1	Massilia violaceinigra	2017-11-06
+paraburkholderia_terrae	GCF_020885575.1	Paraburkholderia terrae	2021-10-29
+rhizobium_etli	GCF_002119845.1	Rhizobium etli	2017-05-09
+polynucleobacter_necessarius	GCF_900096765.1	Polynucleobacter necessarius	2017-06-21
+sphingobium_herbicidovorans	GCF_001598535.1	Sphingobium herbicidovorans NBRC 16415	2016-03-11
+filimonas_lacunae	GCF_002355595.1	Filimonas lacunae	2016-05-23
+cellulophaga_baltica	GCF_000468615.2	Cellulophaga baltica 18	2014-12-09
+bradyrhizobium_icense	GCF_001693385.1	Bradyrhizobium icense	2016-07-25
+rubrivivax_gelatinosus	GCF_004340905.1	Rubrivivax gelatinosus	2019-03-11
+candidatus_planktophila_lacus	GCF_002288325.1	Candidatus Planktophila lacus	2017-09-08
+erythrobacter_litoralis	GCF_001719165.1	Erythrobacter litoralis	2016-09-06
+chloracidobacterium_thermophilum	GCF_000226295.1	Chloracidobacterium thermophilum B	2011-09-23
+luteibacter_rhizovicinus	GCF_001887595.1	Luteibacter rhizovicinus DSM 16549	2016-11-30
+delftia_acidovorans	GCF_000018665.1	Delftia acidovorans SPH-1	2007-11-16
+salinispora_arenicola	GCF_000384275.1	Salinispora arenicola DSM 45545	2013-04-26
+nocardiopsis_dassonvillei	GCF_900638215.1	Nocardiopsis dassonvillei	2018-12-20
+marinobacterium_aestuarii	GCF_001651805.1	Marinobacterium aestuarii	2016-05-25
+paracoccus_zhejiangensis	GCF_002847445.1	Paracoccus zhejiangensis	2017-12-27
+xylella_fastidiosa	GCF_000007245.1	Xylella fastidiosa Temecula1	2003-01-29
+methylococcus_capsulatus	GCF_000008325.1	Methylococcus capsulatus str. Bath	2005-05-18
+psychromonas_ingrahamii	GCF_000015285.1	Psychromonas ingrahamii 37	2006-12-22
+teredinibacter_turnerae	GCF_000964255.1	Teredinibacter turnerae	2015-03-27
+thioalkalivibrio_versutus	GCF_001020955.1	Thioalkalivibrio versutus	2015-06-05
+brevibacillus_laterosporus	GCF_002706795.1	Brevibacillus laterosporus DSM 25	2017-10-25
+erysipelothrix_larvae	GCF_001545095.1	Erysipelothrix larvae	2016-02-02
+microbacterium_paraoxydans	GCF_900105335.1	Microbacterium paraoxydans	2016-10-21
+hirschia_baltica	GCF_000023785.1	Hirschia baltica ATCC 49814	2009-07-17
+nocardia_terpenica	GCF_002568625.1	Nocardia terpenica	2017-10-17
+methylotenera_versatilis	GCF_000093025.1	Methylotenera versatilis 301	2010-06-01
+methylomonas_denitrificans	GCF_000785705.2	Methylomonas denitrificans	2016-02-22
+pseudoalteromonas_piscicida	GCF_019797925.1	Pseudoalteromonas piscicida	2021-08-30
+actinobacillus_equuli	GCF_000801145.1	Actinobacillus equuli subsp. equuli	2014-12-15
+methylobacterium_radiotolerans	GCF_000019725.1	Methylobacterium radiotolerans JCM 2831	2008-03-21
+coprothermobacter_proteolyticus	GCF_000020945.1	Coprothermobacter proteolyticus DSM 5265	2008-09-26
+thermus_scotoductus	GCF_003959475.1	Thermus scotoductus	2018-12-21
+hyphomonas_neptunium	GCF_000013025.1	Hyphomonas neptunium ATCC 15444	2006-09-18
+pseudoxanthomonas_spadix	GCF_000233915.3	Pseudoxanthomonas spadix BD-a59	2011-11-17
+hydrogenovibrio_crunogenus	GCF_004786015.1	Hydrogenovibrio crunogenus	2019-04-12
+simiduia_agarivorans	GCF_000420285.1	Simiduia agarivorans SA1 = DSM 21679	2013-07-09
+alteromonas_macleodii	GCF_002849875.1	Alteromonas macleodii	2018-01-03
+hahella_chejuensis	GCF_000012985.1	Hahella chejuensis KCTC 2396	2005-12-14
+mannheimia_haemolytica	GCF_002285575.1	Mannheimia haemolytica	2017-09-05
+dokdonella_koreensis	GCF_001632775.1	Dokdonella koreensis DS-123	2016-04-27
+ezakiella_massiliensis	GCF_900120165.1	Ezakiella massiliensis	2016-11-22
+deinococcus_puniceus	GCF_001644565.1	Deinococcus puniceus	2016-05-16
+salinicoccus_halodurans	GCF_001005905.1	Salinicoccus halodurans	2015-05-11
+corynebacterium_crudilactis	GCF_001643015.1	Corynebacterium crudilactis	2016-05-13
+proteiniphilum_saccharofermentans	GCF_900095135.1	Proteiniphilum saccharofermentans	2017-01-26
+psychroflexus_torquis	GCF_000153485.2	Psychroflexus torquis ATCC 700755	2012-10-09
+parageobacillus_thermoglucosidasius	GCF_001700985.1	Parageobacillus thermoglucosidasius	2016-08-09
+hyphomicrobium_nitrativorans	GCF_000503895.1	Hyphomicrobium nitrativorans NL23	2013-12-04
+halobacillus_halophilus	GCF_000284515.1	Halobacillus halophilus DSM 2266	2012-04-11
+olleya_aquimaris	GCF_003259525.1	Olleya aquimaris	2018-06-21
+flavobacterium_commune	GCF_001857965.1	Flavobacterium commune	2016-10-31
+kluyvera_intermedia	GCF_009649915.1	Kluyvera intermedia	2019-11-12
+prochlorococcus_marinus	GCF_000015665.1	Prochlorococcus marinus str. MIT 9515	2007-01-19
+sulfurimonas_autotrophica	GCF_000147355.1	Sulfurimonas autotrophica DSM 16294	2010-09-15
+sulfurimonas_gotlandica	GCF_000242915.1	Sulfurimonas gotlandica GD1	2012-01-18
+sideroxydans_lithotrophicus	GCF_000025705.1	Sideroxydans lithotrophicus ES-1	2010-03-26
+jeotgalicoccus_saudimassiliensis	GCF_000756715.1	Jeotgalicoccus saudimassiliensis	2014-09-15
+flavobacterium_crassostreae	GCF_001831475.1	Flavobacterium crassostreae	2016-10-24
+thermodesulfatator_indicus	GCF_000217795.1	Thermodesulfatator indicus DSM 15286	2011-06-10
+desulfurobacterium_thermolithotrophum	GCF_000191045.1	Desulfurobacterium thermolithotrophum DSM 11699	2011-03-02
+nitrosomonas_communis	GCF_001007935.1	Nitrosomonas communis	2015-05-15
+shewanella_putrefaciens	GCF_025402875.1	Shewanella putrefaciens	2022-09-26
+parvibaculum_lavamentivorans	GCF_000017565.1	Parvibaculum lavamentivorans DS-1	2007-07-30
+clostridium_scatologenes	GCF_000968375.1	Clostridium scatologenes	2015-04-02
+butyrivibrio_hungatei	GCF_001858005.1	Butyrivibrio hungatei	2016-10-31
+butyrivibrio_proteoclasticus	GCF_000145035.1	Butyrivibrio proteoclasticus B316	2010-08-10
+bifidobacterium_pseudolongum	GCF_002706665.1	Bifidobacterium pseudolongum subsp. globosum DSM 20092	2017-10-25
+prevotella_scopos	GCF_001683355.1	Prevotella scopos JCM 17725	2016-07-11
+agarivorans_gilvus	GCF_014636215.1	Agarivorans gilvus	2020-09-12
+tessaracoccus_aquimaris	GCF_001997345.1	Tessaracoccus aquimaris	2017-02-14
+rhodobacter_capsulatus	GCF_000021865.1	Rhodobacter capsulatus SB 1003	2010-04-09
+thermodesulfovibrio_yellowstonii	GCF_000020985.1	Thermodesulfovibrio yellowstonii DSM 11347	2008-09-26
+saccharospirillum_mangrovi	GCF_003367315.1	Saccharospirillum mangrovi	2018-08-08
+pseudonocardia_dioxanivorans	GCF_000196675.2	Pseudonocardia dioxanivorans CB1190	2011-03-28
+leminorella_richardii	GCF_900478135.1	Leminorella richardii	2018-06-17
+thermodesulfobacterium_commune	GCF_000734015.1	Thermodesulfobacterium commune DSM 2178	2014-07-28
+bacterioplanes_sanyensis	GCF_014652515.1	Bacterioplanes sanyensis	2020-09-12
+desulfomicrobium_baculatum	GCF_000023225.1	Desulfomicrobium baculatum DSM 4028	2009-08-26
+ferrimonas_balearica	GCF_000148645.1	Ferrimonas balearica DSM 9799	2010-09-24
+dermatophilus_congolensis	GCF_900187045.1	Dermatophilus congolensis	2017-08-15
+novosphingobium_pentaromativorans	GCF_000767465.1	Novosphingobium pentaromativorans US6-1	2014-10-20
+desulfatibacillum_alkenivorans	GCF_900142135.1	Desulfatibacillum alkenivorans DSM 16219	2016-12-03
+desulfovibrio_desulfuricans	GCF_017815575.1	Desulfovibrio desulfuricans	2021-04-07
+novosphingobium_aromaticivorans	GCF_000013325.1	Novosphingobium aromaticivorans DSM 12444	2007-04-18
+algoriphagus_machipongonensis	GCF_000166275.1	Algoriphagus machipongonensis	2010-11-09
+niveispirillum_cyanobacteriorum	GCF_002868735.1	Niveispirillum cyanobacteriorum	2018-01-09
+flavobacterium_indicum	GCF_000455605.1	Flavobacterium indicum GPTSA100-9 = DSM 17447	2012-03-15
+photobacterium_gaetbulicola	GCF_003025515.1	Photobacterium gaetbulicola	2018-03-31
+thauera_aromatica	GCF_003030465.1	Thauera aromatica K172	2018-04-02
+azospirillum_thiophilum	GCF_001305595.1	Azospirillum thiophilum	2015-10-02
+aequorivita_sublithincola	GCF_000265385.1	Aequorivita sublithincola DSM 14238	2012-06-08
+syntrophus_aciditrophicus	GCF_000013405.1	Syntrophus aciditrophicus SB	2006-01-26
+acidihalobacter_prosperus	GCF_000754095.2	Acidihalobacter prosperus	2016-06-22
+maricaulis_maris	GCF_003634045.1	Maricaulis maris	2018-10-11
+arenibacter_algicola	GCF_002234495.1	Arenibacter algicola	2017-07-27
+candidatus_hamiltonella_defensa	GCF_000021705.1	Candidatus Hamiltonella defensa 5AT (Acyrthosiphon pisum)	2009-05-05
+ammonifex_degensii	GCF_000024605.1	Ammonifex degensii KC4	2009-10-08
+alteromonas_mediterranea	GCF_001886435.1	Alteromonas mediterranea	2016-11-28
+laribacter_hongkongensis	GCF_000423285.1	Laribacter hongkongensis DSM 14985	2013-07-11
+glaciecola_nitratireducens	GCF_000226565.1	Glaciecola nitratireducens FR1064	2011-09-28
+colwellia_psychrerythraea	GCF_000012325.1	Colwellia psychrerythraea 34H	2005-07-26
+pseudomonas_cremoricolorata	GCF_000425745.1	Pseudomonas cremoricolorata DSM 17059 = NBRC 16634	2013-07-11
+sporosarcina_ureae	GCF_002081995.1	Sporosarcina ureae	2017-04-07
+chryseobacterium_taklimakanense	GCF_003860545.1	Chryseobacterium taklimakanense	2018-12-04
+rathayibacter_toxicus	GCF_018800825.1	Rathayibacter toxicus	2021-06-09
+agrococcus_carbonis	GCF_900104705.1	Agrococcus carbonis	2016-10-20
+paraburkholderia_graminis	GCF_003330785.1	Paraburkholderia graminis	2018-07-20
+bradyrhizobium_erythrophlei	GCF_900142985.1	Bradyrhizobium erythrophlei	2016-12-02
+frankia_casuarinae	GCF_000013345.1	Frankia casuarinae	2006-02-06
+pseudomonas_psychrophila	GCF_011040435.1	Pseudomonas psychrophila	2020-02-29
+lysinibacillus_fusiformis	GCF_000724775.3	Lysinibacillus fusiformis	2015-02-10
+gottschalkia_acidurici	GCF_000299355.1	Gottschalkia acidurici 9a	2012-09-27
+ehrlichia_chaffeensis	GCF_000632965.1	Ehrlichia chaffeensis str. West Paces	2014-04-17
+desulfococcus_multivorans	GCF_002009335.2	Desulfococcus multivorans	2017-03-08
+vibrio_harveyi	GCF_030060435.1	Vibrio harveyi	2023-05-22
+desulfosporosinus_acidiphilus	GCF_000255115.2	Desulfosporosinus acidiphilus SJ4	2012-06-15
+echinicola_vietnamensis	GCF_000325705.1	Echinicola vietnamensis DSM 17526	2012-12-19
+fervidobacterium_pennivorans	GCF_000235405.2	Fervidobacterium pennivorans DSM 9078	2012-04-02
+solitalea_canadensis	GCF_000242635.2	Solitalea canadensis DSM 3403	2012-03-08
+sulfurospirillum_barnesii	GCF_000265295.1	Sulfurospirillum barnesii SES-3	2012-06-07
+thiomicrospira_cyclica	GCF_000214825.1	Thiomicrospira cyclica ALM1	2011-05-25
+clostridium_saccharobutylicum	GCF_000473995.1	Clostridium saccharobutylicum DSM 13864	2013-10-18
+methylotenera_mobilis	GCF_000023705.1	Methylotenera mobilis JLW8	2009-07-15
+methylocella_silvestris	GCF_000021745.1	Methylocella silvestris BL2	2008-12-15
+candidatus_thioglobus_autotrophicus	GCF_001293165.1	Candidatus Thioglobus autotrophicus	2015-09-17
+planococcus_rifietoensis	GCF_001465795.2	Planococcus rifietoensis	2016-01-25
+capnocytophaga_cynodegmi	GCF_002302475.1	Capnocytophaga cynodegmi	2017-09-14
+porphyromonas_asaccharolytica	GCF_000212375.1	Porphyromonas asaccharolytica DSM 20707	2011-05-05
+gallibacterium_anatis	GCF_000772265.1	Gallibacterium anatis DSM 16844 = F 149	2014-11-05
+haliscomenobacter_hydrossis	GCF_000212735.1	Haliscomenobacter hydrossis DSM 1100	2011-05-09
+cytophaga_hutchinsonii	GCF_000014145.1	Cytophaga hutchinsonii ATCC 33406	2006-07-11
+cupriavidus_necator	GCF_004798725.1	Cupriavidus necator H16	2019-04-17
+candidatus_thiodictyon_syntrophicum	GCF_002813775.1	Candidatus Thiodictyon syntrophicum	2017-12-07
+gallionella_capsiferriformans	GCF_000145255.1	Gallionella capsiferriformans ES-2	2010-08-11
+mariprofundus_aestuarium	GCF_002795805.1	Mariprofundus aestuarium	2017-11-27
+mariprofundus_ferrinatatus	GCF_002795825.1	Mariprofundus ferrinatatus	2017-11-27
+geminocystis_herdmanii	GCF_000332235.1	Geminocystis herdmanii PCC 6308	2013-01-22
+mageeibacillus_indolicus	GCF_000025225.2	Mageeibacillus indolicus UPII9-5	2010-09-21
+corynebacterium_timonense	GCF_000312345.1	Corynebacterium timonense 5401744	2012-10-03
+kribbella_flavida	GCF_000024345.1	Kribbella flavida DSM 17836	2010-01-13
+oenococcus_oeni	GCF_020510245.1	Oenococcus oeni	2021-10-15
+corynebacterium_doosanense	GCF_000767055.1	Corynebacterium doosanense CAU 212 = DSM 45436	2014-10-16
+aggregatibacter_actinomycetemcomitans	GCF_023518055.1	Aggregatibacter actinomycetemcomitans	2022-05-23
+candidatus_fonsibacter_ubiquis	GCF_002688585.1	Candidatus Fonsibacter ubiquis	2017-10-24
+thioalkalivibrio_paradoxus	GCF_000227685.2	Thioalkalivibrio paradoxus ARh 1	2014-01-03
+allochromatium_vinosum	GCF_000025485.1	Allochromatium vinosum DSM 180	2010-02-16
+thiomicrospira_aerophila	GCF_000227665.2	Thiomicrospira aerophila AL3	2014-01-03
+marichromatium_purpuratum	GCF_000224005.2	Marichromatium purpuratum 984	2014-01-03
+pseudoalteromonas_arctica	GCF_000238395.3	Pseudoalteromonas arctica A 37-1-2	2017-09-18
+pseudoalteromonas_agarivorans	GCF_003668795.1	Pseudoalteromonas agarivorans	2018-10-22
+methylosinus_trichosporium	GCF_000178815.2	Methylosinus trichosporium OB3b	2014-01-06
+oscillatoria_acuminata	GCF_000317105.1	Oscillatoria acuminata PCC 6304	2012-12-05
+leptolyngbya_boryana	GCF_002142475.1	Leptolyngbya boryana IAM M-101	2015-02-14
+oscillatoria_nigro-viridis	GCF_000317475.1	Oscillatoria nigro-viridis PCC 7112	2012-12-06
+arthrospira_platensis	GCF_009176225.1	Arthrospira platensis NIES-46	2019-10-17
+paracoccus_aminovorans	GCF_900005615.1	Paracoccus aminovorans	2017-08-14
+halomicronema_hongdechloris	GCF_002075285.3	Halomicronema hongdechloris C2206	2019-01-25
+candidatus_planktophila_dulcis	GCF_002287965.1	Candidatus Planktophila dulcis	2017-09-08
+candidatus_nanopelagicus_abundans	GCF_002288305.1	Candidatus Nanopelagicus abundans	2017-09-08
+candidatus_nanopelagicus_limnes	GCF_002287885.2	Candidatus Nanopelagicus limnes	2017-10-05
+fibrella_aestuarina	GCF_000331105.1	Fibrella aestuarina BUZ 2	2012-04-11
+actinopolyspora_erythraea	GCF_002263515.1	Actinopolyspora erythraea	2017-08-22
+sphingomonas_melonis	GCF_000371765.1	Sphingomonas melonis C3	2013-04-19
+calothrix_parietina	GCF_014696555.1	Calothrix parietina FACHB-288	2020-09-22
+cyanobium_gracile	GCF_000316515.1	Cyanobium gracile PCC 6307	2012-12-04
+anabaena_cylindrica	GCF_000317695.1	Anabaena cylindrica PCC 7122	2012-12-07
+geobacter_metallireducens	GCF_000012925.1	Geobacter metallireducens GS-15	2005-10-27
+desulfosporosinus_youngiae	GCF_000244895.1	Desulfosporosinus youngiae DSM 17734	2012-02-01
+saprospira_grandis	GCF_000250635.1	Saprospira grandis str. Lewin	2012-02-27
+niabella_soli	GCF_000243115.2	Niabella soli DSM 19437	2014-01-03
+desulfitobacterium_metallireducens	GCF_000231405.2	Desulfitobacterium metallireducens DSM 15288	2014-01-03
+desulfosporosinus_meridiei	GCF_000231385.2	Desulfosporosinus meridiei DSM 13257	2012-08-27
+thermus_oshimai	GCF_000309885.1	Thermus oshimai JL-2	2012-11-05
+frateuria_aurantia	GCF_000242255.2	Frateuria aurantia DSM 6220	2012-03-02
+microvirga_ossetica	GCF_002741015.1	Microvirga ossetica	2016-08-05
+desulfosporosinus_orientis	GCF_000235605.1	Desulfosporosinus orientis DSM 765	2011-11-16
+planktothrix_agardhii	GCF_904830935.1	Planktothrix agardhii	2022-06-30
+burkholderia_mallei	GCF_002346025.1	Burkholderia mallei	2017-09-22
+treponema_pedis	GCF_000447675.1	Treponema pedis str. T A4	2013-08-16
+photorhabdus_laumondii	GCF_000196155.1	Photorhabdus laumondii subsp. laumondii TTO1	2003-10-03
+photorhabdus_thracensis	GCF_001010285.1	Photorhabdus thracensis	2015-05-19
+neorickettsia_helminthoeca	GCF_000632985.1	Neorickettsia helminthoeca str. Oregon	2014-04-17
+rhodomicrobium_vannielii	GCF_000166055.1	Rhodomicrobium vannielii ATCC 17100	2010-11-05
+xanthomonas_translucens	GCF_017301775.1	Xanthomonas translucens pv. undulosa	2021-03-08
+ehrlichia_muris	GCF_000508225.1	Ehrlichia muris AS145	2013-12-16
+bacillus_altitudinis	GCF_001191605.1	Bacillus altitudinis	2015-08-03
+hydrogenobacter_thermophilus	GCF_000164905.1	Hydrogenobacter thermophilus TK-6	2010-10-15
+candidatus_accumulibacter_phosphatis	GCF_012939955.1	Candidatus Accumulibacter phosphatis	2020-05-01
+asticcacaulis_excentricus	GCF_000175215.2	Asticcacaulis excentricus CB 48	2010-12-22
+staphylococcus_carnosus	GCF_900458435.1	Staphylococcus carnosus	2018-08-01
+candidatus_cloacimonas_acidaminovorans	GCF_000146065.2	Candidatus Cloacimonas acidaminovorans str. Evry	2008-02-12
+oceanicoccus_sagamiensis	GCF_002117105.1	Oceanicoccus sagamiensis	2017-05-02
+actinopolymorpha_singaporensis	GCF_900104745.1	Actinopolymorpha singaporensis	2016-10-20
+acidobacterium_capsulatum	GCF_000022565.1	Acidobacterium capsulatum ATCC 51196	2009-03-30
+sulfurihydrogenibium_azorense	GCF_000021545.1	Sulfurihydrogenibium azorense Az-Fu1	2009-03-25
+advenella_mimigardefordensis	GCF_000521505.1	Advenella mimigardefordensis DPN7	2014-01-22
+desulfobacula_toluolica	GCF_000307105.1	Desulfobacula toluolica Tol2	2012-09-17
+pragia_fontium	GCF_900638655.1	Pragia fontium	2018-12-20
+amycolatopsis_albispora	GCF_003312875.1	Amycolatopsis albispora	2018-07-11
+sedimenticola_thiotaurini	GCF_001007875.1	Sedimenticola thiotaurini	2015-05-15
+runella_slithyformis	GCF_000218895.1	Runella slithyformis DSM 19594	2011-06-17
+azorhizobium_caulinodans	GCF_000010525.1	Azorhizobium caulinodans ORS 571	2007-10-16
+paraburkholderia_sprentiae	GCF_001865575.2	Paraburkholderia sprentiae WSM5005	2021-06-29
+thalassospira_xiamenensis	GCF_000300235.2	Thalassospira xiamenensis M-5 = DSM 17429	2015-01-09
+aerococcus_urinaehominis	GCF_001543245.1	Aerococcus urinaehominis	2016-02-01
+candidatus_koribacter_versatilis	GCF_000014005.1	Candidatus Koribacter versatilis Ellin345	2006-05-04
+nitrosomonas_eutropha	GCF_000014765.1	Nitrosomonas eutropha C91	2006-09-13
+candidatus_puniceispirillum_marinum	GCF_000024465.1	Candidatus Puniceispirillum marinum IMCC1322	2010-03-31
+candidatus_planktophila_versatilis	GCF_002288145.1	Candidatus Planktophila versatilis	2017-09-08
+spirosoma_pollinicola	GCF_002831565.1	Spirosoma pollinicola	2017-12-11
+kangiella_profundi	GCF_002838765.1	Kangiella profundi	2017-12-13
+riemerella_anatipestifer	GCF_019552185.1	Riemerella anatipestifer	2021-08-11
+thiobacillus_denitrificans	GCF_000376425.1	Thiobacillus denitrificans DSM 12475	2013-04-20
+buchnera_aphidicola	GCF_003099975.1	Buchnera aphidicola (Schizaphis graminum)	2018-05-09
+arthrobacter_crystallopoietes	GCF_002849715.1	Arthrobacter crystallopoietes	2018-01-03
+mesoplasma_syrphidae	GCF_002843565.1	Mesoplasma syrphidae	2017-12-17
+pseudomonas_alkylphenolica	GCF_009755645.1	Pseudomonas alkylphenolica	2019-12-16
+methylocystis_bryophila	GCF_002117405.1	Methylocystis bryophila	2017-05-02
+flavobacterium_faecale	GCF_003076455.1	Flavobacterium faecale	2018-05-01
+virgibacillus_halodenitrificans	GCF_001878675.1	Virgibacillus halodenitrificans	2016-11-14
+beijerinckia_indica	GCF_000019845.1	Beijerinckia indica subsp. indica ATCC 9039	2008-04-11
+pseudoalteromonas_aliena	GCF_001999225.1	Pseudoalteromonas aliena	2017-02-14
+akkermansia_muciniphila	GCF_009731575.1	Akkermansia muciniphila	2019-11-28
+spirosoma_aerolatum	GCF_002056795.1	Spirosoma aerolatum	2017-03-21
+niabella_ginsenosidivorans	GCF_001654455.1	Niabella ginsenosidivorans	2016-06-02
+bordetella_petrii	GCF_000067205.1	Bordetella petrii	2007-12-18
+candidatus_phycorickettsia_trachydisci	GCF_003015145.1	Candidatus Phycorickettsia trachydisci	2018-03-26
+micavibrio_aeruginosavorus	GCF_000226315.1	Micavibrio aeruginosavorus ARL-13	2011-09-23
+bifidobacterium_choerinum	GCF_002761235.1	Bifidobacterium choerinum	2017-11-07
+thauera_humireducens	GCF_001051995.2	Thauera humireducens	2016-03-08
+candidatus_methylopumilus_planktonicus	GCF_006364455.1	Candidatus Methylopumilus planktonicus	2019-06-19
+denitrovibrio_acetiphilus	GCF_000025725.1	Denitrovibrio acetiphilus DSM 12809	2010-03-11
+salinibacter_ruber	GCF_003491405.1	Salinibacter ruber	2018-09-07
+corynebacterium_cystitidis	GCF_900187295.1	Corynebacterium cystitidis	2017-08-15
+echinicola_strongylocentroti	GCF_003260975.1	Echinicola strongylocentroti	2018-06-23
+pontibacter_akesuensis	GCF_001611675.1	Pontibacter akesuensis	2016-04-06
+thermoanaerobacter_siderophilus	GCF_000262445.1	Thermoanaerobacter siderophilus SR4	2012-06-19
+martelella_mediterranea	GCF_002043005.1	Martelella mediterranea DSM 17316	2017-03-20
+sphingobium_baderi	GCF_001046655.1	Sphingobium baderi LL03	2015-07-07
+corynebacterium_urealyticum	GCF_900187235.1	Corynebacterium urealyticum	2017-08-15
+thioalkalivibrio_sulfidiphilus	GCF_000021985.1	Thioalkalivibrio sulfidiphilus HL-EbGr7	2009-01-13
+bifidobacterium_scardovii	GCF_001042635.1	Bifidobacterium scardovii JCM 12489 = DSM 13734	2015-02-17
+bifidobacterium_catenulatum	GCF_001025195.1	Bifidobacterium catenulatum DSM 16992 = JCM 1194 = LMG 11043	2015-03-24
+bifidobacterium_coryneforme	GCF_000737865.1	Bifidobacterium coryneforme	2014-08-05
+bifidobacterium_actinocoloniiforme	GCF_001263395.1	Bifidobacterium actinocoloniiforme DSM 22766	2015-08-10
+dehalococcoides_mccartyi	GCF_000830905.1	Dehalococcoides mccartyi CG4	2014-08-04
+francisella_noatunensis	GCF_016605205.1	Francisella noatunensis	2021-01-11
+paenibacillus_kribbensis	GCF_002240415.1	Paenibacillus kribbensis	2017-08-03
+pseudomonas_amygdali	GCF_000145945.2	Pseudomonas amygdali pv. tabaci str. ATCC 11528	2019-08-15
+rhodococcus_fascians	GCF_001620305.1	Rhodococcus fascians D188	2016-04-14
+thermacetogenium_phaeum	GCF_000305935.1	Thermacetogenium phaeum DSM 12270	2012-10-17
+xanthobacter_autotrophicus	GCF_005871085.1	Xanthobacter autotrophicus	2019-05-28
+thermoclostridium_stercorarium	GCF_000331995.1	Thermoclostridium stercorarium subsp. stercorarium DSM 8532	2013-01-17
+mesoplasma_chauliocola	GCF_002290085.1	Mesoplasma chauliocola	2017-09-12
+shewanella_japonica	GCF_002075795.1	Shewanella japonica	2017-03-31
+ruminococcus_albus	GCF_000179635.2	Ruminococcus albus 7 = DSM 20455	2010-12-23
+halotalea_alkalilenta	GCF_000621205.1	Halotalea alkalilenta DSM 17697	2014-04-08
+roseomonas_gilardii	GCF_001941945.1	Roseomonas gilardii	2017-01-06
+shewanella_pealeana	GCF_000018285.1	Shewanella pealeana ATCC 700345	2007-10-04
+thermoanaerobacter_mathranii	GCF_000092965.1	Thermoanaerobacter mathranii subsp. mathranii str. A3	2010-05-26
+pseudoalteromonas_tetraodonis	GCF_002310835.1	Pseudoalteromonas tetraodonis	2017-09-18
+tenacibaculum_todarodis	GCF_001889045.1	Tenacibaculum todarodis	2016-12-05
+bartonella_clarridgeiae	GCF_000253015.1	Bartonella clarridgeiae 73	2011-01-17
+borrelia_coriaceae	GCF_023035295.1	Borrelia coriaceae	2022-04-18
+anaplasma_phagocytophilum	GCF_000439775.1	Anaplasma phagocytophilum str. JM	2013-07-24
+rickettsia_felis	GCF_000804505.1	Rickettsia felis	2014-12-18
+pediococcus_damnosus	GCF_001611155.1	Pediococcus damnosus	2016-04-05
+mesorhizobium_japonicum	GCF_012913625.1	Mesorhizobium japonicum R7A	2020-04-28
+pseudomonas_brassicacearum	GCF_008370715.1	Pseudomonas brassicacearum	2019-09-12
+tolumonas_auensis	GCF_000023065.1	Tolumonas auensis DSM 9187	2009-05-13
+dickeya_solani	GCF_002846995.1	Dickeya solani	2017-12-21
+borreliella_burgdorferi	GCF_000181575.2	Borreliella burgdorferi Bol26	2009-04-01
+rickettsia_bellii	GCF_002078315.1	Rickettsia bellii	2017-04-04
+salinispira_pacifica	GCF_000507245.1	Salinispira pacifica	2013-12-13
+listeria_seeligeri	GCF_000027145.1	Listeria seeligeri serovar 1/2b str. SLCC3954	2010-02-18
+lactococcus_raffinolactis	GCF_002310475.1	Lactococcus raffinolactis	2017-09-18
+ralstonia_solanacearum	GCF_021117135.1	Ralstonia solanacearum	2021-12-08
+chlorobaculum_tepidum	GCF_000006985.1	Chlorobaculum tepidum TLS	2002-07-02
+deinococcus_radiodurans	GCF_020546685.1	Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539	2021-10-25
+[eubacterium]_cellulosolvens	GCF_000621585.1	[Eubacterium] cellulosolvens LD2006	2014-04-08
+luteitalea_pratensis	GCF_001618865.1	Luteitalea pratensis	2016-04-12
+paenibacillus_yonginensis	GCF_001685395.1	Paenibacillus yonginensis	2016-07-15
+achromobacter_insolitus	GCF_008245125.1	Achromobacter insolitus	2019-09-03
+chlorobium_phaeobacteroides	GCF_000015125.1	Chlorobium phaeobacteroides DSM 266	2006-12-11
+candidatus_desulforudis_audaxviator	GCF_003932015.1	Candidatus Desulforudis audaxviator	2019-03-01
+syntrophothermus_lipocalidus	GCF_000092405.1	Syntrophothermus lipocalidus DSM 12680	2010-05-28
+melioribacter_roseus	GCF_000279145.1	Melioribacter roseus P3M-2	2012-07-18
+marivirga_tractuosa	GCF_000183425.1	Marivirga tractuosa DSM 4126	2010-11-30
+bacillus_cytotoxicus	GCF_002250945.2	Bacillus cytotoxicus	2018-05-18
+candidatus_nucleicultrix_amoebiphila	GCF_002117145.1	Candidatus Nucleicultrix amoebiphila FS5	2017-05-02
+pandoraea_pnomenusa	GCF_000504585.2	Pandoraea pnomenusa	2016-11-17
+desulfocapsa_sulfexigens	GCF_000341395.1	Desulfocapsa sulfexigens DSM 10523	2013-02-20
+polynucleobacter_difficilis	GCF_003065365.1	Polynucleobacter difficilis	2018-04-23
+desulfotalea_psychrophila	GCF_000025945.1	Desulfotalea psychrophila LSv54	2004-07-31
+rhodoluna_lacicola	GCF_000699505.1	Rhodoluna lacicola	2014-06-09
+sulfuricaulis_limicola	GCF_002355735.1	Sulfuricaulis limicola	2016-07-30
+caldicellulosiruptor_hydrothermalis	GCF_000166355.1	Caldicellulosiruptor hydrothermalis 108	2010-11-10
+spirosoma_rigui	GCF_002067135.1	Spirosoma rigui	2017-03-21
+symbiobacterium_thermophilum	GCF_000009905.1	Symbiobacterium thermophilum IAM 14863	2004-09-02
+polaromonas_naphthalenivorans	GCF_000015505.1	Polaromonas naphthalenivorans CJ2	2007-01-04
+chondromyces_crocatus	GCF_001189295.1	Chondromyces crocatus	2015-07-30
+nitrosomonas_europaea	GCF_000009145.1	Nitrosomonas europaea ATCC 19718	2003-05-06
+acholeplasma_oculi	GCF_900444665.1	Acholeplasma oculi	2018-08-07
+halomonas_beimenensis	GCF_002549795.1	Halomonas beimenensis	2017-10-13
+verrucomicrobium_spinosum	GCF_000172155.1	Verrucomicrobium spinosum DSM 4136 = JCM 18804	2008-01-02
+fusobacterium_mortiferum	GCF_003019315.1	Fusobacterium mortiferum ATCC 9817	2018-03-26
+shewanella_psychrophila	GCF_002005305.1	Shewanella psychrophila	2017-02-21
+thermosipho_africanus	GCF_000021285.1	Thermosipho africanus TCF52B	2008-12-10
+porphyromonas_crevioricanis	GCF_900476255.1	Porphyromonas crevioricanis	2018-06-17
+syntrophobacter_fumaroxidans	GCF_000014965.1	Syntrophobacter fumaroxidans MPOB	2006-10-26
+syntrophomonas_wolfei	GCF_000014725.1	Syntrophomonas wolfei subsp. wolfei str. Goettingen G311	2006-09-14
+fervidobacterium_nodosum	GCF_000017545.1	Fervidobacterium nodosum Rt17-B1	2007-07-30
+vibrio_tubiashii	GCF_000772105.1	Vibrio tubiashii ATCC 19109	2014-11-05
+shewanella_violacea	GCF_000091325.1	Shewanella violacea DSS12	2010-04-01
+sulfurospirillum_deleyianum	GCF_000024885.1	Sulfurospirillum deleyianum DSM 6946	2009-11-18
+clostridium_novyi	GCF_003614235.1	Clostridium novyi	2018-10-04
+lutibacter_profundi	GCF_001543325.1	Lutibacter profundi	2016-02-01
+nautilia_profundicola	GCF_000021725.1	Nautilia profundicola AmH	2009-02-13
+methylobacterium_phyllosphaerae	GCF_001936175.1	Methylobacterium phyllosphaerae	2017-01-05
+microbacterium_aurum	GCF_001974985.1	Microbacterium aurum	2017-01-30
+borrelia_anserina	GCF_001936255.1	Borrelia anserina Es	2017-01-05
+fimbriimonas_ginsengisoli	GCF_000724625.1	Fimbriimonas ginsengisoli Gsoil 348	2014-07-10
+methylophaga_frappieri	GCF_000260965.1	Methylophaga frappieri	2012-05-03
+chromobacterium_vaccinii	GCF_001855275.1	Chromobacterium vaccinii	2016-10-27
+wigglesworthia_glossinidia	GCF_000247565.1	Wigglesworthia glossinidia endosymbiont of Glossina morsitans morsitans (Yale colony)	2012-02-10
+arcticibacterium_luteifluviistationis	GCF_003258705.1	Arcticibacterium luteifluviistationis	2018-06-20
+azospirillum_humicireducens	GCF_001639105.2	Azospirillum humicireducens	2018-04-18
+rickettsia_prowazekii	GCF_000277165.1	Rickettsia prowazekii str. Chernikova	2012-03-21
+phaeobacter_porticola	GCF_001888185.1	Phaeobacter porticola	2016-12-02
+candidatus_methylopumilus_turicensis	GCF_000953015.1	Candidatus Methylopumilus turicensis	2015-02-04
+anoxybacillus_amylolyticus	GCF_001634285.1	Anoxybacillus amylolyticus	2016-04-29
+pseudoalteromonas_luteoviolacea	GCF_006704145.1	Pseudoalteromonas luteoviolacea	2019-07-09
+nitrosospira_multiformis	GCF_000196355.1	Nitrosospira multiformis ATCC 25196	2005-11-15
+agrococcus_jejuensis	GCF_900099705.1	Agrococcus jejuensis	2016-10-20
+pseudomonas_resinovorans	GCF_000423545.1	Pseudomonas resinovorans DSM 21078	2013-07-11
+rhodospirillum_rubrum	GCF_000225955.1	Rhodospirillum rubrum F11	2011-09-15
+kocuria_flava	GCF_001482365.1	Kocuria flava	2015-12-24
+nocardiopsis_gilva	GCF_002263495.1	Nocardiopsis gilva YIM 90087	2017-08-22
+pseudoalteromonas_tunicata	GCF_003568825.1	Pseudoalteromonas tunicata	2018-09-04
+pseudothermotoga_hypogea	GCF_000504105.1	Pseudothermotoga hypogea DSM 11164 = NBRC 106472	2013-10-23
+clostridium_estertheticum	GCF_030585465.1	Clostridium estertheticum	2023-08-02
+sulfurovum_lithotrophicum	GCF_000987835.1	Sulfurovum lithotrophicum	2015-05-04
+saccharophagus_degradans	GCF_000013665.1	Saccharophagus degradans 2-40	2006-03-17
+clostridium_carboxidivorans	GCF_001038625.1	Clostridium carboxidivorans P7	2015-06-24
+peptoclostridium_acidaminophilum	GCF_000597865.1	Peptoclostridium acidaminophilum DSM 3953	2014-03-19
+geosporobacter_ferrireducens	GCF_001750685.1	Geosporobacter ferrireducens	2016-10-03
+campylobacter_pinnipediorum	GCF_002021945.1	Campylobacter pinnipediorum subsp. pinnipediorum	2017-03-06
+thermaerobacter_marianensis	GCF_000184705.1	Thermaerobacter marianensis DSM 12885	2010-12-29
+acidiphilium_multivorum	GCF_000202835.1	Acidiphilium multivorum AIU301	2011-03-01
+thermocrinis_ruber	GCF_000512735.1	Thermocrinis ruber	2014-01-03
+dehalobacter_restrictus	GCF_009796305.1	Dehalobacter restrictus	2019-12-24
+bacillus_gobiensis	GCF_001278705.1	Bacillus gobiensis	2015-09-04
+tessaracoccus_flavus	GCF_001997295.1	Tessaracoccus flavus	2017-02-14
+pectobacterium_atrosepticum	GCF_000740965.1	Pectobacterium atrosepticum	2014-08-18
+caulobacter_henricii	GCF_001414055.1	Caulobacter henricii	2015-10-26
+pediococcus_inopinatus	GCF_034049535.1	Pediococcus inopinatus	2023-12-04
+pediococcus_pentosaceus	GCF_000014505.1	Pediococcus pentosaceus ATCC 25745	2006-10-13
+frankia_alni	GCF_000058485.1	Frankia alni ACN14a	2006-08-03
+dyella_japonica	GCF_001010355.1	Dyella japonica DSM 16301	2015-05-19
+methylobacterium_oryzae	GCF_000757795.1	Methylobacterium oryzae CBMB20	2014-09-25
+rhodococcus_erythropolis	GCF_000696675.2	Rhodococcus erythropolis R138	2015-12-30
+rhodococcus_opacus	GCF_020542785.1	Rhodococcus opacus PD630	2021-10-21
+hymenobacter_sedentarius	GCF_001507645.1	Hymenobacter sedentarius	2016-01-08
+exiguobacterium_oxidotolerans	GCF_000702625.1	Exiguobacterium oxidotolerans JCM 12280	2014-06-11
+nitrosococcus_oceani	GCF_000012805.1	Nitrosococcus oceani ATCC 19707	2005-10-04
+paraburkholderia_xenovorans	GCF_000013645.1	Paraburkholderia xenovorans LB400	2006-04-10
+kitasatospora_aureofaciens	GCF_002082605.1	Kitasatospora aureofaciens	2017-04-10
+denitrobacterium_detoxificans	GCF_001643775.1	Denitrobacterium detoxificans	2016-05-16
+[mannheimia]_succiniciproducens	GCF_000007745.1	[Mannheimia] succiniciproducens MBEL55E	2004-09-17
+megasphaera_elsdenii	GCF_003006415.1	Megasphaera elsdenii	2018-03-17
+actinomyces_pacaensis	GCF_900120245.1	Actinomyces pacaensis	2016-11-22
+haemophilus_pittmaniae	GCF_900186995.1	Haemophilus pittmaniae	2017-08-15
+capnocytophaga_haemolytica	GCF_900187255.1	Capnocytophaga haemolytica	2017-08-15
+paracoccus_contaminans	GCF_002105555.1	Paracoccus contaminans	2017-04-24
+paracoccus_aminophilus	GCF_000444995.1	Paracoccus aminophilus JCM 7686	2013-08-08
+acetobacter_ghanensis	GCF_011516865.1	Acetobacter ghanensis	2020-03-19
+entomoplasma_freundtii	GCF_002804205.1	Entomoplasma freundtii	2017-12-04
+altererythrobacter_ishigakiensis	GCF_001663155.1	Altererythrobacter ishigakiensis	2016-06-15
+borreliella_afzelii	GCF_026571835.1	Borreliella afzelii	2022-12-01
+treponema_putidum	GCF_024401155.1	Treponema putidum	2022-07-25
+halanaerobium_praevalens	GCF_000165465.1	Halanaerobium praevalens DSM 2228	2010-10-21
+thalassotalea_crassostreae	GCF_001831495.1	Thalassotalea crassostreae	2016-10-24
+pedobacter_cryoconitis	GCF_003259615.1	Pedobacter cryoconitis	2018-06-21
+pseudomonas_alcaliphila	GCF_033842905.1	Pseudomonas alcaliphila	2023-11-20
+shewanella_oneidensis	GCF_000146165.2	Shewanella oneidensis MR-1	2012-11-02
+paenarthrobacter_aurescens	GCF_006538985.1	Paenarthrobacter aurescens	2019-06-12
+helicobacter_hepaticus	GCF_000007905.1	Helicobacter hepaticus ATCC 51449	2003-06-26
+thermoanaerobacterium_xylanolyticum	GCF_000189775.2	Thermoanaerobacterium xylanolyticum LX-11	2011-05-17
+thalassospira_marina	GCF_002844375.1	Thalassospira marina	2017-12-18
+cronobacter_dublinensis	GCF_001277235.1	Cronobacter dublinensis subsp. dublinensis LMG 23823	2015-09-01
+mucilaginibacter_mallensis	GCF_900105165.1	Mucilaginibacter mallensis	2016-10-20
+kosakonia_radicincitans	GCF_008330085.1	Kosakonia radicincitans	2019-09-09
+pseudomonas_extremorientalis	GCF_900104365.1	Pseudomonas extremorientalis	2016-10-20
+microbacterium_testaceum	GCF_006539145.1	Microbacterium testaceum	2019-06-12
+rhizobium_tropici	GCF_000330885.1	Rhizobium tropici CIAT 899	2013-01-03
+sphingomonas_hengshuiensis	GCF_000935025.1	Sphingomonas hengshuiensis	2015-02-26
+agrobacterium_fabrum	GCF_003667725.1	Agrobacterium fabrum	2018-10-21
+mesorhizobium_amorphae	GCF_001686985.1	Mesorhizobium amorphae CCNWGS0123	2016-07-18
+leuconostoc_citreum	GCF_007954785.1	Leuconostoc citreum	2019-08-11
+tateyamaria_omphalii	GCF_014651375.1	Tateyamaria omphalii	2020-09-12
+halomonas_hydrothermalis	GCF_011399095.1	Halomonas hydrothermalis	2020-03-10
+clostridium_acetobutylicum	GCF_000218855.1	Clostridium acetobutylicum DSM 1731	2011-06-17
+ruminiclostridium_cellulolyticum	GCF_000022065.1	Ruminiclostridium cellulolyticum H10	2009-01-13
+pseudomonas_viridiflava	GCF_900184295.1	Pseudomonas viridiflava	2017-06-13
+pseudomonas_moraviensis	GCF_036283065.1	Pseudomonas moraviensis subsp. stanleyae	2024-01-29
+lactobacillus_kullabergensis	GCF_003151025.1	Lactobacillus kullabergensis	2018-05-24
+allofrancisella_guangzhouensis	GCF_000815225.1	Allofrancisella guangzhouensis	2015-01-06
+lactobacillus_helsingborgensis	GCF_003173695.1	Lactobacillus helsingborgensis	2018-05-29
+nitrosospira_lacus	GCF_000355765.4	Nitrosospira lacus	2017-07-17
+listeria_welshimeri	GCF_900187315.1	Listeria welshimeri	2017-08-15
+desulfuromonas_soudanensis	GCF_001278055.1	Desulfuromonas soudanensis	2015-09-02
+streptomyces_xiamenensis	GCF_000993785.3	Streptomyces xiamenensis	2019-08-19
+helicobacter_mustelae	GCF_900476215.1	Helicobacter mustelae	2018-06-17
+streptomyces_avermitilis	GCF_000009765.2	Streptomyces avermitilis MA-4680 = NBRC 14893	2016-03-24
+corynebacterium_singulare	GCF_000833575.1	Corynebacterium singulare	2015-02-06
+burkholderia_diffusa	GCF_902830815.1	Burkholderia diffusa	2020-04-25
+burkholderia_territorii	GCF_001718335.1	Burkholderia territorii	2016-09-02
+burkholderia_anthina	GCF_902498995.1	Burkholderia anthina	2020-04-25
+burkholderia_humptydooensis	GCF_016027455.1	Burkholderia humptydooensis	2020-12-14
+burkholderia_latens	GCF_902832795.1	Burkholderia latens	2020-06-09
+clostridium_ljungdahlii	GCF_000143685.1	Clostridium ljungdahlii DSM 13528	2010-07-12
+lentzea_guizhouensis	GCF_001701025.1	Lentzea guizhouensis	2016-08-09
+dickeya_dianthicola	GCF_003403135.1	Dickeya dianthicola	2018-08-19
+rhodococcus_aetherivorans	GCF_025722975.1	Rhodococcus aetherivorans	2022-10-17
+campylobacter_volucris	GCF_008245045.1	Campylobacter volucris	2019-09-03
+campylobacter_insulaenigrae	GCF_000816185.1	Campylobacter insulaenigrae NCTC 12927	2015-01-07
+helicobacter_acinonychis	GCF_000009305.1	Helicobacter acinonychis str. Sheeba	2006-06-28
+wolinella_succinogenes	GCF_000196135.1	Wolinella succinogenes DSM 1740	2003-09-08
+desulfarculus_baarsii	GCF_000143965.1	Desulfarculus baarsii DSM 2075	2010-07-29
+ralstonia_mannitolilytica	GCF_000954135.1	Ralstonia mannitolilytica	2015-03-19
+bacillus_wiedmannii	GCF_008807735.1	Bacillus wiedmannii	2019-10-03
+idiomarina_loihiensis	GCF_000008465.1	Idiomarina loihiensis L2TR	2004-12-02
+thiomonas_intermedia	GCF_002028405.1	Thiomonas intermedia	2017-03-15
+pseudomonas_avellanae	GCF_000452845.1	Pseudomonas avellanae	2013-11-27
+vibrio_mimicus	GCF_000176375.1	Vibrio mimicus MB451	2009-10-23
+pseudomonas_citronellolis	GCF_001586155.1	Pseudomonas citronellolis	2016-03-10
+mycolicibacterium_goodii	GCF_022370755.2	Mycolicibacterium goodii	2022-08-24
+streptomyces_pactum	GCF_016031615.1	Streptomyces pactum	2020-12-14
+glutamicibacter_arilaitensis	GCF_000197735.1	Glutamicibacter arilaitensis Re117	2010-09-27
+agrobacterium_vitis	GCF_001541345.2	Agrobacterium vitis	2018-07-23
+azotobacter_vinelandii	GCF_000021045.1	Azotobacter vinelandii DJ	2009-04-14
+azospirillum_brasilense	GCF_007827425.1	Azospirillum brasilense	2019-08-02
+azotobacter_chroococcum	GCF_002220155.1	Azotobacter chroococcum	2017-07-17
+clostridium_argentinense	GCF_002074155.1	Clostridium argentinense	2017-03-29
+myroides_profundi	GCF_000833025.1	Myroides profundi	2015-02-05
+vibrio_jasicida	GCF_002887615.1	Vibrio jasicida 090810c	2018-01-17
+cellulomonas_flavigena	GCF_000092865.1	Cellulomonas flavigena DSM 20109	2010-05-13
+aerococcus_viridans	GCF_001543285.1	Aerococcus viridans	2016-02-01
+francisella_hispaniensis	GCF_000195555.1	Francisella hispaniensis	2011-04-08
+candidatus_phytoplasma_mali	GCF_000026205.1	Candidatus Phytoplasma mali	2008-07-04
+photobacterium_profundum	GCF_000153425.1	Photobacterium profundum 3TCK	2006-05-02
+vibrio_breoganii	GCF_024346795.1	Vibrio breoganii	2022-07-13
+shewanella_woodyi	GCF_000019525.1	Shewanella woodyi ATCC 51908	2008-03-13
+prevotella_fusca	GCF_001262015.1	Prevotella fusca JCM 17724	2015-08-06
+fusobacterium_varium	GCF_003019655.1	Fusobacterium varium ATCC 27725	2018-03-26
+corynebacterium_minutissimum	GCF_900478045.1	Corynebacterium minutissimum	2018-06-17
+kosakonia_oryzae	GCF_001658025.2	Kosakonia oryzae	2021-03-11
+weissella_paramesenteroides	GCF_015689215.1	Weissella paramesenteroides	2020-11-25
+weissella_jogaejeotgali	GCF_001932615.1	Weissella jogaejeotgali	2017-01-04
+gilliamella_apicola	GCF_000599985.1	Gilliamella apicola	2014-03-25
+pseudarthrobacter_chlorophenolicus	GCF_000022025.1	Pseudarthrobacter chlorophenolicus A6	2009-01-09
+methylobacterium_aquaticum	GCF_001043915.1	Methylobacterium aquaticum	2015-06-30
+microbacterium_pygmaeum	GCF_900100885.1	Microbacterium pygmaeum	2016-10-20
+marinobacter_salarius	GCF_002116735.1	Marinobacter salarius	2017-05-01
+paenibacillus_durus	GCF_000756615.1	Paenibacillus durus	2014-09-22
+halobacillus_mangrovi	GCF_002097535.1	Halobacillus mangrovi	2017-04-18
+halomonas_elongata	GCF_000196875.2	Halomonas elongata DSM 2581	2017-01-31
+halomonas_chromatireducens	GCF_001545155.1	Halomonas chromatireducens	2016-02-02
+halomonas_aestuarii	GCF_001886615.1	Halomonas aestuarii	2016-11-28
+microbulbifer_aggregans	GCF_001750105.1	Microbulbifer aggregans	2016-09-30
+pelagibacterium_halotolerans	GCF_013004005.1	Pelagibacterium halotolerans	2020-05-10
+planococcus_antarcticus	GCF_001687565.2	Planococcus antarcticus DSM 14505	2016-11-01
+celeribacter_ethanolicus	GCF_002407265.1	Celeribacter ethanolicus	2017-10-02
+micromonospora_rifamycinica	GCF_900090265.1	Micromonospora rifamycinica	2016-08-16
+myroides_odoratimimus	GCF_004337635.1	Myroides odoratimimus	2019-03-11
+cyclobacterium_marinum	GCF_000222485.1	Cyclobacterium marinum DSM 745	2011-08-03
+deinococcus_wulumuqiensis	GCF_011067105.1	Deinococcus wulumuqiensis R12	2020-03-07
+lentibacillus_amyloliquefaciens	GCF_001307805.1	Lentibacillus amyloliquefaciens	2016-01-12
+antarctobacter_heliothermus	GCF_900188425.1	Antarctobacter heliothermus	2017-07-16
+methylophaga_nitratireducenticrescens	GCF_000260985.4	Methylophaga nitratireducenticrescens	2017-06-27
+micromonospora_coxensis	GCF_900090295.1	Micromonospora coxensis	2016-08-16
+salimicrobium_jeotgali	GCF_001685435.2	Salimicrobium jeotgali	2016-11-16
+archangium_gephyra	GCF_001027285.1	Archangium gephyra	2015-06-03
+geodermatophilus_obscurus	GCF_000025345.1	Geodermatophilus obscurus DSM 43160	2010-01-20
+salipiger_profundus	GCF_014637265.1	Salipiger profundus	2020-09-12
+amphibacillus_xylanus	GCF_000307165.1	Amphibacillus xylanus NBRC 15112	2012-10-01
+myxococcus_xanthus	GCF_000012685.1	Myxococcus xanthus DK 1622	2006-06-07
+zobellia_galactanivorans	GCF_000973105.1	Zobellia galactanivorans	2011-07-10
+micromonospora_siamensis	GCF_900090305.1	Micromonospora siamensis	2016-08-16
+micromonospora_zamorensis	GCF_036041405.1	Micromonospora zamorensis	2024-01-25
+pedobacter_steynii	GCF_900103665.1	Pedobacter steynii	2016-10-21
+terribacillus_aidingensis	GCF_900215625.1	Terribacillus aidingensis	2017-09-28
+pedobacter_ginsengisoli	GCF_030244015.1	Pedobacter ginsengisoli	2023-06-08
+robiginitalea_biformata	GCF_000024125.1	Robiginitalea biformata HTCC2501	2009-09-11
+planococcus_maritimus	GCF_001687625.2	Planococcus maritimus	2016-11-01
+collimonas_fungivorans	GCF_001584145.1	Collimonas fungivorans	2016-03-09
+idiomarina_piscisalsi	GCF_003987095.1	Idiomarina piscisalsi	2018-12-31
+alcanivorax_borkumensis	GCF_000009365.1	Alcanivorax borkumensis SK2	2006-07-24
+blastococcus_saxobsidens	GCF_004217455.1	Blastococcus saxobsidens	2019-02-20
+campylobacter_avium	GCF_002238335.1	Campylobacter avium LMG 24591	2017-08-01
+campylobacter_subantarcticus	GCF_000816305.1	Campylobacter subantarcticus LMG 24377	2015-01-07
+campylobacter_cuniculorum	GCF_002104335.1	Campylobacter cuniculorum DSM 23162 = LMG 24588	2017-04-21
+streptomyces_globisporus	GCF_000718455.1	Streptomyces globisporus subsp. globisporus	2014-07-02
+ketobacter_alkanivorans	GCF_002863865.1	Ketobacter alkanivorans	2018-01-05
+thalassolituus_oleivorans	GCF_000355675.1	Thalassolituus oleivorans MIL-1	2013-03-14
+enterococcus_thailandicus	GCF_002290025.1	Enterococcus thailandicus	2017-09-12
+mycolicibacter_terrae	GCF_900187145.1	Mycolicibacter terrae	2017-08-15
+gordonia_bronchialis	GCF_000024785.1	Gordonia bronchialis DSM 43247	2009-10-27
+rhodococcus_pyridinivorans	GCF_000511305.1	Rhodococcus pyridinivorans SB3094	2013-12-20
+bacillus_methanolicus	GCF_000262755.1	Bacillus methanolicus PB1	2012-05-14
+borreliella_garinii	GCF_026572315.1	Borreliella garinii	2022-12-01
+borreliella_valaisiana	GCF_000170955.2	Borreliella valaisiana VS116	2009-03-04
+nostoc_linckia	GCF_002608105.1	Nostoc linckia z6	2017-10-20
+xanthomonas_cassavae	GCF_000454545.1	Xanthomonas cassavae CFBP 4642	2013-08-29
+caldicellulosiruptor_bescii	GCF_000022325.1	Caldicellulosiruptor bescii DSM 6725	2009-02-04
+cyclobacterium_amurskyense	GCF_001050135.1	Cyclobacterium amurskyense	2015-07-08
+methylobacillus_flagellatus	GCF_000013705.1	Methylobacillus flagellatus KT	2006-04-10
+paraburkholderia_caffeinilytica	GCF_003368325.1	Paraburkholderia caffeinilytica	2018-08-09
+sphingobacterium_mizutaii	GCF_900102835.1	Sphingobacterium mizutaii	2016-10-21
+paenibacillus_riograndensis	GCF_000981585.1	Paenibacillus riograndensis SBR5	2015-04-11
+pseudomonas_oryzae	GCF_900104805.1	Pseudomonas oryzae	2016-10-20
+thioclava_nitratireducens	GCF_001940525.2	Thioclava nitratireducens	2017-02-21
+octadecabacter_antarcticus	GCF_000155675.2	Octadecabacter antarcticus 307	2013-04-08
+virgibacillus_necropolis	GCF_002224365.1	Virgibacillus necropolis	2017-07-24
+thauera_chlorobenzoica	GCF_001922305.1	Thauera chlorobenzoica	2016-12-27
+flavobacterium_gilvum	GCF_001761465.1	Flavobacterium gilvum	2016-10-12
+cryobacterium_arcticum	GCF_003185895.1	Cryobacterium arcticum	2018-06-04
+draconibacterium_orientale	GCF_900111425.1	Draconibacterium orientale	2016-10-31
+nitrosospira_briensis	GCF_000619905.2	Nitrosospira briensis C-128	2015-08-14
+nitrosomonas_ureae	GCF_001455205.1	Nitrosomonas ureae	2015-12-02
+roseateles_depolymerans	GCF_001483865.1	Roseateles depolymerans	2016-01-04
+petrimonas_mucosa	GCF_900095795.1	Petrimonas mucosa	2016-10-21
+sphingomonas_sanxanigenens	GCF_000512205.2	Sphingomonas sanxanigenens DSM 19645 = NX02	2015-05-15
+magnetospirillum_gryphiswaldense	GCF_000513295.1	Magnetospirillum gryphiswaldense MSR-1 v2	2013-12-16
+dyella_jiangningensis	GCF_029543225.1	Dyella jiangningensis	2023-04-03
+pseudomonas_cichorii	GCF_000517305.1	Pseudomonas cichorii JBC1	2014-01-09
+pseudomonas_agarici	GCF_001543125.1	Pseudomonas agarici	2016-02-01
+pandoraea_vervacti	GCF_000934605.2	Pandoraea vervacti	2016-11-17
+campylobacter_peloridis	GCF_014931075.1	Campylobacter peloridis	2020-10-26
+bordetella_flabilis	GCF_001676725.1	Bordetella flabilis	2016-06-27
+candidatus_nanopelagicus_hibericus	GCF_002288005.1	Candidatus Nanopelagicus hibericus	2017-09-08
+candidatus_planktophila_sulfonica	GCF_002288065.1	Candidatus Planktophila sulfonica	2017-09-08
+candidatus_planktophila_limnetica	GCF_002288365.1	Candidatus Planktophila limnetica	2017-09-08
+mycobacterium_paraintracellulare	GCF_016756055.1	Mycobacterium paraintracellulare	2020-12-28
+borreliella_bavariensis	GCF_000196215.1	Borreliella bavariensis PBi	2004-08-30
+bradyrhizobium_lablabi	GCF_001440475.1	Bradyrhizobium lablabi	2015-11-06
+brucella_microti	GCF_000022745.1	Brucella microti CCM 4915	2009-08-18
+chromohalobacter_salexigens	GCF_000055785.1	Chromohalobacter salexigens DSM 3043	2006-04-11
+actinoplanes_derwentensis	GCF_900104725.1	Actinoplanes derwentensis	2016-10-21
+xenorhabdus_doucetiae	GCF_000968195.1	Xenorhabdus doucetiae	2014-06-30
+austwickia_chelonae	GCF_900111385.1	Austwickia chelonae	2016-10-31
+prauserella_marina	GCF_002240355.1	Prauserella marina	2017-08-03
+agromyces_flavus	GCF_900104685.1	Agromyces flavus	2016-10-21
+pontibacter_korlensis	GCF_000973725.1	Pontibacter korlensis	2015-04-20
+actinoplanes_missouriensis	GCF_000284295.1	Actinoplanes missouriensis 431	2012-03-28
+belliella_baltica	GCF_000265405.1	Belliella baltica DSM 15883	2012-06-08
+leptothrix_cholodnii	GCF_000019785.1	Leptothrix cholodnii SP-6	2008-03-25
+virgibacillus_pantothenticus	GCF_018075365.1	Virgibacillus pantothenticus	2021-04-19
+aquifex_aeolicus	GCF_000008625.1	Aquifex aeolicus VF5	1999-12-22
+kutzneria_albida	GCF_000525635.1	Kutzneria albida DSM 43870	2014-02-03
+kushneria_marisflavi	GCF_002157205.1	Kushneria marisflavi	2017-05-24
+isoptericola_dokdonensis	GCF_001636295.1	Isoptericola dokdonensis DS-3	2016-05-03
+fictibacillus_arsenicus	GCF_001999465.1	Fictibacillus arsenicus	2017-02-13
+myxococcus_fulvus	GCF_900111765.1	Myxococcus fulvus	2016-11-01
+roseobacter_denitrificans	GCF_002983865.1	Roseobacter denitrificans	2018-03-09
+stigmatella_aurantiaca	GCF_900109545.1	Stigmatella aurantiaca	2016-10-31
+wenyingzhuangia_fucanilytica	GCF_001697185.1	Wenyingzhuangia fucanilytica	2016-08-02
+thermocrinis_minervae	GCF_900142435.1	Thermocrinis minervae	2016-12-02
+nocardiopsis_alba	GCF_000710955.1	Nocardiopsis alba	2014-06-14
+clostridium_formicaceticum	GCF_002080475.1	Clostridium formicaceticum	2017-04-06
+pseudomonas_tolaasii	GCF_002813445.1	Pseudomonas tolaasii NCPPB 2192	2017-12-06
+pseudomonas_synxantha	GCF_003851555.1	Pseudomonas synxantha	2018-11-29
+nonlabens_dokdonensis	GCF_003254015.1	Nonlabens dokdonensis	2018-06-19
+clostridium_aceticum	GCF_001042715.1	Clostridium aceticum	2015-06-12
+microbulbifer_thermotolerans	GCF_001617625.1	Microbulbifer thermotolerans	2016-04-08
+chitinophaga_caeni	GCF_002557795.1	Chitinophaga caeni	2017-10-16
+salegentibacter_salegens	GCF_900142975.1	Salegentibacter salegens	2016-12-02
+thermosediminibacter_oceani	GCF_000144645.1	Thermosediminibacter oceani DSM 16646	2010-08-05
+geoalkalibacter_subterraneus	GCF_000827125.1	Geoalkalibacter subterraneus	2015-01-21
+mucilaginibacter_gotjawali	GCF_002355435.1	Mucilaginibacter gotjawali	2016-02-20
+chryseobacterium_camelliae	GCF_002770595.1	Chryseobacterium camelliae	2017-11-14
+halomonas_huangheensis	GCF_001431725.1	Halomonas huangheensis	2015-11-04
+kibdelosporangium_phytohabitans	GCF_001302585.1	Kibdelosporangium phytohabitans	2015-09-29
+rhodoferax_antarcticus	GCF_001955735.1	Rhodoferax antarcticus	2017-01-18
+rhodoferax_ferrireducens	GCF_000013605.1	Rhodoferax ferrireducens T118	2006-03-10
+elizabethkingia_miricola	GCF_001483145.1	Elizabethkingia miricola	2015-12-29
+paenibacillus_odorifer	GCF_000758725.1	Paenibacillus odorifer	2014-09-22
+vibrio_scophthalmi	GCF_001723385.1	Vibrio scophthalmi	2016-09-12
+maribacter_cobaltidurans	GCF_002269385.1	Maribacter cobaltidurans	2017-08-24
+pseudomonas_prosekii	GCF_900105155.1	Pseudomonas prosekii	2016-10-21
+paucimonas_lemoignei	GCF_004342585.1	Paucimonas lemoignei	2019-03-11
+herbinix_luporum	GCF_900070325.1	Herbinix luporum	2015-09-14
+mycobacteroides_saopaulense	GCF_001456355.1	Mycobacteroides saopaulense	2015-12-03
+microcystis_aeruginosa	GCF_001578075.1	Microcystis aeruginosa NIES-88	2016-03-01
+nodularia_spumigena	GCF_003054475.1	Nodularia spumigena UHCC 0039	2018-04-17
+staphylococcus_muscae	GCF_900187005.1	Staphylococcus muscae	2017-08-15
+staphylococcus_felis	GCF_003012915.1	Staphylococcus felis	2018-03-21
+staphylococcus_lutrae	GCF_002101335.1	Staphylococcus lutrae	2017-04-20
+staphylococcus_piscifermentans	GCF_900186985.1	Staphylococcus piscifermentans	2017-08-15
+staphylococcus_simiae	GCF_900187055.1	Staphylococcus simiae	2017-08-15
+candidatus_ruthia_magnifica	GCF_000015105.1	Candidatus Ruthia magnifica str. Cm (Calyptogena magnifica)	2006-12-01
+flavobacterium_branchiophilum	GCF_000253275.1	Flavobacterium branchiophilum FL-15	2011-09-06
+pseudomonas_veronii	GCF_002028325.1	Pseudomonas veronii	2017-03-15
+rickettsia_rickettsii	GCF_000018225.1	Rickettsia rickettsii str. 'Sheila Smith'	2007-10-02
+wolbachia_endosymbiont_of_culex_quinquefasciatus	GCF_000073005.1	Wolbachia endosymbiont of Culex quinquefasciatus Pel	2008-06-13
+pasteurella_dagmatis	GCF_900186835.1	Pasteurella dagmatis	2017-08-15
+dietzia_psychralcaliphila	GCF_003096095.1	Dietzia psychralcaliphila	2018-05-07
+gemmata_obscuriglobus	GCF_901538385.1	Gemmata obscuriglobus UQM 2246	2020-02-03
+persephonella_marina	GCF_000021565.1	Persephonella marina EX-H1	2009-03-25
+hymenobacter_swuensis	GCF_000576555.1	Hymenobacter swuensis DY53	2014-02-24
+clavibacter_michiganensis	GCF_009739655.1	Clavibacter michiganensis subsp. michiganensis	2019-12-11
+thermoanaerobacter_italicus	GCF_000025645.1	Thermoanaerobacter italicus Ab9	2010-02-24
+clostridium_bornimense	GCF_000577895.1	Clostridium bornimense	2014-02-11
+micropruina_glycogenica	GCF_900289045.1	Micropruina glycogenica	2018-02-20
+capnocytophaga_stomatis	GCF_002302635.1	Capnocytophaga stomatis	2017-09-14
+chromobacterium_violaceum	GCF_016890085.1	Chromobacterium violaceum	2021-02-15
+paraburkholderia_phytofirmans	GCF_000020125.1	Paraburkholderia phytofirmans PsJN	2008-05-07
+sphingopyxis_macrogoltabida	GCF_001314325.1	Sphingopyxis macrogoltabida	2015-10-14
+aeromicrobium_choanae	GCF_900167475.1	Aeromicrobium choanae	2017-03-04
+corynebacterium_humireducens	GCF_001571025.1	Corynebacterium humireducens NBRC 106098 = DSM 45392	2016-02-10
+sphingopyxis_terrae	GCF_002374275.1	Sphingopyxis terrae subsp. ummariensis	2017-09-26
+janibacter_indicus	GCF_001889125.1	Janibacter indicus	2016-12-05
+salinicola_tamaricis	GCF_003006155.1	Salinicola tamaricis	2018-03-16
+sandaracinus_amylolyticus	GCF_000737325.1	Sandaracinus amylolyticus	2015-05-01
+oceanobacillus_kimchii	GCF_000340475.1	Oceanobacillus kimchii X50	2013-02-22
+leuconostoc_gelidum	GCF_000298875.1	Leuconostoc gelidum JB7	2012-09-21
+pseudothermotoga_elfii	GCF_000504085.1	Pseudothermotoga elfii DSM 9442 = NBRC 107921	2013-10-23
+candidatus_babela_massiliensis	GCF_000513475.1	Candidatus Babela massiliensis	2013-12-04
+vibrio_tapetis	GCF_030409945.1	Vibrio tapetis subsp. quintayensis	2023-07-05
+croceicoccus_naphthovorans	GCF_001028705.1	Croceicoccus naphthovorans	2015-06-12
+paludibacter_propionicigenes	GCF_000183135.1	Paludibacter propionicigenes WB4	2010-11-23
+chryseobacterium_gallinarum	GCF_012273615.1	Chryseobacterium gallinarum	2020-04-12
+brevefilum_fermentans	GCF_900184705.1	Brevefilum fermentans	2017-06-06
+aminobacterium_colombiense	GCF_000025885.1	Aminobacterium colombiense DSM 12261	2010-04-05
+sulfurospirillum_halorespirans	GCF_001723605.1	Sulfurospirillum halorespirans DSM 13726	2016-09-13
+elusimicrobium_minutum	GCF_000020145.1	Elusimicrobium minutum Pei191	2008-04-30
+woeseia_oceani	GCF_001677435.1	Woeseia oceani	2016-06-30
+desulfurispirillum_indicum	GCF_000177635.2	Desulfurispirillum indicum S5	2011-01-04
+streptomyces_katrae	GCF_000966975.1	Streptomyces katrae	2015-03-31
+gordonibacter_urolithinfaciens	GCF_002159895.1	Gordonibacter urolithinfaciens	2017-05-30
+borrelia_recurrentis	GCF_000019705.1	Borrelia recurrentis A1	2008-09-15
+acinetobacter_equi	GCF_001307195.1	Acinetobacter equi	2015-10-06
+oleiphilus_messinensis	GCF_002162375.1	Oleiphilus messinensis	2017-05-31
+xenorhabdus_hominickii	GCF_001721185.1	Xenorhabdus hominickii	2016-09-07
+advenella_kashmirensis	GCF_000219915.2	Advenella kashmirensis WT001	2012-05-25
+vibrio_coralliilyticus	GCF_000967465.2	Vibrio coralliilyticus	2020-10-29
+helicobacter_himalayensis	GCF_001602095.1	Helicobacter himalayensis	2016-03-30
+sulfurimonas_denitrificans	GCF_000012965.1	Sulfurimonas denitrificans DSM 1251	2005-11-01
+sulfuricurvum_kujiense	GCF_000183725.1	Sulfuricurvum kujiense DSM 16994	2010-12-02
+leclercia_adecarboxylata	GCF_001518835.1	Leclercia adecarboxylata	2016-01-20
+salinivirga_cyanobacteriivorans	GCF_001443605.1	Salinivirga cyanobacteriivorans	2015-11-13
+spiroplasma_diminutum	GCF_000439455.1	Spiroplasma diminutum CUAS-1	2013-07-17
+basilea_psittacipulmonis	GCF_000743945.1	Basilea psittacipulmonis DSM 24701	2014-08-27
+pseudohongiella_spirulinae	GCF_001444425.1	Pseudohongiella spirulinae	2015-11-17
+marinomonas_primoryensis	GCF_013372285.1	Marinomonas primoryensis	2020-06-24
+pseudomonas_mediterranea	GCF_900106005.1	Pseudomonas mediterranea	2016-10-21
+comamonas_aquatica	GCF_018064205.1	Comamonas aquatica	2021-04-17
+pseudomonas_rhodesiae	GCF_013285305.1	Pseudomonas rhodesiae	2020-06-08
+streptomyces_formicae	GCF_022647665.1	Streptomyces formicae	2022-03-21
+chryseobacterium_piperi	GCF_002285635.2	Chryseobacterium piperi	2017-10-18
+campylobacter_iguaniorum	GCF_000736415.1	Campylobacter iguaniorum	2014-07-30
+borrelia_miyamotoi	GCF_019668505.1	Borrelia miyamotoi	2021-06-26
+pectobacterium_parmentieri	GCF_003992745.1	Pectobacterium parmentieri	2019-01-04
+pseudomonas_lurida	GCF_001708485.1	Pseudomonas lurida	2016-08-23
+brevirhabdus_pacifica	GCF_002797755.1	Brevirhabdus pacifica	2017-11-28
+candidatus_portiera_aleyrodidarum	GCF_000292685.1	Candidatus Portiera aleyrodidarum BT-B-HRs	2012-08-22
+paraoerskovia_marina	GCF_900105445.1	Paraoerskovia marina	2016-10-21
+lacinutrix_venerupis	GCF_001971745.1	Lacinutrix venerupis	2017-01-26
+actinoplanes_friuliensis	GCF_000494755.1	Actinoplanes friuliensis DSM 7358	2013-11-01
+thiolapillus_brandeum	GCF_000828615.1	Thiolapillus brandeum	2014-01-16
+isosphaera_pallida	GCF_000186345.1	Isosphaera pallida ATCC 43644	2011-01-20
+hoeflea_phototrophica	GCF_000154705.2	Hoeflea phototrophica DFL-43	2014-09-24
+pseudomonas_granadensis	GCF_900105485.1	Pseudomonas granadensis	2016-10-21
+pseudomonas_fragi	GCF_015476275.1	Pseudomonas fragi	2020-11-15
+acetobacter_persici	GCF_018256955.1	Acetobacter persici	2021-05-04
+mesoplasma_lactucae	GCF_002441935.1	Mesoplasma lactucae ATCC 49193	2017-10-04
+erwinia_tasmaniensis	GCF_000026185.1	Erwinia tasmaniensis Et1/99	2008-05-13
+mesoplasma_florum	GCF_000008305.1	Mesoplasma florum L1	2004-07-19
+mesoplasma_entomophilum	GCF_002749675.1	Mesoplasma entomophilum	2017-11-03
+desulfurivibrio_alkaliphilus	GCF_000092205.1	Desulfurivibrio alkaliphilus AHT 2	2010-05-27
+arthrobacter_alpinus	GCF_000755585.2	Arthrobacter alpinus	2016-01-04
+anaplasma_marginale	GCF_000020305.1	Anaplasma marginale str. Florida	2009-02-03
+shewanella_frigidimarina	GCF_000014705.1	Shewanella frigidimarina NCIMB 400	2006-09-14
+shewanella_piezotolerans	GCF_000014885.1	Shewanella piezotolerans WP3	2008-11-13
+planococcus_kocurii	GCF_001465835.2	Planococcus kocurii	2016-01-29
+paraglaciecola_psychrophila	GCF_000315075.1	Paraglaciecola psychrophila 170	2012-10-30
+moritella_yayanosii	GCF_900465055.1	Moritella yayanosii	2018-06-24
+herbaspirillum_seropedicae	GCF_006378125.1	Herbaspirillum seropedicae	2019-06-19
+spiroplasma_citri	GCF_029607425.2	Spiroplasma citri	2023-04-07
+pseudomonas_mandelii	GCF_019693255.1	Pseudomonas mandelii	2021-08-19
+gloeobacter_kilaueensis	GCF_000484535.1	Gloeobacter kilaueensis JS1	2013-10-28
+streptomyces_lunaelactis	GCF_003054555.1	Streptomyces lunaelactis	2018-04-17
+clavibacter_capsici	GCF_011801245.1	Clavibacter capsici	2020-03-31
+brachyspira_intermedia	GCF_000223215.1	Brachyspira intermedia PWS/A	2011-08-10
+simkania_negevensis	GCF_000237205.1	Simkania negevensis Z	2011-06-21
+sphingopyxis_granuli	GCF_001956775.1	Sphingopyxis granuli	2017-01-18
+brochothrix_thermosphacta	GCF_001703515.1	Brochothrix thermosphacta	2016-08-11
+micromonospora_echinospora	GCF_014203425.1	Micromonospora echinospora	2020-08-14
+bacillus_bombysepticus	GCF_037144555.1	Bacillus bombysepticus	2024-03-14
+rhodococcus_jostii	GCF_900105375.1	Rhodococcus jostii	2016-10-22
+opitutus_terrae	GCF_000019965.1	Opitutus terrae PB90-1	2008-04-08
+bacillus_glycinifermentans	GCF_004103615.1	Bacillus glycinifermentans	2019-01-23
+leuconostoc_carnosum	GCF_007954525.1	Leuconostoc carnosum	2019-08-11
+frischella_perrara	GCF_000807275.1	Frischella perrara	2014-12-23
+petrotoga_mobilis	GCF_000018605.1	Petrotoga mobilis SJ95	2007-11-16
+roseibacterium_elongatum	GCF_000590925.1	Roseibacterium elongatum DSM 19469	2014-03-14
+gluconacetobacter_diazotrophicus	GCF_000021325.1	Gluconacetobacter diazotrophicus PA1 5	2008-10-16
+tumebacillus_avium	GCF_002162355.1	Tumebacillus avium	2017-05-31
+aminomonas_paucivorans	GCF_000165795.1	Aminomonas paucivorans DSM 12260	2010-11-01
+pantoea_stewartii	GCF_011044475.1	Pantoea stewartii	2020-03-01
+bacteriovorax_stolpii	GCF_006874605.1	Bacteriovorax stolpii	2019-07-11
+halothiobacillus_neapolitanus	GCF_000024765.1	Halothiobacillus neapolitanus c2	2009-10-21
+candidatus_paracaedibacter_acanthamoebae	GCF_000742835.1	Candidatus Paracaedibacter acanthamoebae	2014-08-21
+corynebacterium_halotolerans	GCF_000341345.1	Corynebacterium halotolerans YIM 70093 = DSM 44683	2013-02-20
+phreatobacter_cathodiphilus	GCF_003008515.1	Phreatobacter cathodiphilus	2018-03-19
+formosa_agariphila	GCF_000723205.1	Formosa agariphila KMM 3901	2013-09-03
+elizabethkingia_ursingii	GCF_002023405.1	Elizabethkingia ursingii	2017-03-08
+aminobacter_aminovorans	GCF_900445235.1	Aminobacter aminovorans	2018-08-08
+rhodovulum_sulfidophilum	GCF_001633145.1	Rhodovulum sulfidophilum	2016-04-28
+cellulophaga_algicola	GCF_000186265.1	Cellulophaga algicola DSM 14237	2011-01-18
+vibrio_rotiferianus	GCF_002214395.1	Vibrio rotiferianus	2017-07-05
+vibrio_natriegens	GCF_001456255.1	Vibrio natriegens NBRC 15636 = ATCC 14048 = DSM 759	2015-12-03
+liberibacter_crescens	GCF_001543305.1	Liberibacter crescens	2016-02-01
+mycoplasma_suis	GCF_000203215.1	Mycoplasma suis KI3806	2011-02-17
+asaia_bogorensis	GCF_001547995.1	Asaia bogorensis NBRC 16594	2015-10-15
+vagococcus_teuberi	GCF_001870205.1	Vagococcus teuberi	2016-11-07
+aneurinibacillus_soli	GCF_002355375.1	Aneurinibacillus soli	2016-01-13
+thiohalobacter_thiocyanaticus	GCF_003932505.1	Thiohalobacter thiocyanaticus	2018-12-10
+alkalilimnicola_ehrlichii	GCF_000014785.1	Alkalilimnicola ehrlichii MLHE-1	2006-09-12
+sulfuritalea_hydrogenivorans	GCF_000828635.1	Sulfuritalea hydrogenivorans sk43H	2014-01-07
+pseudorhodoplanes_sinuspersici	GCF_002119765.1	Pseudorhodoplanes sinuspersici	2017-05-09
+bradymonas_sediminis	GCF_003258315.1	Bradymonas sediminis	2018-06-20
+exiguobacterium_sibiricum	GCF_000019905.1	Exiguobacterium sibiricum 255-15	2008-04-03
+microvirgula_aerodenitrificans	GCF_003051865.1	Microvirgula aerodenitrificans	2018-04-15
+dickeya_zeae	GCF_002887555.1	Dickeya zeae	2018-01-17
+pseudomonas_thivervalensis	GCF_900102295.1	Pseudomonas thivervalensis	2016-10-20
+chlamydia_felis	GCF_000009945.1	Chlamydia felis Fe/C-56	2006-03-09
+pseudomonas_mosselii	GCF_002736065.1	Pseudomonas mosselii	2017-10-30
+paracoccus_mutanolyticus	GCF_003285265.1	Paracoccus mutanolyticus	2018-07-02
+mycoplasma_anseris	GCF_007858515.1	Mycoplasma anserisalpingitidis	2019-08-06
+polaribacter_reichenbachii	GCF_001975665.1	Polaribacter reichenbachii	2017-01-30
+pseudomonas_brenneri	GCF_900105815.1	Pseudomonas brenneri	2016-10-21
+kocuria_turfanensis	GCF_001580365.1	Kocuria turfanensis	2016-03-07
+pseudoalteromonas_spongiae	GCF_000238255.3	Pseudoalteromonas spongiae UST010723-006	2017-09-18
+herbaspirillum_hiltneri	GCF_001267925.1	Herbaspirillum hiltneri N3	2015-08-17
+clavibacter_nebraskensis	GCF_023279165.1	Clavibacter nebraskensis	2022-05-09
+streptomyces_actuosus	GCF_016921115.1	Streptomyces actuosus	2021-02-23
+streptomyces_clavuligerus	GCF_015767775.1	Streptomyces clavuligerus	2020-12-06
+streptomyces_peucetius	GCF_000725565.1	Streptomyces peucetius	2014-07-15
+streptomyces_alboflavus	GCF_000716675.1	Streptomyces alboflavus	2014-07-01
+streptomyces_lincolnensis	GCF_003344445.1	Streptomyces lincolnensis	2018-07-27
+streptomyces_parvulus	GCF_001660045.1	Streptomyces parvulus	2016-06-08
+streptomyces_leeuwenhoekii	GCF_001013905.1	Streptomyces leeuwenhoekii	2015-05-21
+streptomyces_nodosus	GCF_017352335.1	Streptomyces nodosus	2021-03-14
+streptomyces_glaucescens	GCF_002154375.1	Streptomyces glaucescens	2017-05-22
+streptomyces_xinghaiensis	GCF_000220705.2	Streptomyces xinghaiensis S187	2017-09-12
+streptomyces_ambofaciens	GCF_001267885.1	Streptomyces ambofaciens ATCC 23877	2015-08-17
+streptomyces_niveus	GCF_036227585.1	Streptomyces niveus	2024-01-25
+streptomyces_vietnamensis	GCF_000830005.1	Streptomyces vietnamensis	2015-01-29
+streptomyces_globosus	GCF_003325375.1	Streptomyces globosus	2018-07-17
+streptomyces_nigra	GCF_003074055.1	Streptomyces nigra	2018-04-30
+streptomyces_lavendulae	GCF_018255875.1	Streptomyces lavendulae subsp. lavendulae	2021-05-04
+streptomyces_pristinaespiralis	GCF_001278075.1	Streptomyces pristinaespiralis	2015-09-02
+streptomyces_puniciscabiei	GCF_006715785.1	Streptomyces puniciscabiei	2019-07-08
+pseudomonas_orientalis	GCF_003852045.1	Pseudomonas orientalis	2018-11-29
+candidatus_liberibacter_asiaticus	GCF_002216815.1	Candidatus Liberibacter asiaticus	2017-07-12
+escherichia_coli	GCF_000008865.2	Escherichia coli O157:H7 str. Sakai	2018-06-08
+streptococcus_equi	GCF_015689395.1	Streptococcus equi subsp. zooepidemicus	2020-11-25
+pseudomonas_syringae	GCF_018394375.1	Pseudomonas syringae	2021-05-18
+pseudomonas_oryzihabitans	GCF_007665635.1	Pseudomonas oryzihabitans	2019-07-30
+aerococcus_urinae	GCF_001543175.1	Aerococcus urinae	2016-02-01
+sphingomonas_panacis	GCF_001717955.1	Sphingomonas panacis	2016-09-01
+exiguobacterium_antarcticum	GCF_025234655.1	Exiguobacterium antarcticum	2022-09-16
+coxiella-like_endosymbiont	GCF_002871095.1	Coxiella-like endosymbiont	2018-01-10

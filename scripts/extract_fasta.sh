@@ -1,10 +1,12 @@
 #!/bin/bash
 
 # extract fasta sequences compressed in a tar.xz file
-# path_tar=$1
-# path_file=$2
-outdir=data/reference_sequences
 
-ls $outdir/lists_by_tar/ | while read f; \
- do tar -xvf data/batches_bacteria/$(basename $f .txt).tar.xz -C $outdir $(cat $outdir/lists_by_tar/$f | tr '\n' ' '); \
+outdir=experiments-paper/6mer/07_25_2024-autoencoder/cross-validation/confident-learning/seqs-issues
+dir_list_by_tar=experiments-paper/6mer/07_25_2024-autoencoder/cross-validation/confident-learning/lists-by-tar
+
+mkdir -p $outdir
+
+ls $dir_list_by_tar | while read f; \
+ do tar -xvf data/batches_bacteria/$(basename $f .txt).tar.xz -C $outdir $(cat $dir_list_by_tar/$f | tr '\n' ' '); \
  done
