@@ -1,5 +1,5 @@
 ##### Global ####
-kmer_size: 7
+kmer_size: 6
 subset: all                # all
 datadir: data              # download data, create fcgr
 outdir: experiments-paper        # trained models, index
@@ -25,7 +25,7 @@ labels: data/labels_krakenbracken_by_sampleid.txt
 
 ##### create_index.smk ######
 
-name_experiment: 07_28_2024-autoencoder #<mm_dd_aaaa-nexperiment>
+name_experiment: 07_25_2024-autoencoder #<mm_dd_aaaa-nexperiment>
 latent_dim: 128
 epochs: 200  
 batch_size: 256 # best trade off 

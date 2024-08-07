@@ -10,6 +10,7 @@ data/assembly
 data/reference_sequences
 data/reference_ncbi
 data/gold_standard
+data/ref-seqs
 data/*tsv
 output/
 experiments-paper/

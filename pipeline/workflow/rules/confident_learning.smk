@@ -4,6 +4,7 @@ from pathlib import Path
 import datetime
 import copy
 
+DATADIR = config["datadir"]
 KMER = config["kmer_size"]
 OUTDIR=Path(config["outdir"])
 NAME_EXPERIMENT=config["name_experiment"]
@@ -48,6 +49,7 @@ def get_outputs_labels(wildcards):
 rule all:
     input:
         # get_outputs,
+        Path(PATH_TRAIN).joinpath("confident-learning/metadata_issues.tsv"),
         Path(PATH_TRAIN).joinpath(f"confident-learning/label_issues.npy"),
         path_pred_probs = Path(PATH_TRAIN).joinpath(f"confident-learning/pred_probs.npy"),
         path_labels = Path(PATH_TRAIN).joinpath(f"confident-learning/labels.npy"),
@@ -132,3 +134,18 @@ rule confident_learning:
         --path-labels {input.path_labels} \
         --outdir {params.outdir} 2> {log}
         """
+
+rule prepare_input_ani:
+    input: 
+        path_label_issues = Path(PATH_TRAIN).joinpath("confident-learning/label_issues.npy"),
+        path_most_abundant = Path(DATADIR).joinpath("three_most_abundant-krakenbracken.txt"),
+        path_reference_by_accession = Path(DATADIR).joinpath("path_reference_by_accession.txt"),
+        path_metadata_references = Path(DATADIR).joinpath("ncbi_reference_sequences.txt"),
+    output:
+        metadata_issues = Path(PATH_TRAIN).joinpath("confident-learning/metadata_issues.tsv"),
+    params:
+        path_cv = PATH_TRAIN,
+    conda:
+        "panspace-cli"  # "../envs/panspace.yaml"
+    shell:
+        "panspace data-curation utils-ani {params.path_cv} {input.path_most_abundant} {input.path_reference_by_accession} {input.path_metadata_references}"
