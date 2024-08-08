@@ -64,6 +64,9 @@ find_outliers:
 find_mislabeled_assemblies:
 	snakemake -s pipeline/workflow/rules/confident_learning.smk $(SMK_PARAMS_GPU)
 
+ani:
+	snakemake -s pipeline/workflow/rules/ani.smk $(SMK_PARAMS) --resources limit_space=3
+
 confident_learning_ae:
 	make create_ae
 	make find_outliers

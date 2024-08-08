@@ -11,7 +11,7 @@ OUTDIR=Path(config["outdir"])
 NAME_EXPERIMENT=config["name_experiment"]
 
 PATH_TRAIN = Path(OUTDIR).joinpath(f"{KMER}mer/{NAME_EXPERIMENT}/cross-validation")
-BIN_FASTANI="/home/avila/tools/fastANI"
+BIN_FASTANI=config["bin_fastani"]
 
 list_tarfiles = [p.stem for p in  Path(PATH_TRAIN).joinpath("confident-learning/lists-by-tar").glob("*txt")]
 
@@ -24,7 +24,10 @@ rule all:
         expand(
             pjoin(PATH_TRAIN, "confident-learning","seqs-issues","{tarfile}.flag"),
             tarfile=list_tarfiles),
-        pjoin(PATH_TRAIN, "confident-learning","ani.tsv"),        
+        pjoin(PATH_TRAIN, "confident-learning","ani.tsv"),    
+        pjoin(PATH_TRAIN, "confident-learning","ani-stats-label.tsv"),
+        pjoin(PATH_TRAIN, "confident-learning","ani-stats-pairs.tsv"),    
+        pjoin(PATH_TRAIN, "confident-learning","ani-stats-summary.json"),
 
 
 rule ani_on_tarfile:
@@ -72,3 +75,16 @@ rule consolidate_ani:
         "panspace-cli"
     shell:
         "panspace data-curation consolidate-ani {params.path_cv} {params.path_reference_by_accession} {params.path_metadata_references}"
+
+
+rule counts_ani:
+    input:
+        pjoin(PATH_TRAIN, "confident-learning","ani.tsv"),
+    output:
+        pjoin(PATH_TRAIN, "confident-learning","ani-stats-label.tsv"),
+        pjoin(PATH_TRAIN, "confident-learning","ani-stats-pairs.tsv"),
+        pjoin(PATH_TRAIN, "confident-learning","ani-stats-summary.json"),
+    conda:
+        "panspace-cli"
+    shell:
+        "panspace data-curation counts-ani {input}"
