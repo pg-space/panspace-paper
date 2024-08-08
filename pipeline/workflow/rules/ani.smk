@@ -5,8 +5,6 @@ import datetime
 import copy
 from os.path import join as pjoin
 
-
-
 DATADIR = config["datadir"]
 KMER = config["kmer_size"]
 OUTDIR=Path(config["outdir"])
@@ -17,20 +15,25 @@ BIN_FASTANI="/home/avila/tools/fastANI"
 
 list_tarfiles = [p.stem for p in  Path(PATH_TRAIN).joinpath("confident-learning/lists-by-tar").glob("*txt")]
 
+def get_flags(wildcards):
+    return [ pjoin(PATH_TRAIN, "confident-learning","seqs-issues",f"{tarfile}.flag") for tarfile in list_tarfiles]
+    
+
 rule all:
     input:
         expand(
             pjoin(PATH_TRAIN, "confident-learning","seqs-issues","{tarfile}.flag"),
-            tarfile=list_tarfiles)
-
+            tarfile=list_tarfiles),
+        pjoin(PATH_TRAIN, "confident-learning","ani.tsv"),        
 
 
 rule ani_on_tarfile:
     input: 
         tarfile=pjoin(DATADIR, "batches_bacteria", "{tarfile}.tar.xz"),
         list_extract=pjoin(PATH_TRAIN, "confident-learning" ,"lists-by-tar", "{tarfile}.txt"),
+        metadata_issues = Path(PATH_TRAIN).joinpath("confident-learning/metadata_issues.tsv"),
     output:
-        flag=pjoin(PATH_TRAIN, "confident-learning","seqs-issues","{tarfile}.flag")
+        flag=pjoin(PATH_TRAIN, "confident-learning","seqs-issues","{tarfile}.flag"),
     log:
         pjoin(DATADIR, "logs", "decompress_tarxz-{tarfile}.log"),
     params:
@@ -55,3 +58,17 @@ rule ani_on_tarfile:
         rm -r {params.dir_sequences}/{wildcards.tarfile}
         touch {output.flag}
         """
+
+rule consolidate_ani:
+    input:
+        get_flags
+    output:
+        pjoin(PATH_TRAIN, "confident-learning","ani.tsv"),
+    params:
+        path_reference_by_accession = Path(DATADIR).joinpath("path_reference_by_accession.txt"),
+        path_metadata_references = Path(DATADIR).joinpath("ncbi_reference_sequences.txt"), 
+        path_cv = PATH_TRAIN,       
+    conda:
+        "panspace-cli"
+    shell:
+        "panspace data-curation consolidate-ani {params.path_cv} {params.path_reference_by_accession} {params.path_metadata_references}"
