@@ -23,7 +23,7 @@ labels: data/labels_krakenbracken_by_sampleid.txt
 name_experiment: 07_25_2024-autoencoder #<mm_dd_aaaa-nexperiment>
 latent_dim: 128
 epochs: 200  
-batch_size: 256 # best trade off 
+batch_size: 128 # best trade off 
 architecture: 'AutoencoderFCGR' # Options:  'AutoencoderFCGR', 'CNNFCGR' (metric learning)
 patiente_early_stopping: 50
 patiente_learning_rate: 30

@@ -61,28 +61,28 @@ rule all:
     input:
         get_outputs
 
-# rule kfold_split:
-#     output:
-#         expand( Path(PATH_TRAIN).joinpath("train_{kfold}-fold.txt") , kfold=KFOLDS),
-#         expand( Path(PATH_TRAIN).joinpath("test_{kfold}-fold.txt") , kfold=KFOLDS),
-#     input:
-#         list(PATH_FCGR.rglob("*.npy"))
-#     params: 
-#         datadir=PATH_FCGR, 
-#         outdir=PATH_TRAIN,
-#         kfold=KFOLD,
-#         labels=LABELS
-#     log:
-#         Path(PATH_TRAIN).joinpath("logs/kfold_split.log")
-#     conda: 
-#         "../envs/panspace.yaml"
-#     shell:
-#         """/usr/bin/time -v panspace trainer split-data-cross-validation \
-#         --datadir {params.datadir} \
-#         --outdir {params.outdir} \
-#         --kfold {params.kfold} \
-#         --labels {params.labels} 2> {log}
-#         """
+rule kfold_split:
+    output:
+        expand( Path(PATH_TRAIN).joinpath("train_{kfold}-fold.txt") , kfold=KFOLDS),
+        expand( Path(PATH_TRAIN).joinpath("test_{kfold}-fold.txt") , kfold=KFOLDS),
+    input:
+        list(PATH_FCGR.rglob("*.npy"))
+    params: 
+        datadir=PATH_FCGR, 
+        outdir=PATH_TRAIN,
+        kfold=KFOLD,
+        labels=LABELS
+    log:
+        Path(PATH_TRAIN).joinpath("logs/kfold_split.log")
+    conda: 
+        "../envs/panspace.yaml"
+    shell:
+        """/usr/bin/time -v panspace trainer split-data-cross-validation \
+        --datadir {params.datadir} \
+        --outdir {params.outdir} \
+        --kfold {params.kfold} \
+        --labels {params.labels} 2> {log}
+        """
 
 rule train:
     output:

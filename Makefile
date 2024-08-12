@@ -71,6 +71,10 @@ confident_learning_ae:
 	make create_ae
 	make find_outliers
 	make find_mislabeled_assemblies
+	make ani
+
+create_index_ae:
+	snakemake -s pipeline/workflow/rules/create_index_autoencoder.smk $(SMK_PARAMS_GPU)
 
 query:
 	echo "TODO"
